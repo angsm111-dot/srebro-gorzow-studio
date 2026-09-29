@@ -1,0 +1,11 @@
+import http from 'node:http';
+import {readFile,stat} from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../dist/',import.meta.url));
+const index=process.argv.indexOf('--port'),port=Number(index<0?8765:process.argv[index+1]);
+if(!Number.isInteger(port)||port<1||port>65535)throw Error('Nieprawidłowy port.');
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.json':'application/json; charset=utf-8'};
+const server=http.createServer(async(req,res)=>{try{if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);return res.end();}const raw=decodeURIComponent(new URL(req.url,'http://localhost').pathname),target=path.resolve(root,'.'+raw),relative=path.relative(root,target);if(relative.startsWith('..')||path.isAbsolute(relative)){res.writeHead(403);return res.end('Forbidden');}const info=await stat(target),file=info.isDirectory()?path.join(target,'index.html'):target,data=await readFile(file);res.writeHead(200,{'Content-Type':mime[path.extname(file)]??'application/octet-stream','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'});res.end(req.method==='HEAD'?undefined:data);}catch{res.writeHead(404,{'Content-Type':'text/plain; charset=utf-8'});res.end('Nie znaleziono pliku.');}});
+server.on('error',e=>{console.error(e.code==='EADDRINUSE'?`Port ${port} jest zajęty. Użyj: npm start -- --port ${port+1}`:e.message);process.exitCode=1;});
+server.listen(port,'127.0.0.1',()=>console.log(`Galeria: http://127.0.0.1:${port}/#13\nZatrzymaj: Ctrl+C`));
