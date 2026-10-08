@@ -1,8 +1,3 @@
-const variant=Number(new URLSearchParams(location.search).get('v'))||13;
-document.addEventListener('keydown',e=>{if(window.parent===window||['INPUT','SELECT','TEXTAREA','BUTTON','SUMMARY'].includes(e.target.tagName)||e.ctrlKey||e.metaKey||e.altKey)return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();window.parent.postMessage({type:'silver-project-step',delta:e.key==='ArrowLeft'?-1:1},'*');}});
-document.body.className='v'+([13,14,15].includes(variant)?variant:13);
-if(variant===14)document.querySelector('h1').innerHTML='Srebro z historią.<br><em>Wycena na dziś.</em>';
-if(variant===15)document.querySelector('h1').innerHTML='Poznaj wartość<br><em>swojego srebra.</em>';
 document.getElementById('menu-toggle').onclick=()=>{const n=document.getElementById('nav');n.classList.toggle('open');document.getElementById('menu-toggle').setAttribute('aria-expanded',n.classList.contains('open'));};
 document.querySelectorAll('#nav a').forEach(a=>a.onclick=()=>{document.getElementById('nav').classList.remove('open');document.getElementById('menu-toggle').setAttribute('aria-expanded','false');});
 const content=document.getElementById('content');
