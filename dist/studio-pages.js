@@ -1,28 +1,66 @@
-// Separate addressable views; keep the quotation in memory while navigating.
-const studioPages={start:'Strona główna',oferta:'Oferta',kalkulator:'Wycena srebra',cennik:'Cennik',wykres:'Wykres srebra',faq:'Pytania i odpowiedzi',kontakt:'Kontakt'};
+const studioPages={start:'Strona główna',oferta:'Oferta',kalkulator:'Wycena srebra',cennik:'Cennik',wykres:'Wykres srebra',faq:'Pytania i odpowiedzi',blog:'Blog',kontakt:'Kontakt',regulamin:'Regulamin'};
 const studioMain=document.querySelector('main');
-const breadcrumb=document.createElement('nav');breadcrumb.className='page-breadcrumb wrap';breadcrumb.setAttribute('aria-label','Ścieżka strony');studioMain.before(breadcrumb);
-const intro=document.createElement('div');intro.className='home-links wrap';intro.innerHTML='<a href="studio.html?page=oferta"><span>01 / OFERTA</span><h2>Co chcesz sprzedać?</h2><p>Monety, sztabki, biżuteria i srebro użytkowe.</p></a><a href="studio.html?page=cennik"><span>02 / CENNIK</span><h2>Poznaj stawki</h2><p>Porównaj przykładowe ceny dla różnych prób.</p></a><a href="studio.html?page=kontakt"><span>03 / KONTAKT</span><h2>Porozmawiajmy</h2><p>Sprawdź dane punktu i przygotuj zapytanie.</p></a>';quick.after(intro);
-document.querySelectorAll('.header nav,.footer-top nav').forEach(nav=>{nav.innerHTML=Object.entries(studioPages).map(([id,label])=>`<a href="studio.html?page=${id}" data-page="${id}">${id==='start'?'Start':id==='kalkulator'?'Wycena':id==='wykres'?'Wykres':id==='faq'?'FAQ':label}</a>`).join('');});
-document.querySelectorAll('a[href^="#"]').forEach(a=>{const target=a.getAttribute('href').slice(1);a.href='studio.html?page='+(studioPages[target]?target:'start');});
+const breadcrumb=document.createElement('nav');
+breadcrumb.className='page-breadcrumb wrap';
+breadcrumb.setAttribute('aria-label','Ścieżka strony');
+studioMain.before(breadcrumb);
+
+const intro=document.createElement('div');
+intro.className='home-links wrap';
+intro.innerHTML='<a href="studio.html?page=oferta"><span>01 / OFERTA</span><h2>Zobacz co można sprzedać</h2><p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i srebro użytkowe.</p></a><a href="studio.html?page=cennik"><span>02 / CENNIK</span><h2>Sprawdź aktualny cennik online</h2><p>Porównaj stawki dla popularnych prób srebra.</p></a><a href="studio.html?page=kontakt"><span>03 / KONTAKT</span><h2>Masz pytanie?</h2><p>Przygotuj zapytanie lub sprawdź kontakt do punktu.</p></a>';
+quick.after(intro);
+
+const blog=document.createElement('section');
+blog.id='blog';
+blog.className='section wrap blog-page';
+blog.hidden=true;
+document.getElementById('content').querySelector('.footer').before(blog);
+const terms=document.createElement('section');
+terms.id='regulamin';terms.className='section wrap terms-page';terms.hidden=true;
+terms.innerHTML='<div class="section-head"><div><span class="eyebrow">INFORMACJE</span><h2>Regulamin serwisu</h2></div></div><article><h3>1. Informacje ogólne</h3><p>Serwis prezentuje informacje o skupie srebra, orientacyjne cenniki i kalkulator pomocniczy. Właścicielem koncepcji serwisu jest PUH SEZAM Sp. z o.o., ul. Pocztowa 11, 66-400 Gorzów Wlkp.</p><h3>2. Cennik i wycena</h3><p>Widoczne ceny mają charakter informacyjny. Ostateczna oferta zależy od badania próby, masy, rodzaju przedmiotu oraz aktualnych warunków rynkowych i jest przedstawiana w punkcie.</p><h3>3. Kalkulator</h3><p>Kalkulator stanowi narzędzie orientacyjne i nie jest ofertą zawarcia umowy. W przypadku monet wartości kolekcjonerskie wymagają odrębnej oceny.</p><h3>4. Prawa autorskie</h3><p>Układ, treści, zdjęcia oraz design serwisu są chronione. Ich kopiowanie, rozpowszechnianie lub wykorzystywanie bez zgody PUH SEZAM Sp. z o.o. jest zabronione.</p><h3>5. Kontakt</h3><p>Pytania dotyczące serwisu można kierować telefonicznie do punktu przy ul. Pocztowej 11 w Gorzowie Wlkp.</p></article>';
+document.getElementById('content').querySelector('.footer').before(terms);
+
+const reviews=document.createElement('section');
+reviews.className='google-reviews wrap';
+reviews.innerHTML='<div class="google-review-card"><div><span class="google-word" aria-label="Google"><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></span><h2>Opinie Google</h2><p>Zobacz opinie o obsłudze SEZAM przy ul. Pocztowej 11 w Gorzowie.</p><a class="text-link google-reviews-link" href="https://www.google.com/maps/search/?api=1&amp;query=Lombard+SEZAM+Pocztowa+11+Gorz%C3%B3w+Wielkopolski" target="_blank" rel="noopener">Zobacz opinie Google →</a></div><div class="review-stars" aria-label="Opinie Google">★★★★★</div></div>';
+intro.after(reviews);
+
+document.querySelectorAll('.header nav,.footer-top nav').forEach(nav=>{
+  nav.innerHTML=Object.entries(studioPages).map(([id,label])=>`<a href="studio.html?page=${id}" data-page="${id}">${id==='start'?'Start':id==='kalkulator'?'Wycena':id==='wykres'?'Wykres':id==='faq'?'FAQ':label}</a>`).join('');
+});
+document.querySelectorAll('a[href^="#"]').forEach(link=>{
+  const target=link.getAttribute('href').slice(1);
+  link.href='studio.html?page='+(studioPages[target]?target:'start');
+});
+
 function studioNavigate(page,push=true,focus=true){
   if(!studioPages[page])page='start';
   if(push)history.pushState({page},'',`studio.html?page=${page}`);
   document.body.dataset.page=page;
-  document.querySelector('.hero').hidden=page!=='start';quick.hidden=page!=='start';intro.hidden=page!=='start';
+  document.querySelector('.hero').hidden=page!=='start';
+  quick.hidden=page!=='start';
+  intro.hidden=page!=='start';
+  reviews.hidden=page!=='start';
   document.querySelectorAll('#content>section').forEach(section=>section.hidden=section.id!==page);
-  document.querySelectorAll('[data-page]').forEach(a=>{if(a.dataset.page===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-  breadcrumb.hidden=page==='start';breadcrumb.innerHTML=`<a href="studio.html?page=start">Strona główna</a><span aria-hidden="true">/</span><span>${studioPages[page]}</span>`;
+  document.querySelectorAll('[data-page]').forEach(link=>{if(link.dataset.page===page)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
+  breadcrumb.hidden=page==='start';
+  breadcrumb.innerHTML=`<a href="studio.html?page=start">Strona główna</a><span aria-hidden="true">/</span><span>${studioPages[page]}</span>`;
   document.title=studioPages[page]+' — Srebro / Gorzów';
-  document.querySelectorAll('#content .section-head h1').forEach(h=>{const n=document.createElement('h2');n.innerHTML=h.innerHTML;h.replaceWith(n);});
+  document.querySelectorAll('#content .section-head h1').forEach(h=>{const next=document.createElement('h2');next.innerHTML=h.innerHTML;h.replaceWith(next);});
   const title=document.querySelector(`#${page} .section-head h2`) || (page==='faq'?document.querySelector('#faq h2'):null);
-  if(title){const h=document.createElement('h1');h.innerHTML=title.innerHTML.replace(/<br\s*\/?\s*>/gi," ");title.replaceWith(h);}
-  menuState(false);window.scrollTo({top:0,behavior:'instant'});
+  if(title){const h=document.createElement('h1');h.innerHTML=title.innerHTML.replace(/<br\s*\/?\s*>/gi,' ');title.replaceWith(h);}
+  menuState(false);
+  window.scrollTo({top:0,behavior:'instant'});
   if(page==='wykres')drawChart();
   if(focus){const heading=page==='start'?document.querySelector('.hero h1'):document.querySelector(`#${page} h1`);if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true});}}
   mobile.hidden=page==='kalkulator';
 }
-document.addEventListener('click',e=>{const a=e.target.closest('a');if(!a||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||e.button!==0)return;const url=new URL(a.href,location.href);if(url.origin===location.origin&&url.pathname.endsWith('/studio.html')&&url.searchParams.has('page')){e.preventDefault();studioNavigate(url.searchParams.get('page'));}});
+document.addEventListener('click',event=>{
+  const link=event.target.closest('a');
+  if(!link||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey||event.button!==0)return;
+  const url=new URL(link.href,location.href);
+  if(url.origin===location.origin&&url.pathname.endsWith('/studio.html')&&url.searchParams.has('page')){event.preventDefault();studioNavigate(url.searchParams.get('page'));}
+});
 window.addEventListener('popstate',()=>studioNavigate(new URLSearchParams(location.search).get('page')||'start',false));
 quick.addEventListener('submit',()=>{if(quickValue())studioNavigate('kalkulator');});
 document.querySelectorAll('[data-category],[data-price]').forEach(button=>button.addEventListener('click',()=>studioNavigate('kalkulator')));

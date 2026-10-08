@@ -1,1 +1,1 @@
-{"name":"srebro-gorzow-studio","version":"1.0.0","private":true,"description":"Studio 2 — strona skupu srebra w Gorzowie","engines":{"node":">=20"},"scripts":{"start":"node scripts/serve.mjs","test":"node scripts/verify.mjs"}}
+{"name":"srebro-gorzow-studio","version":"1.0.0","private":true,"description":"Galeria projektów skupu srebra z kontekstem dla Codexa","engines":{"node":">=20"},"scripts":{"start":"node scripts/serve.mjs","test":"node scripts/verify.mjs"}}

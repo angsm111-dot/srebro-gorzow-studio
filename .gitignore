@@ -8,3 +8,11 @@ test-results/
 playwright-report/
 work/
 *.zip
+**/private-config/
+**/smtp-password.txt
+**/turnstile-secret.txt
+**/.turnstile.php
+**/.turnstile.php.template
+.site-publish/
+*.tar.gz
+deployment/*.png

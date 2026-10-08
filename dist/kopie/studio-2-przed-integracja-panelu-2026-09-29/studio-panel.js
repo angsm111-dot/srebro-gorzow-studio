@@ -1,0 +1,25 @@
+(() => {
+  const storageKey = 'silverStudioBaseRate';
+  const fallback = 3;
+  const readRate = () => { const value = Number(localStorage.getItem(storageKey)); return Number.isFinite(value) && value > 0 && value <= 10000 ? value : fallback; };
+  const format = value => new Intl.NumberFormat('pl-PL', {minimumFractionDigits: 2, maximumFractionDigits: 2}).format(value);
+  const rate = readRate();
+  const bar = document.getElementById('silver-rate-bar');
+  if (bar) bar.innerHTML = `Kurs srebra 999: <strong>${format(rate)} zł / g</strong> <span aria-hidden="true">•</span> stawka ustawiona lokalnie`;
+  const baseHeading = document.getElementById('base-price');
+  if (baseHeading) baseHeading.textContent = `${format(rate)} zł / g`;
+  const pricing = document.getElementById('cennik');
+  if (!pricing) return;
+  const toolbar = document.createElement('div');
+  toolbar.className = 'pricing-toolbar';
+  toolbar.innerHTML = '<button type="button" class="button" id="price-panel-open">Panel cen</button>';
+  const panel = document.createElement('section');
+  panel.className = 'price-panel'; panel.id = 'panel-cen'; panel.hidden = true;
+  panel.innerHTML = '<div class="price-panel-head"><div><h3>Panel sterujący cenami</h3><p>Ustaw stawkę bazową za 1 g srebra próby 999. Cennik oraz oba kalkulatory są aktualizowane po zapisaniu. Ustawienie pozostaje tylko w tej przeglądarce — strona nie ma jeszcze serwera ani kont użytkowników.</p></div><button type="button" class="text-button" id="price-panel-close">Zamknij</button></div><form id="price-panel-form"><label>Stawka za 1 g srebra 999<input id="base-rate-input" type="number" min="0.01" max="10000" step="0.01" inputmode="decimal" required></label><div class="panel-actions"><button class="button primary" type="submit">Zapisz ceny</button><button class="button" type="button" id="price-panel-reset">Przywróć 3,00 zł</button></div><p class="price-panel-status" id="price-panel-status" role="status"></p></form>';
+  pricing.querySelector('.section-head').after(toolbar, panel);
+  const input = document.getElementById('base-rate-input');
+  document.getElementById('price-panel-open').onclick = () => { input.value = rate.toFixed(2); panel.hidden = false; input.focus(); };
+  document.getElementById('price-panel-close').onclick = () => { panel.hidden = true; };
+  document.getElementById('price-panel-reset').onclick = () => { localStorage.removeItem(storageKey); location.reload(); };
+  document.getElementById('price-panel-form').onsubmit = event => { event.preventDefault(); const next = Number(input.value.replace(',', '.')); const status = document.getElementById('price-panel-status'); if (!Number.isFinite(next) || next <= 0 || next > 10000) { status.textContent = 'Wpisz prawidłową stawkę większą od 0.'; return; } localStorage.setItem(storageKey, String(next)); location.reload(); };
+})();
