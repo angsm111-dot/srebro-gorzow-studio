@@ -20,12 +20,7 @@
     },
     {
       "url": "https://www.skupsrebragorzow.pl/wycena.html",
-      "status": 200,
-      "final_url": "https://www.skupsrebragorzow.pl/wycena.html",
-      "headers": {
-        "Content-Type": "text/html; charset=utf-8",
-        "Server": "cloudflare"
-      }
+      "error": "The read operation timed out"
     },
     {
       "url": "https://www.skupsrebragorzow.pl/cennik.html",

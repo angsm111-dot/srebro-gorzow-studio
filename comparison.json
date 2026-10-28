@@ -1,5 +1,5 @@
 {
-  "baseline_commit": "3f261a92e40800f2363126d1dee9bf44cc34f52f",
+  "baseline_commit": "7185d3750c24bde1b6e3c508b2b5fe542f0b597e",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
@@ -356,20 +356,20 @@
     {
       "file": "blog-aktualny-cennik-skupu-srebra.html",
       "status": "same",
-      "github_bytes": 9889,
-      "jdm_bytes": 9889,
+      "github_bytes": 11384,
+      "jdm_bytes": 11384,
       "last_modified": null,
-      "github_sha256": "42c47791d6dd99840a057f82caa5d15b9b945f3e3a5afadc8af39a5d3b364bd0",
-      "jdm_sha256": "42c47791d6dd99840a057f82caa5d15b9b945f3e3a5afadc8af39a5d3b364bd0"
+      "github_sha256": "44dcb74962dff42195c5432ead80e1f315f4d730757fdc9129c340f46b30e8ed",
+      "jdm_sha256": "44dcb74962dff42195c5432ead80e1f315f4d730757fdc9129c340f46b30e8ed"
     },
     {
       "file": "blog-granulat-srebrny.html",
       "status": "same",
-      "github_bytes": 10018,
-      "jdm_bytes": 10018,
+      "github_bytes": 11151,
+      "jdm_bytes": 11151,
       "last_modified": null,
-      "github_sha256": "4d3c83064854b5910f18a418cedfb93e0ecd42ab0e9ef9e1ff8ff86e9d7558a1",
-      "jdm_sha256": "4d3c83064854b5910f18a418cedfb93e0ecd42ab0e9ef9e1ff8ff86e9d7558a1"
+      "github_sha256": "40309b2a22bb90f4a336698ce54484bccb40ab69b560a4105813ce8f4092faa4",
+      "jdm_sha256": "40309b2a22bb90f4a336698ce54484bccb40ab69b560a4105813ce8f4092faa4"
     },
     {
       "file": "blog-jak-pielegnowac-srebrna-bizuterie.html",
@@ -383,137 +383,137 @@
     {
       "file": "blog-monety-srebrne-wartosc.html",
       "status": "same",
-      "github_bytes": 10148,
-      "jdm_bytes": 10148,
+      "github_bytes": 11444,
+      "jdm_bytes": 11444,
       "last_modified": null,
-      "github_sha256": "201beb259d4ac5ff07d66f4a13d113b9a3d5e4b32cd962f66481cd943317fcf1",
-      "jdm_sha256": "201beb259d4ac5ff07d66f4a13d113b9a3d5e4b32cd962f66481cd943317fcf1"
+      "github_sha256": "b1cf5a8183688f33c96f826aee8992a29e63853d95c29ff298d3df441901b5c8",
+      "jdm_sha256": "b1cf5a8183688f33c96f826aee8992a29e63853d95c29ff298d3df441901b5c8"
     },
     {
       "file": "blog-naczynia-srebro-czy-posrebrzanie.html",
       "status": "same",
-      "github_bytes": 10181,
-      "jdm_bytes": 10181,
+      "github_bytes": 11224,
+      "jdm_bytes": 11224,
       "last_modified": null,
-      "github_sha256": "7e1e0cea027499f20bf8ccea67872f478300a02f165c1131ca6baca4e8423006",
-      "jdm_sha256": "7e1e0cea027499f20bf8ccea67872f478300a02f165c1131ca6baca4e8423006"
+      "github_sha256": "5a85aa4ec945f0bc1af4d51c18cfc76cce2896510a74d6a41ae61c07ce238bfb",
+      "jdm_sha256": "5a85aa4ec945f0bc1af4d51c18cfc76cce2896510a74d6a41ae61c07ce238bfb"
     },
     {
       "file": "blog-porownanie-wyceny-bizuterii.html",
       "status": "same",
-      "github_bytes": 9478,
-      "jdm_bytes": 9478,
+      "github_bytes": 11482,
+      "jdm_bytes": 11482,
       "last_modified": null,
-      "github_sha256": "85a91e0cdd7d9b98560c9fd0e48ba334d37aac53cac684a679a2b08a2dca17d3",
-      "jdm_sha256": "85a91e0cdd7d9b98560c9fd0e48ba334d37aac53cac684a679a2b08a2dca17d3"
+      "github_sha256": "4967c1b935aebc88ffc701e9cae110577dd2c1202a63db3dd80aea32c0c8c55a",
+      "jdm_sha256": "4967c1b935aebc88ffc701e9cae110577dd2c1202a63db3dd80aea32c0c8c55a"
     },
     {
       "file": "blog-proba-925-bizuteria.html",
       "status": "same",
-      "github_bytes": 10198,
-      "jdm_bytes": 10198,
+      "github_bytes": 11341,
+      "jdm_bytes": 11341,
       "last_modified": null,
-      "github_sha256": "6f781a4807a12c2b86bd158fbf1415973e5cf20222ce40b0d7afdfec692be352",
-      "jdm_sha256": "6f781a4807a12c2b86bd158fbf1415973e5cf20222ce40b0d7afdfec692be352"
+      "github_sha256": "1c0839d0d820a869848817f43049786909e97f956ef2eadb4814234862c38735",
+      "jdm_sha256": "1c0839d0d820a869848817f43049786909e97f956ef2eadb4814234862c38735"
     },
     {
       "file": "blog-przygotowanie-srebra-do-wyceny.html",
       "status": "same",
-      "github_bytes": 10243,
-      "jdm_bytes": 10243,
+      "github_bytes": 11581,
+      "jdm_bytes": 11581,
       "last_modified": null,
-      "github_sha256": "0a4a627a297261718eda5e6aa0aee1127d9fb004d3abf63f68d3a10d5dd9acd6",
-      "jdm_sha256": "0a4a627a297261718eda5e6aa0aee1127d9fb004d3abf63f68d3a10d5dd9acd6"
+      "github_sha256": "2c4b6f6aec6c4b81c4a0c6a1bf32ac56346006b0af96df99a9f46420fbc2ad51",
+      "jdm_sha256": "2c4b6f6aec6c4b81c4a0c6a1bf32ac56346006b0af96df99a9f46420fbc2ad51"
     },
     {
       "file": "blog-skup-bizuterii-pojedyncze-przedmioty.html",
       "status": "same",
-      "github_bytes": 10271,
-      "jdm_bytes": 10271,
+      "github_bytes": 11232,
+      "jdm_bytes": 11232,
       "last_modified": null,
-      "github_sha256": "cb5cd9c41cba6eafc571b35539d06e088bf2549d0ed2ea0085cd8339f34acb04",
-      "jdm_sha256": "cb5cd9c41cba6eafc571b35539d06e088bf2549d0ed2ea0085cd8339f34acb04"
+      "github_sha256": "1e43758648c25338766fad1eb5a61b2e3103616210a889213102fa581cdbd76e",
+      "jdm_sha256": "1e43758648c25338766fad1eb5a61b2e3103616210a889213102fa581cdbd76e"
     },
     {
       "file": "blog-sprzedaz-granulatu-srebrnego.html",
       "status": "same",
-      "github_bytes": 10123,
-      "jdm_bytes": 10123,
+      "github_bytes": 11290,
+      "jdm_bytes": 11290,
       "last_modified": null,
-      "github_sha256": "3a1a0081d88584b990e6849892800bb074903578ab5d7b6fdd39d11cf33d958a",
-      "jdm_sha256": "3a1a0081d88584b990e6849892800bb074903578ab5d7b6fdd39d11cf33d958a"
+      "github_sha256": "ec0d640e452eb60a0426929dc71bc6fb4d8463b860c4ebd0a756de5e2b77897c",
+      "jdm_sha256": "ec0d640e452eb60a0426929dc71bc6fb4d8463b860c4ebd0a756de5e2b77897c"
     },
     {
       "file": "blog-srebrne-sztucce-zastawy.html",
       "status": "same",
-      "github_bytes": 10047,
-      "jdm_bytes": 10047,
+      "github_bytes": 11436,
+      "jdm_bytes": 11436,
       "last_modified": null,
-      "github_sha256": "ba01ac3f07daa7b1af8c386f49fe860d50ee1b07e092f474b211e40e6e5e8c46",
-      "jdm_sha256": "ba01ac3f07daa7b1af8c386f49fe860d50ee1b07e092f474b211e40e6e5e8c46"
+      "github_sha256": "db74826cf7a6afeffc8668215c6ab3a3ff6521c768e7b527c2cfc2f7c2e61845",
+      "jdm_sha256": "db74826cf7a6afeffc8668215c6ab3a3ff6521c768e7b527c2cfc2f7c2e61845"
     },
     {
       "file": "blog-wspolna-wycena-srebra.html",
       "status": "same",
-      "github_bytes": 9654,
-      "jdm_bytes": 9654,
+      "github_bytes": 11438,
+      "jdm_bytes": 11438,
       "last_modified": null,
-      "github_sha256": "225266496de2363416fa915033425edb9e9288ea3cbb94afc5928bf88b5aca0e",
-      "jdm_sha256": "225266496de2363416fa915033425edb9e9288ea3cbb94afc5928bf88b5aca0e"
+      "github_sha256": "727e9145eab7be9bf136e4b2cbdb64a87ad3f008dd78106315e5c7ae1dca4eb2",
+      "jdm_sha256": "727e9145eab7be9bf136e4b2cbdb64a87ad3f008dd78106315e5c7ae1dca4eb2"
     },
     {
       "file": "blog-wycena-starych-sztuccow.html",
       "status": "same",
-      "github_bytes": 10198,
-      "jdm_bytes": 10198,
+      "github_bytes": 11404,
+      "jdm_bytes": 11404,
       "last_modified": null,
-      "github_sha256": "cb0166bbcaf8b84b2a2d684371d4f58c686d0d2f764c11441237b3bfaed7ef36",
-      "jdm_sha256": "cb0166bbcaf8b84b2a2d684371d4f58c686d0d2f764c11441237b3bfaed7ef36"
+      "github_sha256": "d38ec08bd3224123b21dfb4f82ded40ea5a411b9b35f46c47af7b99b9da8fe5a",
+      "jdm_sha256": "d38ec08bd3224123b21dfb4f82ded40ea5a411b9b35f46c47af7b99b9da8fe5a"
     },
     {
       "file": "blog-wycena-swiecznikow.html",
       "status": "same",
-      "github_bytes": 9606,
-      "jdm_bytes": 9606,
+      "github_bytes": 11553,
+      "jdm_bytes": 11553,
       "last_modified": null,
-      "github_sha256": "6895d790f80c417be52f69e63384f87bd5099ebaff38185b48ad5426f7fc86e0",
-      "jdm_sha256": "6895d790f80c417be52f69e63384f87bd5099ebaff38185b48ad5426f7fc86e0"
+      "github_sha256": "04b83a9ea84213c6f4de36cd82a76fb70c34530fe64a11eb21ddd23d09bc2193",
+      "jdm_sha256": "04b83a9ea84213c6f4de36cd82a76fb70c34530fe64a11eb21ddd23d09bc2193"
     },
     {
       "file": "blog-wycena-sztabek-srebra.html",
       "status": "same",
-      "github_bytes": 10136,
-      "jdm_bytes": 10136,
+      "github_bytes": 11163,
+      "jdm_bytes": 11163,
       "last_modified": null,
-      "github_sha256": "8cc2d0c5f3dc26c80dd1d6a9771ab8dbcc6583666ba0e001932eb6fb5787b744",
-      "jdm_sha256": "8cc2d0c5f3dc26c80dd1d6a9771ab8dbcc6583666ba0e001932eb6fb5787b744"
+      "github_sha256": "ab1528a974ea557a12fac121949b5474bbeb0054994580490e24145d8f1e7aee",
+      "jdm_sha256": "ab1528a974ea557a12fac121949b5474bbeb0054994580490e24145d8f1e7aee"
     },
     {
       "file": "blog-zatarta-punca-srebra.html",
       "status": "same",
-      "github_bytes": 9488,
-      "jdm_bytes": 9488,
+      "github_bytes": 11413,
+      "jdm_bytes": 11413,
       "last_modified": null,
-      "github_sha256": "dabba9464b7a0f836614943834a253cfff20c3cda8bbed310a9151cb50209375",
-      "jdm_sha256": "dabba9464b7a0f836614943834a253cfff20c3cda8bbed310a9151cb50209375"
+      "github_sha256": "59d196ca4a3698637ff5398792908b0f08d4f0117d01952aa4cb08ee5f72fdfe",
+      "jdm_sha256": "59d196ca4a3698637ff5398792908b0f08d4f0117d01952aa4cb08ee5f72fdfe"
     },
     {
       "file": "blog-zlom-srebra-bizuteria.html",
       "status": "same",
-      "github_bytes": 10035,
-      "jdm_bytes": 10035,
+      "github_bytes": 11099,
+      "jdm_bytes": 11099,
       "last_modified": null,
-      "github_sha256": "140e5594e6eb177443b287b324d6db73ab382790173418141fe74300044f4f3e",
-      "jdm_sha256": "140e5594e6eb177443b287b324d6db73ab382790173418141fe74300044f4f3e"
+      "github_sha256": "5947215af587f6f1f1eba3ac575713bec3d14c2b4feef94d46dd9c97282d7b07",
+      "jdm_sha256": "5947215af587f6f1f1eba3ac575713bec3d14c2b4feef94d46dd9c97282d7b07"
     },
     {
       "file": "blog.html",
       "status": "same",
-      "github_bytes": 23157,
-      "jdm_bytes": 23157,
+      "github_bytes": 23328,
+      "jdm_bytes": 23328,
       "last_modified": null,
-      "github_sha256": "2531602c3471bc8ffc13e57ae73de511edab8ff389d482e5c4d6d8ade1d1ba21",
-      "jdm_sha256": "2531602c3471bc8ffc13e57ae73de511edab8ff389d482e5c4d6d8ade1d1ba21"
+      "github_sha256": "161228c6be689d38c11f826d30fd8ecae542d302e7a4858f6b3d15c963f30af5",
+      "jdm_sha256": "161228c6be689d38c11f826d30fd8ecae542d302e7a4858f6b3d15c963f30af5"
     },
     {
       "file": "cennik.html",
@@ -643,12 +643,13 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "same",
-      "github_bytes": 2384,
+      "status": "different",
+      "github_bytes": 2864,
       "jdm_bytes": 2384,
       "last_modified": null,
-      "github_sha256": "1cef85c32a5958363895cf6dde7744ded1aa68e5aea1a7d9b4a2d7d430d3b5a7",
-      "jdm_sha256": "1cef85c32a5958363895cf6dde7744ded1aa68e5aea1a7d9b4a2d7d430d3b5a7"
+      "github_sha256": "55380106418115de221b2ec8a4838c6c38a4df2ff69e03047f4d9688552a3901",
+      "jdm_sha256": "1cef85c32a5958363895cf6dde7744ded1aa68e5aea1a7d9b4a2d7d430d3b5a7",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-contact-20261004-status.js",
