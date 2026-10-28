@@ -1,0 +1,216 @@
+{
+  "baseline_commit": "ec99b33a8c95b1b829798e3766ddb6d5610122b1",
+  "base_url": "https://www.skupsrebragorzow.pl/",
+  "files": [
+    {
+      "file": "assets/offer-bars-v1.png",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "assets/offer-bars-v2.png",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "assets/offer-coins-v1.png",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "assets/offer-granulate-v2.png",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "assets/offer-jewellery-v2.png",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "assets/offer-scrap-v2.png",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "assets/offer-tableware-v1.png",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "assets/silver-collection-hero-v5.jpg",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "assets/silver-collection-hero-v5.png",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "blog.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "cennik.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "co-kupujemy.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "faq.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "index.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "kontakt.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "regulamin.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "site.css",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sitemap.xml",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-contact-20261004-status.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-contact-20261004.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-contact-smtp-20261007.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-custom.css",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-enhancements-20261004-blog-dates.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-enhancements-20261004-blog.css",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-enhancements-20261004-blog.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-enhancements-20261004-price-contact.css",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-enhancements-20261004-price-contact.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-enhancements-20261004.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-enhancements.css",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-enhancements.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-live-prices-20261004.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-live-prices.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-modern.css",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-pages-20261004.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-pages.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-quick-20261004.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-silver.css",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio-site.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio.css",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "studio.js",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "wycena.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "wykres.html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}
