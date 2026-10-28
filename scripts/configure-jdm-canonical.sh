@@ -21,7 +21,7 @@ import os, urllib.request, urllib.error
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, *args, **kwargs): return None
 try:
-    response = urllib.request.build_opener(NoRedirect).open('https://www.skupsrebragorzow.pl/'+os.environ['JDM_PROBE']+'/probe.txt', timeout=25)
+    response = urllib.request.build_opener(NoRedirect).open(urllib.request.Request('https://www.skupsrebragorzow.pl/'+os.environ['JDM_PROBE']+'/probe.txt', headers={'User-Agent':'SrebroGorzow-SiteAudit/1.0'}), timeout=25)
 except urllib.error.HTTPError as error:
     response = error
 print('Rewrite probe:', {'status': response.code, 'location': response.headers.get('Location'), 'server': response.headers.get('Server'), 'content_type': response.headers.get('Content-Type'), 'body': response.read(100).decode('utf-8', errors='replace')})
@@ -37,7 +37,7 @@ for base in ['http://skupsrebragorzow.pl', 'https://skupsrebragorzow.pl', 'http:
     for path in ['/', '/blog.html']:
         url=base+path+'?canonical-diagnostic='+str(time.time_ns())
         try:
-            try: response=opener.open(url,timeout=20)
+            try: response=opener.open(urllib.request.Request(url,headers={'User-Agent':'SrebroGorzow-SiteAudit/1.0'}),timeout=20)
             except urllib.error.HTTPError as error: response=error
             print('Canonical variant:', {'url':base+path,'status':response.code,'location':response.headers.get('Location'),'server':response.headers.get('Server'),'cf_mitigated':response.headers.get('CF-Mitigated')})
         except Exception as error: print('Canonical variant failed:',base+path,str(error))
@@ -71,11 +71,11 @@ opener=urllib.request.build_opener(NoRedirect)
 query='?jdm-canonical-check='+str(time.time_ns())
 for base in ['http://skupsrebragorzow.pl','https://skupsrebragorzow.pl','http://www.skupsrebragorzow.pl']:
     url=base+'/blog.html'+query
-    try: response=opener.open(url,timeout=25)
+    try: response=opener.open(urllib.request.Request(url,headers={'User-Agent':'SrebroGorzow-SiteAudit/1.0'}),timeout=25)
     except urllib.error.HTTPError as error: response=error
     assert response.code in (301,308), (url,response.code)
     assert response.headers.get('Location')=='https://www.skupsrebragorzow.pl/blog.html'+query, response.headers.get('Location')
-with urllib.request.urlopen('https://www.skupsrebragorzow.pl/blog.html'+query,timeout=25) as response:
+with urllib.request.urlopen(urllib.request.Request('https://www.skupsrebragorzow.pl/blog.html'+query,headers={'User-Agent':'SrebroGorzow-SiteAudit/1.0'}),timeout=25) as response:
     assert response.code==200
 print('Canonical redirects verified: all variants, path/query preservation and no HTTPS loop.')
 PY
