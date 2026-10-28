@@ -20,7 +20,12 @@
     },
     {
       "url": "https://www.skupsrebragorzow.pl/wycena.html",
-      "error": "The read operation timed out"
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/wycena.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
     },
     {
       "url": "https://www.skupsrebragorzow.pl/cennik.html",
@@ -251,7 +256,7 @@
     {
       "url": "http://skupsrebragorzow.pl/",
       "status": 200,
-      "final_url": "http://skupsrebragorzow.pl/",
+      "final_url": "https://www.skupsrebragorzow.pl/",
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
@@ -260,11 +265,109 @@
     {
       "url": "https://skupsrebragorzow.pl/",
       "status": 200,
-      "final_url": "https://skupsrebragorzow.pl/",
+      "final_url": "https://www.skupsrebragorzow.pl/",
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
       }
+    }
+  ],
+  "canonical_redirect_checks": [
+    {
+      "url": "http://skupsrebragorzow.pl/?jdm-audit=canonical",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "passed": true
+    },
+    {
+      "url": "http://skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "passed": true
+    },
+    {
+      "url": "http://skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "passed": true
+    },
+    {
+      "url": "https://skupsrebragorzow.pl/?jdm-audit=canonical",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "passed": true
+    },
+    {
+      "url": "https://skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "passed": true
+    },
+    {
+      "url": "https://skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "passed": true
+    },
+    {
+      "url": "http://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "passed": true
+    },
+    {
+      "url": "http://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "passed": true
+    },
+    {
+      "url": "http://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "first_status": 308,
+      "location": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "passed": true
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "first_status": 200,
+      "location": null,
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/?jdm-audit=canonical",
+      "passed": true
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "first_status": 200,
+      "location": null,
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog.html?jdm-audit=canonical&check=1",
+      "passed": true
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "first_status": 200,
+      "location": null,
+      "final_status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html?jdm-audit=canonical&check=2",
+      "passed": true
     }
   ],
   "origin_robots": null

@@ -1,5 +1,5 @@
 {
-  "baseline_commit": "7185d3750c24bde1b6e3c508b2b5fe542f0b597e",
+  "baseline_commit": "f6f81fb6f4662feda9f6911a4b83fcfec779c31a",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
@@ -643,13 +643,12 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "different",
+      "status": "same",
       "github_bytes": 2864,
-      "jdm_bytes": 2384,
+      "jdm_bytes": 2864,
       "last_modified": null,
       "github_sha256": "55380106418115de221b2ec8a4838c6c38a4df2ff69e03047f4d9688552a3901",
-      "jdm_sha256": "1cef85c32a5958363895cf6dde7744ded1aa68e5aea1a7d9b4a2d7d430d3b5a7",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "55380106418115de221b2ec8a4838c6c38a4df2ff69e03047f4d9688552a3901"
     },
     {
       "file": "studio-contact-20261004-status.js",
