@@ -17,7 +17,6 @@
   if (email) email.required = true;
   if (description) description.textContent = 'Napisz wiadomość — trafi bezpośrednio do naszego punktu.';
   if (button) button.textContent = 'Wyślij wiadomość';
-  // Komunikat musi być widoczny także wtedy, gdy dawny podgląd wiadomości jest ukryty.
   if (status && button) button.after(status);
 
   const trap = document.createElement('input');

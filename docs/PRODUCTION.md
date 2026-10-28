@@ -1,5 +1,7 @@
 # Aktualna strona produkcyjna — 09.10.2026
 
+Aktualizacja 16.10.2026: przed pracą przeczytaj docs/STATIC-RUNTIME-20261016.md. Produkcja ma teraz zwykłe statyczne podstrony, 16 osobnych artykułów i politykę prywatności (26 adresów). Poniższy opis History API jest historyczny.
+
 Aktualne pliki do hostingu JDM znajdują się w deployment/jdm-public/. To jest wersja produkcyjna, a nie wcześniejszy podgląd z dist/ lub deployment/public/.
 
 Adres główny: https://www.skupsrebragorzow.pl/

@@ -1,4 +1,3 @@
-/* Silver surfaces, graphite text, restrained pale mint accents. */
 .studio{--ink:#30383b;--muted:#5c6669;--accent:#d6eee4;--wash:#eef0f0;--line:#cbd1d1;background:#f6f7f7;color:var(--ink)}
 .studio .demo{background:#e5e8e8;color:#515b5e}.studio .header{background:#fafbfb}.studio .header nav a{color:#424d50}.studio .header nav a:hover{background:#e9eded;color:#303b3d}.studio .header nav a[aria-current=page]{background:#dceee6;color:#294f43}
 .studio .button{background:linear-gradient(180deg,#fafbfb,#e3e7e7);border-color:#bfc8c8;color:#354346;box-shadow:0 2px 4px #313e4009}.studio .primary{background:linear-gradient(180deg,#e1f3eb,#cde6da);border-color:#a9cbbb;color:#284b3e;box-shadow:0 3px 8px #395e4e12}.studio .button:hover{background:#dce3e2;box-shadow:0 5px 14px #35454216}.studio .primary:hover{background:#c2e0d1;border-color:#8fb6a3}.studio .text-link,.studio .text-button{color:#3c6254}.studio .eyebrow{color:#596568}.studio .hero-meta{color:#626d70}

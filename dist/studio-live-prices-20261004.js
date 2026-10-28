@@ -1,9 +1,6 @@
 (() => {
-  // Na hostingu JDM pobieramy dane przez lokalny mostek PHP. Dzięki temu
-  // przeglądarka nie blokuje odpowiedzi panelu cen jako połączenia z obcej domeny.
   const API = '/ceny-live.php?site=silver';
   document.body.dataset.prices = 'loading';
-  // Nie pokazujemy zapasowego, demonstracyjnego cennika w trakcie pobierania.
   document.querySelector('#cennik caption')?.remove();
   document.querySelectorAll('#cennik .demo-tag').forEach(tag => tag.remove());
   document.getElementById('price-rows')?.replaceChildren();
@@ -37,8 +34,6 @@
     });
   }
 
-  // Ostatnio potwierdzone stawki są widoczne od razu. Aktualne dane z panelu
-  // zastępują je w tle, dzięki czemu tabela nie czeka na odpowiedź sieciową.
   const bootstrap = {fetchedAt: '2026-10-03T22:00:32.684Z', spot: 7.56, change: -0.02333, purities: {600: 2.27, 800: 3.02, 830: 3.14, 835: 3.16, 875: 3.31, 900: 3.40, 925: 4.20, 960: 4.72, 999: 6.04}};
   const bootstrapProducts = {coins: [{id:'silver-krugerrand-1oz',name:'Krugerrand 1 oz',purity:999.9,grossWeight:31.1,price:223.39},{id:'silver-philharmonic-1oz',name:'Filharmonik 1 oz',purity:999.9,grossWeight:31.1,price:223.39},{id:'silver-maple-leaf-1oz',name:'Kanadyjski Liść Klonowy 1 oz',purity:999.9,grossWeight:31.1,price:223.39},{id:'silver-britannia-1oz',name:'Brytyjska Britannia 1 oz',purity:999.9,grossWeight:31.1,price:223.39},{id:'silver-american-eagle-1oz',name:'Amerykański Orzeł 1 oz',purity:999.9,grossWeight:31.1,price:223.39},{id:'silver-kangaroo-1oz',name:'Australijski Kangur 1 oz',purity:999.9,grossWeight:31.1,price:223.39},{id:'silver-lunar-2oz',name:'Australijski Lunar 2 oz',purity:999.9,grossWeight:62.21,price:446.79},{id:'silver-kookaburra-1kg',name:'Australijska Kookaburra 1 kg',purity:999.9,grossWeight:1000,price:6842.12},{id:'custom-silver-coin-1oz',name:'Inne monety 1 uncja',purity:999.9,grossWeight:31.1,price:223.39},{id:'custom-silver-coin-2oz',name:'Inne monety 2 uncje',purity:999.9,grossWeight:62.2,price:423.20},{id:'custom-silver-coin-1kg',name:'Inne monety 1 kg',purity:999.9,grossWeight:1000,price:6842.12}],bars: [{id:'silver-bar-31g',name:'Sztabka 1 uncja',purity:999.9,grossWeight:31.1,price:211.64},{id:'silver-bar-50g',name:'Sztabka 50 g',purity:999.9,grossWeight:50,price:338.36},{id:'silver-bar-100g',name:'Sztabka 100 g',purity:999.9,grossWeight:100,price:680.43},{id:'silver-bar-250g',name:'Sztabka 250 g',purity:999.9,grossWeight:250,price:1644.41},{id:'silver-bar-500g',name:'Sztabka 500 g',purity:999.9,grossWeight:500,price:3288.75},{id:'silver-bar-1000g',name:'Sztabka 1 kg',purity:999.9,grossWeight:1000,price:6577.51}]};
   function showBootstrap() {
@@ -52,7 +47,7 @@
     const heading = document.getElementById('base-price');
     if (heading) heading.textContent = `${format(bootstrap.purities[999])} zł / g`;
     const rows = document.getElementById('price-rows');
-    if (rows) rows.innerHTML = Object.entries(bootstrap.purities).sort(([a], [b]) => Number(a) - Number(b)).map(([purity, price]) => `<tr><td><b>${purity}</b></td><td>${format(Number(purity) / 10)}%</td><td>${format(price)} zł</td><td><button class="text-button" type="button" data-live-price="${purity}">Wyceń</button></td></tr>`).join('');
+    if (rows) rows.innerHTML = Object.entries(bootstrap.purities).sort(([a], [b]) => Number(a) - Number(b)).map(([purity, price]) => `<tr><td><b>${purity}</b></td><td>${format(price)} zł</td><td><button class="text-button" type="button" data-live-price="${purity}">Wyceń</button></td></tr>`).join('');
   }
   showBootstrap();
 
@@ -86,7 +81,7 @@
 
     const rows = document.getElementById('price-rows');
     if (rows) {
-      rows.innerHTML = Object.entries(window.silverLivePrices).sort(([a], [b]) => Number(a) - Number(b)).map(([purity, price]) => `<tr><td><b>${purity}</b></td><td>${format(Number(purity) / 10)}%</td><td>${format(price)} zł</td><td><button class="text-button" type="button" data-live-price="${purity}">Wyceń</button></td></tr>`).join('');
+      rows.innerHTML = Object.entries(window.silverLivePrices).sort(([a], [b]) => Number(a) - Number(b)).map(([purity, price]) => `<tr><td><b>${purity}</b></td><td>${format(price)} zł</td><td><button class="text-button" type="button" data-live-price="${purity}">Wyceń</button></td></tr>`).join('');
       rows.querySelectorAll('[data-live-price]').forEach(button => button.addEventListener('click', () => {
         configureCategory('scrap');
         document.getElementById('purity').value = button.dataset.livePrice;

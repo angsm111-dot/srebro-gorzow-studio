@@ -1,5 +1,13 @@
 # Srebro Gorzów — galeria projektów
 
+## Aktualna produkcja — 28.10.2026
+
+Edytuj deployment/jdm-public/, nie historyczną galerię dist/. Przeczytaj docs/STATIC-RUNTIME-20261016.md i docs/PRODUCTION.md. Aktualna wersja ma 26 statycznych stron, osobne artykuły, politykę prywatności, zdjęcia WebP i faviconę Ag. Kalkulator zaczyna z pustą wagą; granulat ustawia próbę 999,9.
+
+Testy: npm test. Podgląd statyczny: python -m http.server 8766 --directory deployment/jdm-public (bez wykonywania PHP i wysyłki SMTP). npm start uruchamia historyczną galerię.
+
+Hasła SMTP, klucz Turnstile i prywatna konfiguracja pozostają na hostingu. Nie dodawaj ich do repo ani nie nadpisuj podczas publikacji. Źródłem prawdy jest deployment/jdm-public/, a datowane paczki są kopiami do FileZilli.
+
 Aktualna wersja produkcyjna strony jest w deployment/jdm-public/. Przed kontynuacją przeczytaj docs/PRODUCTION.md — poniższy opis galerii i danych demonstracyjnych jest historyczny i nie opisuje działającego formularza SMTP.
 
 Repozytorium: https://github.com/angsm111-dot/srebro-gorzow-studio (prywatne).

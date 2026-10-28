@@ -9,7 +9,7 @@ studioMain.before(breadcrumb);
 
 const intro=document.createElement('div');
 intro.className='home-links wrap';
-intro.innerHTML='<a href="/co-kupujemy.html"><span>OFERTA</span><h2>Zobacz co można sprzedać</h2><p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i srebro użytkowe.</p></a><a href="/cennik.html"><span>CENNIK</span><h2>Sprawdź aktualny cennik online</h2><p>Porównaj stawki dla popularnych prób srebra.</p></a><a href="/kontakt.html"><span>KONTAKT</span><h2>Masz pytanie?</h2><p>Przygotuj zapytanie lub sprawdź kontakt do punktu.</p></a>';
+intro.innerHTML='<a href="/co-kupujemy.html"><div class="home-card-top"><span>OFERTA</span><img class="home-card-icon" src="assets/home-silver-items.svg" alt="" width="160" height="120" loading="lazy"></div><h2>Zobacz co można sprzedać</h2><p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i srebro użytkowe.</p></a><a href="/cennik.html"><div class="home-card-top"><span>CENNIK</span><img class="home-card-icon" src="assets/home-price-table.svg" alt="" width="160" height="120" loading="lazy"></div><h2>Sprawdź aktualny cennik online</h2><p>Porównaj stawki dla popularnych prób srebra.</p></a><a href="/kontakt.html"><div class="home-card-top"><span>KONTAKT</span><img class="home-card-icon" src="assets/home-questions.svg" alt="" width="160" height="120" loading="lazy"></div><h2>Masz pytanie?</h2><p>Przygotuj zapytanie lub sprawdź kontakt do punktu.</p></a>';
 quick.after(intro);
 
 const blog=document.createElement('section');
@@ -55,6 +55,8 @@ function studioNavigate(page,push=true,focus=true){
   if(title){const h=document.createElement('h1');h.innerHTML=title.innerHTML.replace(/<br\s*\/?\s*>/gi,' ');title.replaceWith(h);}
   menuState(false);
   window.scrollTo({top:0,behavior:'instant'});
+  if(page!=='blog')document.querySelector('script[data-blog-schema]')?.remove();
+  if(page==='blog' && typeof window.renderSilverBlog==='function')window.renderSilverBlog();
   if(page==='wykres')drawChart();
   if(focus){const heading=page==='start'?document.querySelector('.hero h1'):document.querySelector(`#${page} h1`);if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true});}}
   mobile.hidden=page==='kalkulator';
