@@ -7,6 +7,7 @@ on:
       - deployment/jdm-public/**
       - .github/workflows/jdm.yml
       - scripts/jdm-sync.sh
+      - scripts/configure-jdm-canonical.sh
       - scripts/test-jdm-transfer.sh
       - scripts/test-jdm-sync.py
       - scripts/verify-production.py
@@ -49,6 +50,13 @@ jobs:
         run: |
           set -o pipefail
           bash scripts/test-jdm-transfer.sh 2>&1 | tee /tmp/jdm-transfer-test.log
+      - name: Verify hosting support and configure canonical redirects
+        if: github.event_name == 'push' || inputs.mode == 'deploy'
+        env:
+          SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
+        run: |
+          set -o pipefail
+          bash scripts/configure-jdm-canonical.sh 2>&1 | tee /tmp/jdm-canonical.log
       - name: Compare or publish production files
         env:
           SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
@@ -82,6 +90,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           if test -f /tmp/jdm-transfer-test.log; then cp /tmp/jdm-transfer-test.log transfer-test.log; git add transfer-test.log; fi
+          if test -f /tmp/jdm-canonical.log; then cp /tmp/jdm-canonical.log canonical.log; git add canonical.log; fi
           git add deployment.json deployment.log
           git diff --cached --quiet || git commit -m 'Record JDM deployment result'
           git push origin HEAD:jdm-deployment-status
