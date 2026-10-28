@@ -3,6 +3,7 @@ on:
   push:
     branches: [main]
     paths:
+      - deployment/jdm-public/**
       - scripts/compare-jdm-public.py
       - .github/workflows/jdm-public-compare.yml
   workflow_dispatch:
@@ -38,8 +39,13 @@ jobs:
           mkdir -p "$HOME/.ssh" /tmp/jdm-snapshot
           chmod 700 "$HOME/.ssh"
           export RSYNC_RSH='sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 -o ServerAliveInterval=15'
+          transfer_status=0
           rsync --recursive --files-from=/tmp/public-files.txt \
-            'smxkojwd@web15.jdm.pl:/home/smxkojwd/public_html/' /tmp/jdm-snapshot/
+            'smxkojwd@web15.jdm.pl:/home/smxkojwd/public_html/' /tmp/jdm-snapshot/ || transfer_status=$?
+          # Missing remote resources are recorded individually by the comparison.
+          if [[ $transfer_status -ne 0 && $transfer_status -ne 23 ]]; then
+            exit "$transfer_status"
+          fi
       - name: Compare downloaded files without changing JDM
         env:
           JDM_SNAPSHOT_DIR: /tmp/jdm-snapshot
