@@ -17,7 +17,32 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-      - name: Compare public files without changing JDM
+      - name: Install read-only download tools
+        run: sudo apt-get update && sudo apt-get install --yes --no-install-recommends sshpass rsync
+      - name: Download only public resource types over authenticated SSH
+        env:
+          SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$SSHPASS"
+          python3 - <<'PYTHON'
+          from pathlib import Path
+          root = Path('deployment/jdm-public')
+          allowed = {'.html', '.css', '.js', '.xml', '.png', '.jpg', '.jpeg', '.webp', '.svg', '.ico'}
+          names = [p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file()
+                   and p.suffix.lower() in allowed and p.name != 'studio.html'
+                   and not any(part.startswith('.') or part == 'private-config' for part in p.relative_to(root).parts)]
+          Path('/tmp/public-files.txt').write_text('\n'.join(sorted(names)) + '\n')
+          PYTHON
+          mkdir -p "$HOME/.ssh" /tmp/jdm-snapshot
+          chmod 700 "$HOME/.ssh"
+          export RSYNC_RSH='sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 -o ServerAliveInterval=15'
+          rsync --recursive --files-from=/tmp/public-files.txt \
+            'smxkojwd@web15.jdm.pl:/home/smxkojwd/public_html/' /tmp/jdm-snapshot/
+      - name: Compare downloaded files without changing JDM
+        env:
+          JDM_SNAPSHOT_DIR: /tmp/jdm-snapshot
         run: python3 scripts/compare-jdm-public.py
       - name: Save public comparison report on separate branch
         shell: bash

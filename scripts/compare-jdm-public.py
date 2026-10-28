@@ -3,6 +3,7 @@ import concurrent.futures
 import difflib
 import hashlib
 import json
+import os
 from pathlib import Path
 import urllib.request
 import urllib.parse
@@ -20,13 +21,18 @@ def compare(path):
     local = path.read_bytes()
     request = urllib.request.Request(base + urllib.parse.quote(name), headers={'Cache-Control': 'no-cache'})
     try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            remote = response.read()
-            if urllib.parse.urlparse(response.url).hostname not in {'www.skupsrebragorzow.pl', 'skupsrebragorzow.pl'}:
-                raise ValueError('Unexpected redirect destination')
-            if path.suffix.lower() in {'.css', '.js', '.xml'} and 'text/html' in response.headers.get('Content-Type', ''):
-                raise ValueError('HTML returned in place of resource')
-            modified = response.headers.get('Last-Modified')
+        snapshot = os.environ.get('JDM_SNAPSHOT_DIR')
+        if snapshot:
+            remote = (Path(snapshot) / name).read_bytes()
+            modified = None
+        else:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                remote = response.read()
+                if urllib.parse.urlparse(response.url).hostname not in {'www.skupsrebragorzow.pl', 'skupsrebragorzow.pl'}:
+                    raise ValueError('Unexpected redirect destination')
+                if path.suffix.lower() in {'.css', '.js', '.xml'} and 'text/html' in response.headers.get('Content-Type', ''):
+                    raise ValueError('HTML returned in place of resource')
+                modified = response.headers.get('Last-Modified')
     except Exception as error:
         return {'file': name, 'status': 'error', 'error': str(error)}, ''
     same = local == remote
