@@ -1,5 +1,5 @@
 {
-  "baseline_commit": "7830bd01a171220a1e8fffedf51cf545908b6a17",
+  "baseline_commit": "50196f6d464ea6790143a7b248d7d4bfa2232061",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
@@ -372,6 +372,15 @@
       "jdm_sha256": "4d3c83064854b5910f18a418cedfb93e0ecd42ab0e9ef9e1ff8ff86e9d7558a1"
     },
     {
+      "file": "blog-jak-pielegnowac-srebrna-bizuterie.html",
+      "status": "same",
+      "github_bytes": 24715,
+      "jdm_bytes": 24715,
+      "last_modified": null,
+      "github_sha256": "f90c59dc41f64b26141133860a054a4a8c1a0bb615d2c348ea1f627225d5026f",
+      "jdm_sha256": "f90c59dc41f64b26141133860a054a4a8c1a0bb615d2c348ea1f627225d5026f"
+    },
+    {
       "file": "blog-monety-srebrne-wartosc.html",
       "status": "same",
       "github_bytes": 10148,
@@ -499,12 +508,13 @@
     },
     {
       "file": "blog.html",
-      "status": "same",
-      "github_bytes": 22175,
+      "status": "different",
+      "github_bytes": 23157,
       "jdm_bytes": 22175,
       "last_modified": null,
-      "github_sha256": "de3374788b0b57f83f79595ff898bf4020705723b43cdff9cfd96df941003b06",
-      "jdm_sha256": "de3374788b0b57f83f79595ff898bf4020705723b43cdff9cfd96df941003b06"
+      "github_sha256": "2531602c3471bc8ffc13e57ae73de511edab8ff389d482e5c4d6d8ade1d1ba21",
+      "jdm_sha256": "de3374788b0b57f83f79595ff898bf4020705723b43cdff9cfd96df941003b06",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "cennik.html",
@@ -634,12 +644,13 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "same",
-      "github_bytes": 2254,
+      "status": "different",
+      "github_bytes": 2384,
       "jdm_bytes": 2254,
       "last_modified": null,
-      "github_sha256": "257c79ddd0213a00fea3dd4fd18afa7493c64b9f4304ad7bd01d3a1c9dce0ca3",
-      "jdm_sha256": "257c79ddd0213a00fea3dd4fd18afa7493c64b9f4304ad7bd01d3a1c9dce0ca3"
+      "github_sha256": "1cef85c32a5958363895cf6dde7744ded1aa68e5aea1a7d9b4a2d7d430d3b5a7",
+      "jdm_sha256": "257c79ddd0213a00fea3dd4fd18afa7493c64b9f4304ad7bd01d3a1c9dce0ca3",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-contact-20261004-status.js",
