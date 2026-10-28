@@ -1,7 +1,169 @@
 {
-  "baseline_commit": "92cf020037b2a8a125db85dc2d6e794ee11bf72e",
+  "baseline_commit": "7830bd01a171220a1e8fffedf51cf545908b6a17",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
+    {
+      "file": "apple-touch-icon.png",
+      "status": "same",
+      "github_bytes": 7016,
+      "jdm_bytes": 7016,
+      "last_modified": null,
+      "github_sha256": "a61e94c63e67e9f78599438760b64040324ef19d6c8da81501c1f00e05e04409",
+      "jdm_sha256": "a61e94c63e67e9f78599438760b64040324ef19d6c8da81501c1f00e05e04409"
+    },
+    {
+      "file": "assets/blog-punca-srebra-20261014-480.webp",
+      "status": "same",
+      "github_bytes": 15258,
+      "jdm_bytes": 15258,
+      "last_modified": null,
+      "github_sha256": "b157613b63debab5f2a8ddb9df1b05c3889ff619dc47fd5ef44a6e16495f88f2",
+      "jdm_sha256": "b157613b63debab5f2a8ddb9df1b05c3889ff619dc47fd5ef44a6e16495f88f2"
+    },
+    {
+      "file": "assets/blog-punca-srebra-20261014-960.webp",
+      "status": "same",
+      "github_bytes": 43186,
+      "jdm_bytes": 43186,
+      "last_modified": null,
+      "github_sha256": "8fb4d0db97f13a512c55ae96b18793129e59ff9e3e3612ead12135fd6d2be215",
+      "jdm_sha256": "8fb4d0db97f13a512c55ae96b18793129e59ff9e3e3612ead12135fd6d2be215"
+    },
+    {
+      "file": "assets/blog-punca-srebra-20261014.jpg",
+      "status": "same",
+      "github_bytes": 94717,
+      "jdm_bytes": 94717,
+      "last_modified": null,
+      "github_sha256": "dead7f9536478c68e3912ca4d01f58502d6c53523bbff790eeca2d0fd5a24c1a",
+      "jdm_sha256": "dead7f9536478c68e3912ca4d01f58502d6c53523bbff790eeca2d0fd5a24c1a"
+    },
+    {
+      "file": "assets/blog-segregowanie-srebra-20261014-480.webp",
+      "status": "same",
+      "github_bytes": 27346,
+      "jdm_bytes": 27346,
+      "last_modified": null,
+      "github_sha256": "71c8e6b440932fad3a554a2d556ddcf4dc1d2f2dccdf8f1dab34bb70397a7863",
+      "jdm_sha256": "71c8e6b440932fad3a554a2d556ddcf4dc1d2f2dccdf8f1dab34bb70397a7863"
+    },
+    {
+      "file": "assets/blog-segregowanie-srebra-20261014-960.webp",
+      "status": "same",
+      "github_bytes": 76596,
+      "jdm_bytes": 76596,
+      "last_modified": null,
+      "github_sha256": "10ab32e1226c80f58bba1ab29301e52703bf076e2024697f6ff34f6dc94741a5",
+      "jdm_sha256": "10ab32e1226c80f58bba1ab29301e52703bf076e2024697f6ff34f6dc94741a5"
+    },
+    {
+      "file": "assets/blog-segregowanie-srebra-20261014.jpg",
+      "status": "same",
+      "github_bytes": 137776,
+      "jdm_bytes": 137776,
+      "last_modified": null,
+      "github_sha256": "dadada35292e28247b34bc47bbb91ae832fea39eeae016f6837737d1ff1c78a8",
+      "jdm_sha256": "dadada35292e28247b34bc47bbb91ae832fea39eeae016f6837737d1ff1c78a8"
+    },
+    {
+      "file": "assets/blog-swieczniki-srebrne-20261014-480.webp",
+      "status": "same",
+      "github_bytes": 19750,
+      "jdm_bytes": 19750,
+      "last_modified": null,
+      "github_sha256": "d391fd89ce25ca464991f2564530a267ceb351f7f7edc4d9e0f47d880a9dd130",
+      "jdm_sha256": "d391fd89ce25ca464991f2564530a267ceb351f7f7edc4d9e0f47d880a9dd130"
+    },
+    {
+      "file": "assets/blog-swieczniki-srebrne-20261014-960.webp",
+      "status": "same",
+      "github_bytes": 53578,
+      "jdm_bytes": 53578,
+      "last_modified": null,
+      "github_sha256": "dad010f17600540dc2116bf984ef77ce50269682a442f7f7a538f12463f9db5b",
+      "jdm_sha256": "dad010f17600540dc2116bf984ef77ce50269682a442f7f7a538f12463f9db5b"
+    },
+    {
+      "file": "assets/blog-swieczniki-srebrne-20261014.jpg",
+      "status": "same",
+      "github_bytes": 105903,
+      "jdm_bytes": 105903,
+      "last_modified": null,
+      "github_sha256": "d2ae454a92643c0b99e88918782d36fdb4f625358f73d673b9f9ce28cf17c59f",
+      "jdm_sha256": "d2ae454a92643c0b99e88918782d36fdb4f625358f73d673b9f9ce28cf17c59f"
+    },
+    {
+      "file": "assets/blog-wazenie-srebra-20261014-480.webp",
+      "status": "same",
+      "github_bytes": 19926,
+      "jdm_bytes": 19926,
+      "last_modified": null,
+      "github_sha256": "ec7fc71234917607dc3fb69cc45b18c019f95f23acbbfccd0ccdc26c7edad474",
+      "jdm_sha256": "ec7fc71234917607dc3fb69cc45b18c019f95f23acbbfccd0ccdc26c7edad474"
+    },
+    {
+      "file": "assets/blog-wazenie-srebra-20261014-960.webp",
+      "status": "same",
+      "github_bytes": 54680,
+      "jdm_bytes": 54680,
+      "last_modified": null,
+      "github_sha256": "c733ab43f67dd85ea35270068972514180a9c8fcccbe946cc4bb3698e1aea9a7",
+      "jdm_sha256": "c733ab43f67dd85ea35270068972514180a9c8fcccbe946cc4bb3698e1aea9a7"
+    },
+    {
+      "file": "assets/blog-wazenie-srebra-20261014.jpg",
+      "status": "same",
+      "github_bytes": 114369,
+      "jdm_bytes": 114369,
+      "last_modified": null,
+      "github_sha256": "99d2c95e702f9060d03c6972c339fda015622c833aceb14e97420ba3762564df",
+      "jdm_sha256": "99d2c95e702f9060d03c6972c339fda015622c833aceb14e97420ba3762564df"
+    },
+    {
+      "file": "assets/home-price-table.svg",
+      "status": "same",
+      "github_bytes": 1046,
+      "jdm_bytes": 1046,
+      "last_modified": null,
+      "github_sha256": "532f8a9736d15ea59bda793ae2a8e301e7c7344e335c6fa0a17e9ec154464633",
+      "jdm_sha256": "532f8a9736d15ea59bda793ae2a8e301e7c7344e335c6fa0a17e9ec154464633"
+    },
+    {
+      "file": "assets/home-questions.svg",
+      "status": "same",
+      "github_bytes": 912,
+      "jdm_bytes": 912,
+      "last_modified": null,
+      "github_sha256": "076543d0c48c5d194f75000e0bfbed4b33155ed1f256aafb5830cb0e18ed3f91",
+      "jdm_sha256": "076543d0c48c5d194f75000e0bfbed4b33155ed1f256aafb5830cb0e18ed3f91"
+    },
+    {
+      "file": "assets/home-silver-items.svg",
+      "status": "same",
+      "github_bytes": 1199,
+      "jdm_bytes": 1199,
+      "last_modified": null,
+      "github_sha256": "d4e1fbc3c8c2cdff214b909c5ef6055b552393d9f6c743b05f7a045d1dd4615e",
+      "jdm_sha256": "d4e1fbc3c8c2cdff214b909c5ef6055b552393d9f6c743b05f7a045d1dd4615e"
+    },
+    {
+      "file": "assets/offer-bars-v1-480.webp",
+      "status": "same",
+      "github_bytes": 21244,
+      "jdm_bytes": 21244,
+      "last_modified": null,
+      "github_sha256": "e5abdb2db9af46cca17a152d273f12274f8706f7d3ba004d3ea340dcb18570fa",
+      "jdm_sha256": "e5abdb2db9af46cca17a152d273f12274f8706f7d3ba004d3ea340dcb18570fa"
+    },
+    {
+      "file": "assets/offer-bars-v1-960.webp",
+      "status": "same",
+      "github_bytes": 71194,
+      "jdm_bytes": 71194,
+      "last_modified": null,
+      "github_sha256": "24beaf8b40814fe4c1ffdb5cd239ab0bb36542512ce1b13c4ea1c40d7b0a8d66",
+      "jdm_sha256": "24beaf8b40814fe4c1ffdb5cd239ab0bb36542512ce1b13c4ea1c40d7b0a8d66"
+    },
     {
       "file": "assets/offer-bars-v1.png",
       "status": "same",
@@ -10,6 +172,24 @@
       "last_modified": null,
       "github_sha256": "dcaa7473eafbf3b02273bac2857390d88b93f4e9bb8e4f7339cfcf3fc7f40563",
       "jdm_sha256": "dcaa7473eafbf3b02273bac2857390d88b93f4e9bb8e4f7339cfcf3fc7f40563"
+    },
+    {
+      "file": "assets/offer-bars-v2-480.webp",
+      "status": "same",
+      "github_bytes": 24538,
+      "jdm_bytes": 24538,
+      "last_modified": null,
+      "github_sha256": "720bee8645448f48c044b5bf5f6c4eae37b775fb937f8d1bf57804dd443010f5",
+      "jdm_sha256": "720bee8645448f48c044b5bf5f6c4eae37b775fb937f8d1bf57804dd443010f5"
+    },
+    {
+      "file": "assets/offer-bars-v2-960.webp",
+      "status": "same",
+      "github_bytes": 81044,
+      "jdm_bytes": 81044,
+      "last_modified": null,
+      "github_sha256": "55222951012e4a0923d6535f19b336131aafc4ac50599fcf4566f0a070d2a49c",
+      "jdm_sha256": "55222951012e4a0923d6535f19b336131aafc4ac50599fcf4566f0a070d2a49c"
     },
     {
       "file": "assets/offer-bars-v2.png",
@@ -21,6 +201,24 @@
       "jdm_sha256": "46bb96624e88077eca998ff1eda3a180ce6199207640c1c276e51f22474ca891"
     },
     {
+      "file": "assets/offer-coins-v1-480.webp",
+      "status": "same",
+      "github_bytes": 31122,
+      "jdm_bytes": 31122,
+      "last_modified": null,
+      "github_sha256": "dc524b0dafc1615834ed83c048b8f603a6e9842011fd5e06721e3300b96c00e9",
+      "jdm_sha256": "dc524b0dafc1615834ed83c048b8f603a6e9842011fd5e06721e3300b96c00e9"
+    },
+    {
+      "file": "assets/offer-coins-v1-960.webp",
+      "status": "same",
+      "github_bytes": 120530,
+      "jdm_bytes": 120530,
+      "last_modified": null,
+      "github_sha256": "799e345e80a8d1bb205e0db3fc09c795d6461c2d29511c59700eb71964add8f7",
+      "jdm_sha256": "799e345e80a8d1bb205e0db3fc09c795d6461c2d29511c59700eb71964add8f7"
+    },
+    {
       "file": "assets/offer-coins-v1.png",
       "status": "same",
       "github_bytes": 3161171,
@@ -28,6 +226,24 @@
       "last_modified": null,
       "github_sha256": "fb29a645cb92ed32ec5865105d52b634ad024e8e7139a8d3a3d8f2e54fb0b88f",
       "jdm_sha256": "fb29a645cb92ed32ec5865105d52b634ad024e8e7139a8d3a3d8f2e54fb0b88f"
+    },
+    {
+      "file": "assets/offer-granulate-v2-480.webp",
+      "status": "same",
+      "github_bytes": 30032,
+      "jdm_bytes": 30032,
+      "last_modified": null,
+      "github_sha256": "715c02f5037e3143e618d2c0e5610999e523028966b900ada66db4c20d4d30db",
+      "jdm_sha256": "715c02f5037e3143e618d2c0e5610999e523028966b900ada66db4c20d4d30db"
+    },
+    {
+      "file": "assets/offer-granulate-v2-960.webp",
+      "status": "same",
+      "github_bytes": 97282,
+      "jdm_bytes": 97282,
+      "last_modified": null,
+      "github_sha256": "ecb5eea906c2533853bc888d24a396ff37e8d2e119bb3d3f6042daf4cf57323a",
+      "jdm_sha256": "ecb5eea906c2533853bc888d24a396ff37e8d2e119bb3d3f6042daf4cf57323a"
     },
     {
       "file": "assets/offer-granulate-v2.png",
@@ -39,6 +255,24 @@
       "jdm_sha256": "afd785d5947ecad503852a3028d26db9e4f118d0bc21e9d74f4cfa30b9f99d8a"
     },
     {
+      "file": "assets/offer-jewellery-v2-480.webp",
+      "status": "same",
+      "github_bytes": 17388,
+      "jdm_bytes": 17388,
+      "last_modified": null,
+      "github_sha256": "4e41f57680adb2732f30b888c07b969e38e209bb8c88ef4d33daae32b80dc3f5",
+      "jdm_sha256": "4e41f57680adb2732f30b888c07b969e38e209bb8c88ef4d33daae32b80dc3f5"
+    },
+    {
+      "file": "assets/offer-jewellery-v2-960.webp",
+      "status": "same",
+      "github_bytes": 50488,
+      "jdm_bytes": 50488,
+      "last_modified": null,
+      "github_sha256": "30d5260854179b35f9c6caf90a40c26742556bdab069ca9877eb14959c041649",
+      "jdm_sha256": "30d5260854179b35f9c6caf90a40c26742556bdab069ca9877eb14959c041649"
+    },
+    {
       "file": "assets/offer-jewellery-v2.png",
       "status": "same",
       "github_bytes": 2134302,
@@ -48,6 +282,24 @@
       "jdm_sha256": "2d0e6569de9a233cdb17fb85cd86a011abf67f08c21f8ba70bcceab0a943e06a"
     },
     {
+      "file": "assets/offer-scrap-v2-480.webp",
+      "status": "same",
+      "github_bytes": 29942,
+      "jdm_bytes": 29942,
+      "last_modified": null,
+      "github_sha256": "16e81f0894205dbf9cfb25fa16d853b4da0054977b542557ecebffb5b66229c2",
+      "jdm_sha256": "16e81f0894205dbf9cfb25fa16d853b4da0054977b542557ecebffb5b66229c2"
+    },
+    {
+      "file": "assets/offer-scrap-v2-960.webp",
+      "status": "same",
+      "github_bytes": 93786,
+      "jdm_bytes": 93786,
+      "last_modified": null,
+      "github_sha256": "86bd3f6b652c592b0bbbe94ce21f4c1dabc839b618729efa7c967bc39e7bb907",
+      "jdm_sha256": "86bd3f6b652c592b0bbbe94ce21f4c1dabc839b618729efa7c967bc39e7bb907"
+    },
+    {
       "file": "assets/offer-scrap-v2.png",
       "status": "same",
       "github_bytes": 2674129,
@@ -55,6 +307,24 @@
       "last_modified": null,
       "github_sha256": "a294ec28852d7ae5236177a536615fda7057436c5cec0d34064f5b62b5ab0604",
       "jdm_sha256": "a294ec28852d7ae5236177a536615fda7057436c5cec0d34064f5b62b5ab0604"
+    },
+    {
+      "file": "assets/offer-tableware-v1-480.webp",
+      "status": "same",
+      "github_bytes": 25708,
+      "jdm_bytes": 25708,
+      "last_modified": null,
+      "github_sha256": "a8b94fe8e6d617e3faf369163b5db3d646561b5bccfbfdfc3e0e3265e280e86b",
+      "jdm_sha256": "a8b94fe8e6d617e3faf369163b5db3d646561b5bccfbfdfc3e0e3265e280e86b"
+    },
+    {
+      "file": "assets/offer-tableware-v1-960.webp",
+      "status": "same",
+      "github_bytes": 82926,
+      "jdm_bytes": 82926,
+      "last_modified": null,
+      "github_sha256": "c30f31408d4ed5657a69974cb8094ad88f4e6f774763e946f24c8a9eee30cc1a",
+      "jdm_sha256": "c30f31408d4ed5657a69974cb8094ad88f4e6f774763e946f24c8a9eee30cc1a"
     },
     {
       "file": "assets/offer-tableware-v1.png",
@@ -84,74 +354,274 @@
       "jdm_sha256": "94377e9419d0310e9cff16220f0407c6a6f1ead911e686c27ad4c1ea4c992c82"
     },
     {
+      "file": "blog-aktualny-cennik-skupu-srebra.html",
+      "status": "same",
+      "github_bytes": 9889,
+      "jdm_bytes": 9889,
+      "last_modified": null,
+      "github_sha256": "42c47791d6dd99840a057f82caa5d15b9b945f3e3a5afadc8af39a5d3b364bd0",
+      "jdm_sha256": "42c47791d6dd99840a057f82caa5d15b9b945f3e3a5afadc8af39a5d3b364bd0"
+    },
+    {
+      "file": "blog-granulat-srebrny.html",
+      "status": "same",
+      "github_bytes": 10018,
+      "jdm_bytes": 10018,
+      "last_modified": null,
+      "github_sha256": "4d3c83064854b5910f18a418cedfb93e0ecd42ab0e9ef9e1ff8ff86e9d7558a1",
+      "jdm_sha256": "4d3c83064854b5910f18a418cedfb93e0ecd42ab0e9ef9e1ff8ff86e9d7558a1"
+    },
+    {
+      "file": "blog-monety-srebrne-wartosc.html",
+      "status": "same",
+      "github_bytes": 10148,
+      "jdm_bytes": 10148,
+      "last_modified": null,
+      "github_sha256": "201beb259d4ac5ff07d66f4a13d113b9a3d5e4b32cd962f66481cd943317fcf1",
+      "jdm_sha256": "201beb259d4ac5ff07d66f4a13d113b9a3d5e4b32cd962f66481cd943317fcf1"
+    },
+    {
+      "file": "blog-naczynia-srebro-czy-posrebrzanie.html",
+      "status": "same",
+      "github_bytes": 10181,
+      "jdm_bytes": 10181,
+      "last_modified": null,
+      "github_sha256": "7e1e0cea027499f20bf8ccea67872f478300a02f165c1131ca6baca4e8423006",
+      "jdm_sha256": "7e1e0cea027499f20bf8ccea67872f478300a02f165c1131ca6baca4e8423006"
+    },
+    {
+      "file": "blog-porownanie-wyceny-bizuterii.html",
+      "status": "same",
+      "github_bytes": 9478,
+      "jdm_bytes": 9478,
+      "last_modified": null,
+      "github_sha256": "85a91e0cdd7d9b98560c9fd0e48ba334d37aac53cac684a679a2b08a2dca17d3",
+      "jdm_sha256": "85a91e0cdd7d9b98560c9fd0e48ba334d37aac53cac684a679a2b08a2dca17d3"
+    },
+    {
+      "file": "blog-proba-925-bizuteria.html",
+      "status": "same",
+      "github_bytes": 10198,
+      "jdm_bytes": 10198,
+      "last_modified": null,
+      "github_sha256": "6f781a4807a12c2b86bd158fbf1415973e5cf20222ce40b0d7afdfec692be352",
+      "jdm_sha256": "6f781a4807a12c2b86bd158fbf1415973e5cf20222ce40b0d7afdfec692be352"
+    },
+    {
+      "file": "blog-przygotowanie-srebra-do-wyceny.html",
+      "status": "same",
+      "github_bytes": 10243,
+      "jdm_bytes": 10243,
+      "last_modified": null,
+      "github_sha256": "0a4a627a297261718eda5e6aa0aee1127d9fb004d3abf63f68d3a10d5dd9acd6",
+      "jdm_sha256": "0a4a627a297261718eda5e6aa0aee1127d9fb004d3abf63f68d3a10d5dd9acd6"
+    },
+    {
+      "file": "blog-skup-bizuterii-pojedyncze-przedmioty.html",
+      "status": "same",
+      "github_bytes": 10271,
+      "jdm_bytes": 10271,
+      "last_modified": null,
+      "github_sha256": "cb5cd9c41cba6eafc571b35539d06e088bf2549d0ed2ea0085cd8339f34acb04",
+      "jdm_sha256": "cb5cd9c41cba6eafc571b35539d06e088bf2549d0ed2ea0085cd8339f34acb04"
+    },
+    {
+      "file": "blog-sprzedaz-granulatu-srebrnego.html",
+      "status": "same",
+      "github_bytes": 10123,
+      "jdm_bytes": 10123,
+      "last_modified": null,
+      "github_sha256": "3a1a0081d88584b990e6849892800bb074903578ab5d7b6fdd39d11cf33d958a",
+      "jdm_sha256": "3a1a0081d88584b990e6849892800bb074903578ab5d7b6fdd39d11cf33d958a"
+    },
+    {
+      "file": "blog-srebrne-sztucce-zastawy.html",
+      "status": "same",
+      "github_bytes": 10047,
+      "jdm_bytes": 10047,
+      "last_modified": null,
+      "github_sha256": "ba01ac3f07daa7b1af8c386f49fe860d50ee1b07e092f474b211e40e6e5e8c46",
+      "jdm_sha256": "ba01ac3f07daa7b1af8c386f49fe860d50ee1b07e092f474b211e40e6e5e8c46"
+    },
+    {
+      "file": "blog-wspolna-wycena-srebra.html",
+      "status": "same",
+      "github_bytes": 9654,
+      "jdm_bytes": 9654,
+      "last_modified": null,
+      "github_sha256": "225266496de2363416fa915033425edb9e9288ea3cbb94afc5928bf88b5aca0e",
+      "jdm_sha256": "225266496de2363416fa915033425edb9e9288ea3cbb94afc5928bf88b5aca0e"
+    },
+    {
+      "file": "blog-wycena-starych-sztuccow.html",
+      "status": "same",
+      "github_bytes": 10198,
+      "jdm_bytes": 10198,
+      "last_modified": null,
+      "github_sha256": "cb0166bbcaf8b84b2a2d684371d4f58c686d0d2f764c11441237b3bfaed7ef36",
+      "jdm_sha256": "cb0166bbcaf8b84b2a2d684371d4f58c686d0d2f764c11441237b3bfaed7ef36"
+    },
+    {
+      "file": "blog-wycena-swiecznikow.html",
+      "status": "same",
+      "github_bytes": 9606,
+      "jdm_bytes": 9606,
+      "last_modified": null,
+      "github_sha256": "6895d790f80c417be52f69e63384f87bd5099ebaff38185b48ad5426f7fc86e0",
+      "jdm_sha256": "6895d790f80c417be52f69e63384f87bd5099ebaff38185b48ad5426f7fc86e0"
+    },
+    {
+      "file": "blog-wycena-sztabek-srebra.html",
+      "status": "same",
+      "github_bytes": 10136,
+      "jdm_bytes": 10136,
+      "last_modified": null,
+      "github_sha256": "8cc2d0c5f3dc26c80dd1d6a9771ab8dbcc6583666ba0e001932eb6fb5787b744",
+      "jdm_sha256": "8cc2d0c5f3dc26c80dd1d6a9771ab8dbcc6583666ba0e001932eb6fb5787b744"
+    },
+    {
+      "file": "blog-zatarta-punca-srebra.html",
+      "status": "same",
+      "github_bytes": 9488,
+      "jdm_bytes": 9488,
+      "last_modified": null,
+      "github_sha256": "dabba9464b7a0f836614943834a253cfff20c3cda8bbed310a9151cb50209375",
+      "jdm_sha256": "dabba9464b7a0f836614943834a253cfff20c3cda8bbed310a9151cb50209375"
+    },
+    {
+      "file": "blog-zlom-srebra-bizuteria.html",
+      "status": "same",
+      "github_bytes": 10035,
+      "jdm_bytes": 10035,
+      "last_modified": null,
+      "github_sha256": "140e5594e6eb177443b287b324d6db73ab382790173418141fe74300044f4f3e",
+      "jdm_sha256": "140e5594e6eb177443b287b324d6db73ab382790173418141fe74300044f4f3e"
+    },
+    {
       "file": "blog.html",
-      "status": "different",
-      "github_bytes": 33099,
+      "status": "same",
+      "github_bytes": 22175,
       "jdm_bytes": 22175,
       "last_modified": null,
-      "github_sha256": "74aaf987d9e959e68e5cd2607e1ced532ec4a14a3d86e785480d1f2a2a9fc4df",
-      "jdm_sha256": "de3374788b0b57f83f79595ff898bf4020705723b43cdff9cfd96df941003b06",
-      "same_ignoring_line_endings": false
+      "github_sha256": "de3374788b0b57f83f79595ff898bf4020705723b43cdff9cfd96df941003b06",
+      "jdm_sha256": "de3374788b0b57f83f79595ff898bf4020705723b43cdff9cfd96df941003b06"
     },
     {
       "file": "cennik.html",
-      "status": "different",
-      "github_bytes": 8925,
+      "status": "same",
+      "github_bytes": 8604,
       "jdm_bytes": 8604,
       "last_modified": null,
-      "github_sha256": "c2943f0a94219a4cf4ce52ee6c5d36d5c71a498380b4739615aead2faa327fff",
-      "jdm_sha256": "cee4cd7cabd017dc91b73b4674338b3127ee798f64574ee7c2cd1206b9a374d4",
-      "same_ignoring_line_endings": false
+      "github_sha256": "cee4cd7cabd017dc91b73b4674338b3127ee798f64574ee7c2cd1206b9a374d4",
+      "jdm_sha256": "cee4cd7cabd017dc91b73b4674338b3127ee798f64574ee7c2cd1206b9a374d4"
     },
     {
       "file": "co-kupujemy.html",
-      "status": "different",
-      "github_bytes": 8775,
+      "status": "same",
+      "github_bytes": 9560,
       "jdm_bytes": 9560,
       "last_modified": null,
-      "github_sha256": "e78516b0de3cb96381ca4fc8ccf9a613d6de597f816d3520e6d56b24f9a781e0",
-      "jdm_sha256": "a68e63ed571a9514253d93df8f3df1fb25b0f53c9724b15aa4521461989d3176",
-      "same_ignoring_line_endings": false
+      "github_sha256": "a68e63ed571a9514253d93df8f3df1fb25b0f53c9724b15aa4521461989d3176",
+      "jdm_sha256": "a68e63ed571a9514253d93df8f3df1fb25b0f53c9724b15aa4521461989d3176"
     },
     {
       "file": "faq.html",
-      "status": "different",
-      "github_bytes": 7598,
+      "status": "same",
+      "github_bytes": 7580,
       "jdm_bytes": 7580,
       "last_modified": null,
-      "github_sha256": "550c8cb3f2ad59a178ca87d31ae6da6ec92b18ae5cb493fe87cb6f206f4e1295",
-      "jdm_sha256": "a1f6a4207fac3172f512090d6e864117f85d3096104e082adb6fe8be5f57a71f",
-      "same_ignoring_line_endings": false
+      "github_sha256": "a1f6a4207fac3172f512090d6e864117f85d3096104e082adb6fe8be5f57a71f",
+      "jdm_sha256": "a1f6a4207fac3172f512090d6e864117f85d3096104e082adb6fe8be5f57a71f"
+    },
+    {
+      "file": "favicon.ico",
+      "status": "same",
+      "github_bytes": 1274,
+      "jdm_bytes": 1274,
+      "last_modified": null,
+      "github_sha256": "b518d9f5e1a330651ae082ba4387b1d556af747a15c7f0b6d4695709cd22c047",
+      "jdm_sha256": "b518d9f5e1a330651ae082ba4387b1d556af747a15c7f0b6d4695709cd22c047"
+    },
+    {
+      "file": "favicon.svg",
+      "status": "same",
+      "github_bytes": 453,
+      "jdm_bytes": 453,
+      "last_modified": null,
+      "github_sha256": "4b26db2aa4e5970c1e5860526b285181342647c61b2c8ce0a7d4326d5724d26a",
+      "jdm_sha256": "4b26db2aa4e5970c1e5860526b285181342647c61b2c8ce0a7d4326d5724d26a"
     },
     {
       "file": "index.html",
-      "status": "different",
-      "github_bytes": 6068,
+      "status": "same",
+      "github_bytes": 11651,
       "jdm_bytes": 11651,
       "last_modified": null,
-      "github_sha256": "68ad4ea327eadd9f5805e062928627f66dc46e2e78288cdc8809213fbf439149",
-      "jdm_sha256": "7bc9b1965c552069860639eaab81cc0ec84ecbbaf6167f4c191698725806eaa7",
-      "same_ignoring_line_endings": false
+      "github_sha256": "7bc9b1965c552069860639eaab81cc0ec84ecbbaf6167f4c191698725806eaa7",
+      "jdm_sha256": "7bc9b1965c552069860639eaab81cc0ec84ecbbaf6167f4c191698725806eaa7"
     },
     {
       "file": "kontakt.html",
-      "status": "different",
-      "github_bytes": 8263,
+      "status": "same",
+      "github_bytes": 8073,
       "jdm_bytes": 8073,
       "last_modified": null,
-      "github_sha256": "6d9c2f17b566c96c1286dd5fe90e65689de55fd277c10fd45ec922775f5166e5",
-      "jdm_sha256": "cc25ffb3f3a0a2512ed98bc50071f9c878f8450d126397bce4addb6ee5f9dce3",
-      "same_ignoring_line_endings": false
+      "github_sha256": "cc25ffb3f3a0a2512ed98bc50071f9c878f8450d126397bce4addb6ee5f9dce3",
+      "jdm_sha256": "cc25ffb3f3a0a2512ed98bc50071f9c878f8450d126397bce4addb6ee5f9dce3"
+    },
+    {
+      "file": "polityka-prywatnosci.html",
+      "status": "same",
+      "github_bytes": 11942,
+      "jdm_bytes": 11942,
+      "last_modified": null,
+      "github_sha256": "ab35cc0b3889529dea23f1430ab45e13cb95483cefe0cd03c17f2f6572c217f0",
+      "jdm_sha256": "ab35cc0b3889529dea23f1430ab45e13cb95483cefe0cd03c17f2f6572c217f0"
     },
     {
       "file": "regulamin.html",
-      "status": "different",
-      "github_bytes": 7179,
+      "status": "same",
+      "github_bytes": 7032,
       "jdm_bytes": 7032,
       "last_modified": null,
-      "github_sha256": "3b5740bf37ba0fc53a04f7a4bf664e1e11d89e4c0dfb529c992be3a3c4179431",
-      "jdm_sha256": "fbcf84c42d5dadecf26ff431affbba11151ce78cf0af95461397a4c72620dda6",
-      "same_ignoring_line_endings": false
+      "github_sha256": "fbcf84c42d5dadecf26ff431affbba11151ce78cf0af95461397a4c72620dda6",
+      "jdm_sha256": "fbcf84c42d5dadecf26ff431affbba11151ce78cf0af95461397a4c72620dda6"
+    },
+    {
+      "file": "site-calculator-20261016.js",
+      "status": "same",
+      "github_bytes": 10982,
+      "jdm_bytes": 10982,
+      "last_modified": null,
+      "github_sha256": "421f12a0e5c58678f94bcc619c36067aee22817ef74f9536014a6857acb8a209",
+      "jdm_sha256": "421f12a0e5c58678f94bcc619c36067aee22817ef74f9536014a6857acb8a209"
+    },
+    {
+      "file": "site-charts-20261016.js",
+      "status": "same",
+      "github_bytes": 6594,
+      "jdm_bytes": 6594,
+      "last_modified": null,
+      "github_sha256": "fea9e7a33f4e56160f8ad4ccbe4084ce6b7aef2a602bb2757ca09dfd8a15337f",
+      "jdm_sha256": "fea9e7a33f4e56160f8ad4ccbe4084ce6b7aef2a602bb2757ca09dfd8a15337f"
+    },
+    {
+      "file": "site-prices-20261016.js",
+      "status": "same",
+      "github_bytes": 5604,
+      "jdm_bytes": 5604,
+      "last_modified": null,
+      "github_sha256": "7583f923d2e8f0e8436a55f98b028146e2b27257dd80b900df884eaa946f7031",
+      "jdm_sha256": "7583f923d2e8f0e8436a55f98b028146e2b27257dd80b900df884eaa946f7031"
+    },
+    {
+      "file": "site-runtime-20261016.js",
+      "status": "same",
+      "github_bytes": 2097,
+      "jdm_bytes": 2097,
+      "last_modified": null,
+      "github_sha256": "2c102805b61236277b19047f3c08430ef2b8006f4c38fccfecd19ba51637e8a9",
+      "jdm_sha256": "2c102805b61236277b19047f3c08430ef2b8006f4c38fccfecd19ba51637e8a9"
     },
     {
       "file": "site.css",
@@ -164,13 +634,12 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "different",
-      "github_bytes": 716,
+      "status": "same",
+      "github_bytes": 2254,
       "jdm_bytes": 2254,
       "last_modified": null,
-      "github_sha256": "2285b9a9030e7440c7dbbb024aefc6784239cb43de6e0b081771475624d397a1",
-      "jdm_sha256": "257c79ddd0213a00fea3dd4fd18afa7493c64b9f4304ad7bd01d3a1c9dce0ca3",
-      "same_ignoring_line_endings": false
+      "github_sha256": "257c79ddd0213a00fea3dd4fd18afa7493c64b9f4304ad7bd01d3a1c9dce0ca3",
+      "jdm_sha256": "257c79ddd0213a00fea3dd4fd18afa7493c64b9f4304ad7bd01d3a1c9dce0ca3"
     },
     {
       "file": "studio-contact-20261004-status.js",
@@ -194,23 +663,21 @@
     },
     {
       "file": "studio-contact-smtp-20261007.js",
-      "status": "different",
-      "github_bytes": 3785,
+      "status": "same",
+      "github_bytes": 3767,
       "jdm_bytes": 3767,
       "last_modified": null,
-      "github_sha256": "a55f73a8cd58f9fb896f40ca34c445f7edcd0d39725f2874c69c926455d2a08d",
-      "jdm_sha256": "169db393bf06951d90e847b3305c64eb66d3e7baad83999e47a81d51c36cf0ab",
-      "same_ignoring_line_endings": false
+      "github_sha256": "169db393bf06951d90e847b3305c64eb66d3e7baad83999e47a81d51c36cf0ab",
+      "jdm_sha256": "169db393bf06951d90e847b3305c64eb66d3e7baad83999e47a81d51c36cf0ab"
     },
     {
       "file": "studio-custom.css",
-      "status": "different",
-      "github_bytes": 4075,
+      "status": "same",
+      "github_bytes": 4037,
       "jdm_bytes": 4037,
       "last_modified": null,
-      "github_sha256": "fe64b7db15e3a1bf9eec2246df56189f60578b0d9f8e9ba511918cac1740304b",
-      "jdm_sha256": "a08093f77d9ca27da826cbff6479323d4d2333ed76a13c81d036af6e2878243d",
-      "same_ignoring_line_endings": false
+      "github_sha256": "a08093f77d9ca27da826cbff6479323d4d2333ed76a13c81d036af6e2878243d",
+      "jdm_sha256": "a08093f77d9ca27da826cbff6479323d4d2333ed76a13c81d036af6e2878243d"
     },
     {
       "file": "studio-enhancements-20261004-blog-dates.js",
@@ -241,21 +708,20 @@
     },
     {
       "file": "studio-enhancements-20261004-price-contact.css",
-      "status": "different",
-      "github_bytes": 23070,
+      "status": "same",
+      "github_bytes": 25102,
       "jdm_bytes": 25102,
       "last_modified": null,
-      "github_sha256": "844833bb53c727a34b37c6aabbeb7a925866ac203744f563c1e0645f932c6c9a",
-      "jdm_sha256": "bbc0bc7c99a196557d4eced079d69d14b9daf02f42d0c474f3affacf8baf22c9",
-      "same_ignoring_line_endings": false
+      "github_sha256": "bbc0bc7c99a196557d4eced079d69d14b9daf02f42d0c474f3affacf8baf22c9",
+      "jdm_sha256": "bbc0bc7c99a196557d4eced079d69d14b9daf02f42d0c474f3affacf8baf22c9"
     },
     {
       "file": "studio-enhancements-20261004-price-contact.js",
       "status": "different",
-      "github_bytes": 30466,
+      "github_bytes": 39016,
       "jdm_bytes": 35794,
       "last_modified": null,
-      "github_sha256": "762484a051508080e767c39e5a2a576c88480fe59a644c4b1195250c330e9140",
+      "github_sha256": "b2c57dd5ae7a45178616d17366f22d8bf0d05e6f3a496154ae82312a14848ddb",
       "jdm_sha256": "f134062b98e63f4846b23d1884ddec4596b059dd065a1055ff78e2203d7a04c3",
       "same_ignoring_line_endings": false
     },
@@ -289,10 +755,10 @@
     {
       "file": "studio-live-prices-20261004.js",
       "status": "different",
-      "github_bytes": 10759,
+      "github_bytes": 10276,
       "jdm_bytes": 10679,
       "last_modified": null,
-      "github_sha256": "46efc4940dab978e45503301fd887e6f52f87390ed77309aa399adc7f88d50ea",
+      "github_sha256": "1fa072f892b0faeab2c94671b410378d52b255ba5bdd8bf48fb263565090f679",
       "jdm_sha256": "31f835854ed280bcb3a74de1896f88e1905b979d496b149c562dd0b90916c6ea",
       "same_ignoring_line_endings": false
     },
@@ -317,10 +783,10 @@
     {
       "file": "studio-pages-20261004.js",
       "status": "different",
-      "github_bytes": 6916,
+      "github_bytes": 7515,
       "jdm_bytes": 7341,
       "last_modified": null,
-      "github_sha256": "73db5c96c49124a02b0c9667d12fa88fb90787ed746177dea675f4c152e0d8d7",
+      "github_sha256": "a617d419a141eed122bee2450d01b1f48cdb15fe946ade9015e4002f4fdecc0e",
       "jdm_sha256": "e8a6103a2bc644f7a1e699a0a20519f4489194e210d8ff5281ea934d9273b720",
       "same_ignoring_line_endings": false
     },
@@ -335,43 +801,40 @@
     },
     {
       "file": "studio-quick-20261004.js",
-      "status": "different",
-      "github_bytes": 3996,
+      "status": "same",
+      "github_bytes": 3994,
       "jdm_bytes": 3994,
       "last_modified": null,
-      "github_sha256": "f3255627455acebc209a6a6b0b1323dec3c220e9fd1dc1ad3197cd75e90b48a5",
-      "jdm_sha256": "66c09eb3595c2e80fac8ca96c3130ad5765d3ed2a292372d0504bc9144092f86",
-      "same_ignoring_line_endings": false
+      "github_sha256": "66c09eb3595c2e80fac8ca96c3130ad5765d3ed2a292372d0504bc9144092f86",
+      "jdm_sha256": "66c09eb3595c2e80fac8ca96c3130ad5765d3ed2a292372d0504bc9144092f86"
     },
     {
       "file": "studio-silver.css",
-      "status": "different",
-      "github_bytes": 4230,
+      "status": "same",
+      "github_bytes": 4162,
       "jdm_bytes": 4162,
       "last_modified": null,
-      "github_sha256": "31bd10d945f1e21c74bfbaa925804bd1779060574c64f6b5925b98642e497ee5",
-      "jdm_sha256": "821bafa3041236ad0cecdd6b25320c5e70909bf0625e05974c3339713894fe8d",
-      "same_ignoring_line_endings": false
+      "github_sha256": "821bafa3041236ad0cecdd6b25320c5e70909bf0625e05974c3339713894fe8d",
+      "jdm_sha256": "821bafa3041236ad0cecdd6b25320c5e70909bf0625e05974c3339713894fe8d"
     },
     {
       "file": "studio-site.js",
       "status": "different",
-      "github_bytes": 27908,
+      "github_bytes": 27471,
       "jdm_bytes": 27893,
       "last_modified": null,
-      "github_sha256": "9dda6e0c354dd4ddd1ad2b7c9f36e8a0ac9a37b8ec0b63a9acbd27bcb4201205",
+      "github_sha256": "2afd085094e7b5d68277d46c905e4451472b6e867883811ab675a512b8467625",
       "jdm_sha256": "c152b56b3f2534433fd0cc31c7ee7d0bef1e451b7ee33b2f5844a357d6389187",
       "same_ignoring_line_endings": false
     },
     {
       "file": "studio.css",
-      "status": "different",
-      "github_bytes": 6666,
+      "status": "same",
+      "github_bytes": 6610,
       "jdm_bytes": 6610,
       "last_modified": null,
-      "github_sha256": "199c96c4cadd60fd96d8d2ad8773ef6df8c562c89ba336cdb9ba7036ae925cc3",
-      "jdm_sha256": "7084be7f617562d14df2725afa0da0ee908d0b91ab172d24dddefbec51ac4735",
-      "same_ignoring_line_endings": false
+      "github_sha256": "7084be7f617562d14df2725afa0da0ee908d0b91ab172d24dddefbec51ac4735",
+      "jdm_sha256": "7084be7f617562d14df2725afa0da0ee908d0b91ab172d24dddefbec51ac4735"
     },
     {
       "file": "studio.js",
@@ -384,23 +847,21 @@
     },
     {
       "file": "wycena.html",
-      "status": "different",
-      "github_bytes": 9529,
+      "status": "same",
+      "github_bytes": 9492,
       "jdm_bytes": 9492,
       "last_modified": null,
-      "github_sha256": "ded23e32c2d21fa75aa414740680301f08dca55171c6f935042376294616f15a",
-      "jdm_sha256": "de00030480e2cc44f7a669de1a892bbbd509ed4bb436e59d0433a9a68abb5519",
-      "same_ignoring_line_endings": false
+      "github_sha256": "de00030480e2cc44f7a669de1a892bbbd509ed4bb436e59d0433a9a68abb5519",
+      "jdm_sha256": "de00030480e2cc44f7a669de1a892bbbd509ed4bb436e59d0433a9a68abb5519"
     },
     {
       "file": "wykres.html",
-      "status": "different",
-      "github_bytes": 12259,
+      "status": "same",
+      "github_bytes": 12158,
       "jdm_bytes": 12158,
       "last_modified": null,
-      "github_sha256": "38f3a0881ffc7a9303d4fbe3189cae5446fa5e826e15cb6d65a4f176604bc27f",
-      "jdm_sha256": "8a42fc65a79d43fc5ba15158d7de208414a0d7d3e0aa8cfce48f6454a0284414",
-      "same_ignoring_line_endings": false
+      "github_sha256": "8a42fc65a79d43fc5ba15158d7de208414a0d7d3e0aa8cfce48f6454a0284414",
+      "jdm_sha256": "8a42fc65a79d43fc5ba15158d7de208414a0d7d3e0aa8cfce48f6454a0284414"
     }
   ]
 }
