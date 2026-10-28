@@ -20,3 +20,15 @@ Ostatnia zmiana lokalna: podsumowanie wyceny jest opisane jako orientacyjne, bez
 Google Search Console: własność prefiksu https://www.skupsrebragorzow.pl/ została potwierdzona. Użytkownik zgłosił główną do indeksowania i sitemap.xml. W chwili zapisu raport mapy nadal wskazywał błąd pobrania, mimo poprawnego XML, odpowiedzi 200 i pozytywnego testu dostępu Google. Nie prezentuj indeksacji ani odczytu mapy jako potwierdzonych.
 
 Sprawdzenie kodu: node scripts/verify.mjs (odpowiednik npm test). Testy lokalne objęły dziewięć adresów, widoczną treść bez JavaScript, mobilne linki i historię, zachowanie koszyka oraz zerowanie. Nie zmieniaj działającej poczty przy poprawkach wyglądu.
+
+## Publikacja przez GitHub Actions
+
+Workflow **JDM — compare or deploy** (`.github/workflows/jdm.yml`) uruchamia się ręcznie z zakładki Actions, wyłącznie dla `main`. Wymaga sekretu repozytorium `JDM_SSH_PASSWORD`. Parametry: `web15.jdm.pl`, port SSH `2233`, użytkownik `smxkojwd`, katalog `/home/smxkojwd/public_html/`.
+
+Najpierw wybierz `compare` (domyślnie): rsync porówna sumy kontrolne plików z `deployment/jdm-public/` i wypisze pliki, które zostałyby przesłane. Nie zmienia zawartości serwera, nie pobiera sekretów i nie wyświetla treści PHP. Brak wpisów rsync oznacza zgodność porównywanych plików. Dodatkowe pliki istniejące tylko na serwerze nie są wykazywane ani usuwane.
+
+Po sprawdzeniu różnic wybierz `deploy`, aby przesłać nowe i zmienione pliki. Publikacja nie używa `--delete`, wyklucza `private-config` na każdej głębokości, pliki `.env`, `.git` i historyczne główne `studio.html`. Nie nadpisuje uprawnień plików serwera. Wymaga rsync po stronie JDM; błąd jego braku wymaga diagnozy, nie zmiany protokołu w ciemno.
+
+SSH ufa kluczowi hosta przy pierwszym połączeniu (`accept-new`); późniejsza zmiana klucza w tym samym środowisku kończy połączenie błędem. Każdy nowy runner GitHub zaczyna bez zapamiętanego klucza; docelowo można przypiąć klucz zweryfikowany u JDM w `known_hosts`.
+
+Automatyczna publikacja po `push` nie jest jeszcze włączona: najpierw trzeba wykonać porównanie i sprawdzić pierwszą publikację. Przesłanie plików nie potwierdza działania poczty, cen ani formularza; te wymagają osobnej kontroli po publikacji.

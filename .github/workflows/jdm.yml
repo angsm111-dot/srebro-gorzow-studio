@@ -1,0 +1,37 @@
+name: JDM — compare or deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'compare = only list differences; deploy = upload changed files'
+        type: choice
+        options:
+          - compare
+          - deploy
+        default: compare
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: jdm-production
+  cancel-in-progress: false
+
+jobs:
+  jdm:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Validate repository
+        run: npm test
+      - name: Install transfer tools
+        run: sudo apt-get update && sudo apt-get install --yes --no-install-recommends sshpass rsync
+      - name: Compare or publish production files
+        env:
+          SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
+          JDM_MODE: ${{ inputs.mode }}
+        run: bash scripts/jdm-sync.sh
