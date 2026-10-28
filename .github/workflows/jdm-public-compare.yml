@@ -5,6 +5,7 @@ on:
     paths:
       - deployment/jdm-public/**
       - scripts/compare-jdm-public.py
+      - scripts/audit-indexing-access.py
       - .github/workflows/jdm-public-compare.yml
   workflow_dispatch:
 permissions:
@@ -46,6 +47,14 @@ jobs:
           if [[ $transfer_status -ne 0 && $transfer_status -ne 23 ]]; then
             exit "$transfer_status"
           fi
+      - name: Read public robots.txt if present on origin
+        env:
+          SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
+        run: |
+          export RSYNC_RSH='sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20'
+          rsync --ignore-missing-args 'smxkojwd@web15.jdm.pl:/home/smxkojwd/public_html/robots.txt' /tmp/jdm-snapshot/
+      - name: Check HTTP indexing access
+        run: python3 scripts/audit-indexing-access.py
       - name: Compare downloaded files without changing JDM
         env:
           JDM_SNAPSHOT_DIR: /tmp/jdm-snapshot
@@ -63,7 +72,8 @@ jobs:
           cp /tmp/jdm-comparison.diff comparison.diff
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add comparison.json comparison.diff
+          cp /tmp/jdm-access-audit.json access-audit.json
+          git add comparison.json comparison.diff access-audit.json
           if ! git diff --cached --quiet; then
             git commit -m 'Report public JDM comparison'
             git push origin HEAD:jdm-public-comparison
