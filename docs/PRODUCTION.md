@@ -21,14 +21,14 @@ Google Search Console: własność prefiksu https://www.skupsrebragorzow.pl/ zos
 
 Sprawdzenie kodu: node scripts/verify.mjs (odpowiednik npm test). Testy lokalne objęły dziewięć adresów, widoczną treść bez JavaScript, mobilne linki i historię, zachowanie koszyka oraz zerowanie. Nie zmieniaj działającej poczty przy poprawkach wyglądu.
 
-## Publikacja przez GitHub Actions
+## Automatyczna publikacja GitHub → JDM
 
-Workflow **JDM — compare or deploy** (`.github/workflows/jdm.yml`) uruchamia się ręcznie z zakładki Actions, wyłącznie dla `main`. Wymaga sekretu repozytorium `JDM_SSH_PASSWORD`. Parametry: `web15.jdm.pl`, port SSH `2233`, użytkownik `smxkojwd`, katalog `/home/smxkojwd/public_html/`.
+Push na `main`, który zmienia `deployment/jdm-public/`, uruchamia workflow **JDM — compare or deploy**. Aktualizacja konfiguracji publikacji też uruchamia wdrożenie. Ręczne `workflow_dispatch` nadal pozwala wybrać `compare` (bez zapisów) lub `deploy`. Wymagany sekret: `JDM_SSH_PASSWORD`.
 
-Najpierw wybierz `compare` (domyślnie): rsync porówna sumy kontrolne plików z `deployment/jdm-public/` i wypisze pliki, które zostałyby przesłane. Nie zmienia zawartości serwera, nie pobiera sekretów i nie wyświetla treści PHP. Brak wpisów rsync oznacza zgodność porównywanych plików. Dodatkowe pliki istniejące tylko na serwerze nie są wykazywane ani usuwane.
+Przed publikacją wykonywane są `npm test` oraz `python3 scripts/verify-production.py`: mapa strony, istnienie podstron, jedno H1 i lokalne linki/zasoby. Wysyłka przez SSH na `web15.jdm.pl:2233`, użytkownik `smxkojwd`, katalog `/home/smxkojwd/public_html/`. Zasoby idą przed HTML, a sitemap na końcu. Po publikacji rsync ponownie porównuje sumy kontrolne; niezgodność kończy zadanie błędem.
 
-Po sprawdzeniu różnic wybierz `deploy`, aby przesłać nowe i zmienione pliki. Publikacja nie używa `--delete`, wyklucza `private-config` na każdej głębokości, pliki `.env`, `.git` i historyczne główne `studio.html`. Nie nadpisuje uprawnień plików serwera. Wymaga rsync po stronie JDM; błąd jego braku wymaga diagnozy, nie zmiany protokołu w ciemno.
+Nie kasuje się dodatkowych plików serwera ani nie zmienia ich uprawnień. Wykluczone: `private-config`, `.env*`, `.git`, PHP, `vendor`, pliki weryfikacyjne Google, historyczny `studio.html` i sześć dawnych skryptów różniących się od JDM, których aktualna strona nie ładuje. Dzięki temu publikowanie artykułów nie nadpisuje backendu cen, SMTP ani konfiguracji serwera. Zmiany PHP wymagają osobnego zadania i świadomej publikacji.
 
-SSH ufa kluczowi hosta przy pierwszym połączeniu (`accept-new`); późniejsza zmiana klucza w tym samym środowisku kończy połączenie błędem. Każdy nowy runner GitHub zaczyna bez zapamiętanego klucza; docelowo można przypiąć klucz zweryfikowany u JDM w `known_hosts`.
+SSH stosuje `StrictHostKeyChecking=accept-new`: pierwszy klucz jest przyjmowany, zmiana zapamiętanego klucza odrzucana. Każdy nowy runner zaczyna bez klucza; możliwe przyszłe przypięcie zweryfikowanego klucza JDM. Wynik bieżącego wdrożenia jest zapisywany w `deployment.json` na osobnej gałęzi `jdm-deployment-status`; porównanie publicznych zasobów ma osobną gałąź `jdm-public-comparison`. Raport zawsze należy powiązać z SHA wdrażanej wersji.
 
-Automatyczna publikacja po `push` nie jest jeszcze włączona: najpierw trzeba wykonać porównanie i sprawdzić pierwszą publikację. Przesłanie plików nie potwierdza działania poczty, cen ani formularza; te wymagają osobnej kontroli po publikacji.
+Dodając artykuł: przygotuj jego HTML w `deployment/jdm-public/`, link na `blog.html` i wpis w `sitemap.xml`; sprawdź zasoby i publikuj commit na `main`. Nie odtwarzaj dawnych generatorów ukrytych sekcji. Po push sprawdź wynik Actions i dostępność adresu. Sukces sum kontrolnych potwierdza zapis plików, nie dostarczenie wiadomości, pobranie cen ani indeksację Google. W przypadku awarii nie zgłaszaj sukcesu publikacji.

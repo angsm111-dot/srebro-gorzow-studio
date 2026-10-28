@@ -1,6 +1,13 @@
 name: JDM — compare or deploy
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - deployment/jdm-public/**
+      - .github/workflows/jdm.yml
+      - scripts/jdm-sync.sh
+      - scripts/verify-production.py
   workflow_dispatch:
     inputs:
       mode:
@@ -13,7 +20,7 @@ on:
         required: true
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: jdm-production
@@ -27,11 +34,40 @@ jobs:
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Validate repository
-        run: npm test
+        run: |
+          npm test
+          python3 scripts/verify-production.py
       - name: Install transfer tools
         run: sudo apt-get update && sudo apt-get install --yes --no-install-recommends sshpass rsync
       - name: Compare or publish production files
         env:
           SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
-          JDM_MODE: ${{ inputs.mode }}
+          JDM_MODE: ${{ github.event_name == 'push' && 'deploy' || inputs.mode }}
         run: bash scripts/jdm-sync.sh
+      - name: Record deployment result
+        if: always()
+        env:
+          DEPLOYMENT_RESULT: ${{ job.status }}
+          DEPLOYMENT_MODE: ${{ github.event_name == 'push' && 'deploy' || inputs.mode }}
+        run: |
+          python3 - <<'PYTHON'
+          import json, os
+          from pathlib import Path
+          Path('/tmp/jdm-deployment.json').write_text(json.dumps({
+              'commit': os.environ['GITHUB_SHA'],
+              'mode': os.environ['DEPLOYMENT_MODE'],
+              'result': os.environ['DEPLOYMENT_RESULT'],
+              'run_url': os.environ['GITHUB_SERVER_URL'] + '/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/' + os.environ['GITHUB_RUN_ID']
+          }, indent=2))
+          PYTHON
+          if git fetch origin jdm-deployment-status; then
+            git switch --create jdm-deployment-status FETCH_HEAD
+          else
+            git switch --orphan jdm-deployment-status
+          fi
+          cp /tmp/jdm-deployment.json deployment.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add deployment.json
+          git diff --cached --quiet || git commit -m 'Record JDM deployment result'
+          git push origin HEAD:jdm-deployment-status

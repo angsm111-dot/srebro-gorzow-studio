@@ -22,12 +22,26 @@ chmod 700 "$HOME/.ssh"
 export RSYNC_RSH='sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 -o ServerAliveInterval=15 -o NumberOfPasswordPrompts=1'
 # No --delete: files present only on JDM are retained. Checksum comparison ignores timestamps.
 # Do not preserve local file permissions; keep server permissions/defaults.
-rsync --recursive --checksum --itemize-changes --human-readable \
-  "${options[@]}" \
-  --exclude='private-config/' \
-  --exclude='.env' --exclude='.env.*' --exclude='.git/' \
-  --exclude='/studio.html' \
-  "$source_dir" 'smxkojwd@web15.jdm.pl:/home/smxkojwd/public_html/'
+common=(--recursive --checksum --itemize-changes --human-readable
+  --exclude='private-config/' --exclude='.env' --exclude='.env.*' --exclude='.git/'
+  --exclude='*.php' --exclude='/vendor/' --exclude='/google*.html' --exclude='/studio.html'
+  --exclude='/studio-contact-20261004-status.js' --exclude='/studio-contact-20261004.js'
+  --exclude='/studio-enhancements-20261004-price-contact.js' --exclude='/studio-live-prices-20261004.js'
+  --exclude='/studio-pages-20261004.js' --exclude='/studio-site.js')
+remote='smxkojwd@web15.jdm.pl:/home/smxkojwd/public_html/'
+# Publish resources first, then HTML, and the sitemap last.
+rsync "${common[@]}" "${options[@]}" --exclude='*.html' --exclude='/sitemap.xml' "$source_dir" "$remote"
+rsync "${common[@]}" "${options[@]}" --include='*/' --include='*.html' --exclude='*' "$source_dir" "$remote"
+rsync "${common[@]}" "${options[@]}" "${source_dir}sitemap.xml" "$remote"
+if [[ "$mode" == deploy ]]; then
+  changes=$(rsync "${common[@]}" --dry-run "$source_dir" "$remote")
+  if [[ -n "$changes" ]]; then
+    printf '%s\n' "$changes"
+    echo 'Post-upload checksum verification found differences.' >&2
+    exit 1
+  fi
+  echo 'Post-upload checksum verification passed.'
+fi
 if [[ "$mode" == compare ]]; then
   echo 'Comparison complete. No server files were changed. Listed files would be uploaded by deploy.'
 else
