@@ -1,4 +1,17 @@
+Web-server tools:
+Process names:
+Error, do this: mount -t proc proc /proc
+Root .htaccess absent
+Rewrite probe: {'status': 403, 'location': None, 'server': 'cloudflare', 'content_type': 'text/plain; charset=UTF-8', 'body': 'error code: 1010\n'}
 Traceback (most recent call last):
-  File "<stdin>", line 8, in <module>
+  File "<stdin>", line 9, in <module>
 AssertionError: Per-directory rewrite is not supported or cannot be verified
+Canonical variant: {'url': 'http://skupsrebragorzow.pl/', 'status': 403, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'http://skupsrebragorzow.pl/blog.html', 'status': 403, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'https://skupsrebragorzow.pl/', 'status': 403, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'https://skupsrebragorzow.pl/blog.html', 'status': 403, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'http://www.skupsrebragorzow.pl/', 'status': 403, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'http://www.skupsrebragorzow.pl/blog.html', 'status': 403, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'https://www.skupsrebragorzow.pl/', 'status': 403, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'https://www.skupsrebragorzow.pl/blog.html', 'status': 403, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
 Canonical redirects not installed: hosting did not pass .htaccess capability test. Existing configuration unchanged.
