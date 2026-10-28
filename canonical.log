@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+AssertionError: Per-directory rewrite is not supported or cannot be verified
+Canonical redirects not installed: hosting did not pass .htaccess capability test. Existing configuration unchanged.
