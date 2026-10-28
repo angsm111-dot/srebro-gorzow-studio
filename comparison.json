@@ -1,5 +1,5 @@
 {
-  "baseline_commit": "50196f6d464ea6790143a7b248d7d4bfa2232061",
+  "baseline_commit": "3f261a92e40800f2363126d1dee9bf44cc34f52f",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
@@ -508,13 +508,12 @@
     },
     {
       "file": "blog.html",
-      "status": "different",
+      "status": "same",
       "github_bytes": 23157,
-      "jdm_bytes": 22175,
+      "jdm_bytes": 23157,
       "last_modified": null,
       "github_sha256": "2531602c3471bc8ffc13e57ae73de511edab8ff389d482e5c4d6d8ade1d1ba21",
-      "jdm_sha256": "de3374788b0b57f83f79595ff898bf4020705723b43cdff9cfd96df941003b06",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "2531602c3471bc8ffc13e57ae73de511edab8ff389d482e5c4d6d8ade1d1ba21"
     },
     {
       "file": "cennik.html",
@@ -644,13 +643,12 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "different",
+      "status": "same",
       "github_bytes": 2384,
-      "jdm_bytes": 2254,
+      "jdm_bytes": 2384,
       "last_modified": null,
       "github_sha256": "1cef85c32a5958363895cf6dde7744ded1aa68e5aea1a7d9b4a2d7d430d3b5a7",
-      "jdm_sha256": "257c79ddd0213a00fea3dd4fd18afa7493c64b9f4304ad7bd01d3a1c9dce0ca3",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "1cef85c32a5958363895cf6dde7744ded1aa68e5aea1a7d9b4a2d7d430d3b5a7"
     },
     {
       "file": "studio-contact-20261004-status.js",

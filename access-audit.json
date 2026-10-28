@@ -1,0 +1,276 @@
+{
+  "requests": [
+    {
+      "url": "https://www.skupsrebragorzow.pl/",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/co-kupujemy.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/co-kupujemy.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/wycena.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/wycena.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/cennik.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/cennik.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/wykres.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/wykres.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/faq.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/faq.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/kontakt.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/kontakt.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/regulamin.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/regulamin.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-przygotowanie-srebra-do-wyceny.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-przygotowanie-srebra-do-wyceny.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-proba-925-bizuteria.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-proba-925-bizuteria.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-monety-srebrne-wartosc.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-monety-srebrne-wartosc.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-wycena-sztabek-srebra.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-wycena-sztabek-srebra.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-srebrne-sztucce-zastawy.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-srebrne-sztucce-zastawy.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-zlom-srebra-bizuteria.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-zlom-srebra-bizuteria.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-granulat-srebrny.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-granulat-srebrny.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-aktualny-cennik-skupu-srebra.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-aktualny-cennik-skupu-srebra.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-wycena-starych-sztuccow.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-wycena-starych-sztuccow.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-sprzedaz-granulatu-srebrnego.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-sprzedaz-granulatu-srebrnego.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-naczynia-srebro-czy-posrebrzanie.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-naczynia-srebro-czy-posrebrzanie.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-skup-bizuterii-pojedyncze-przedmioty.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-skup-bizuterii-pojedyncze-przedmioty.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-porownanie-wyceny-bizuterii.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-porownanie-wyceny-bizuterii.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-zatarta-punca-srebra.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-zatarta-punca-srebra.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-wycena-swiecznikow.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-wycena-swiecznikow.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-wspolna-wycena-srebra.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-wspolna-wycena-srebra.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/polityka-prywatnosci.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/polityka-prywatnosci.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/robots.txt",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/robots.txt",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "robots": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a content-signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a content-signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a content signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via content signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n"
+    },
+    {
+      "url": "http://skupsrebragorzow.pl/",
+      "status": 200,
+      "final_url": "http://skupsrebragorzow.pl/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://skupsrebragorzow.pl/",
+      "status": 200,
+      "final_url": "https://skupsrebragorzow.pl/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    }
+  ],
+  "origin_robots": null
+}
