@@ -1,6 +1,6 @@
 {
-  "commit": "795a328683129483e96d4643bf5e9d4d06ddc7f6",
+  "commit": "50196f6d464ea6790143a7b248d7d4bfa2232061",
   "mode": "deploy",
-  "result": "success",
-  "run_url": "https://github.com/angsm111-dot/srebro-gorzow-studio/actions/runs/40752932017"
+  "result": "failure",
+  "run_url": "https://github.com/angsm111-dot/srebro-gorzow-studio/actions/runs/40753927883"
 }
