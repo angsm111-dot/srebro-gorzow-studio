@@ -22,7 +22,9 @@ chmod 700 "$HOME/.ssh"
 export RSYNC_RSH='sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 -o ServerAliveInterval=15 -o NumberOfPasswordPrompts=1'
 # No --delete: files present only on JDM are retained. Checksum comparison ignores timestamps.
 # Do not preserve local file permissions; keep server permissions/defaults.
-common=(--recursive --checksum --itemize-changes --human-readable
+# Use the same broadly supported digest on both rsync versions; SSH protects transport.
+# Keep rsync file verification enabled.
+common=(--recursive --checksum --checksum-choice=md5 --itemize-changes --human-readable
   --exclude='private-config/' --exclude='.env' --exclude='.env.*' --exclude='.git/'
   --exclude='*.php' --exclude='/vendor/' --exclude='/google*.html' --exclude='/studio.html'
   --exclude='/studio-contact-20261004-status.js' --exclude='/studio-contact-20261004.js'
