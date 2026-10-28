@@ -24,3 +24,11 @@ Zalecenie: zastąpić wspólne akapity konkretnymi informacjami dla danego pytan
 Status „wykryta — obecnie niezindeksowana” oznacza, że Google zna adres, ale nie ma w raporcie jego skanowania. Nie można na tej podstawie potwierdzić, że Google ocenił treść jako niskiej jakości. Bez danych Search Console i zweryfikowanych logów Googlebota nie da się ustalić dokładnej przyczyny ani terminu indeksacji.
 
 Priorytety: poprawa oryginalnej wartości starszych artykułów; konsolidacja wariantów domeny i protokołu; obserwacja daty skanowania i statystyk indeksowania w GSC. Nie powtarzać bez końca próśb o indeksowanie. Nie obiecywać indeksacji po zmianach ani utożsamiać sukcesu live testu z obecnością w indeksie.
+
+## Dalsza weryfikacja przekierowań — 28.10.2026
+
+Weryfikacja dla wersji 67e4daf: klient domyślny Python urllib otrzymał od Cloudflare 403, body `error code: 1010`. Po oznaczeniu audytora jako `SrebroGorzow-SiteAudit/1.0` kontrolne żądania otrzymały 200. Zatem sam pierwszy błąd testu nie potwierdzał braku obsługi .htaccess.
+
+Następny test odczytał dokładnie treść `probe` z nowego pliku testowego: 200, bez Location, zamiast skonfigurowanego w sąsiednim .htaccess 302. Reguła per-directory nie zadziałała. Na originie nie było głównego .htaccess. Katalog testowy usunięto, nie utworzono globalnego pliku reguł. Warianty HTTP/HTTPS z www i bez www dla `/` oraz `/blog.html` (8 żądań bez podążania za przekierowaniem, z unikalnym query) wszystkie zwróciły 200 i brak Location. Brak normalizacji adresów jest potwierdzony, ale nie dowodzi przyczyny statusu GSC.
+
+Docelowe rozwiązanie w panelu Cloudflare lub JDM: przekierowanie 301/308 dla obu hostów z warunkiem `(host != www.skupsrebragorzow.pl) OR (scheme != https)` do `https://www.skupsrebragorzow.pl` z zachowaniem ścieżki i parametrów. Nie stosować przekierowania całej domeny na samą stronę główną. Zweryfikować `/`, `/blog.html`, artykuł i parametry query; docelowe HTTPS/www ma zwracać 200 bez pętli. Zmiana samego Always Use HTTPS nie rozwiązuje wariantu bez www. Do zarządzania regułą potrzebne jest udostępnione narzędzie administracyjne/API lub ustawienie w panelu przez użytkownika; obecna sesja go nie ma.
