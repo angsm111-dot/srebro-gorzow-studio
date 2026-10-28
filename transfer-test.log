@@ -1,0 +1,7 @@
+Warning: Permanently added '[web15.jdm.pl]:2233' (ED25519) to the list of known hosts.
+rsync  version 3.2.7  protocol version 31
+rsync  version 3.2.7  protocol version 32
+ERROR: fixture.html failed verification -- update discarded.
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1356) [sender=3.2.7]
+Delta update exit status: 23
+Whole-file update verified independently by SHA-256.
