@@ -6,6 +6,9 @@ ssh_command=(sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o Conne
 probe="jdm-rewrite-probe-${GITHUB_RUN_ID:-test}-${GITHUB_RUN_ATTEMPT:-1}"
 [[ "$probe" =~ ^jdm-rewrite-probe-[a-zA-Z0-9-]+$ ]] || exit 1
 public=/home/smxkojwd/public_html
+# Names only: never inspect process arguments, credentials or environment.
+"${ssh_command[@]}" 'printf "Web-server tools:\n"; for tool in nginx apache2 httpd unitd caddy; do command -v "$tool" || true; done; printf "Process names:\n"; ps -eo comm | sort -u; if test -f /home/smxkojwd/public_html/.htaccess; then echo "Root .htaccess exists"; else echo "Root .htaccess absent"; fi'
+
 cleanup() { "${ssh_command[@]}" "rm -rf -- '$public/$probe'" || true; }
 trap cleanup EXIT
 "${ssh_command[@]}" "mkdir -p '$public/$probe'; printf 'probe' > '$public/$probe/probe.txt'; cat > '$public/$probe/.htaccess'" <<'RULES'
@@ -21,9 +24,24 @@ try:
     response = urllib.request.build_opener(NoRedirect).open('https://www.skupsrebragorzow.pl/'+os.environ['JDM_PROBE']+'/probe.txt', timeout=25)
 except urllib.error.HTTPError as error:
     response = error
+print('Rewrite probe:', {'status': response.code, 'location': response.headers.get('Location'), 'server': response.headers.get('Server'), 'content_type': response.headers.get('Content-Type'), 'body': response.read(100).decode('utf-8', errors='replace')})
 assert response.code == 302 and response.headers.get('Location') == 'https://www.skupsrebragorzow.pl/?jdm-rewrite-supported=1', 'Per-directory rewrite is not supported or cannot be verified'
 PY
 if [[ "$probe_status" != 0 ]]; then
+  python3 - <<'PY'
+import urllib.request, urllib.error, time
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs): return None
+opener=urllib.request.build_opener(NoRedirect)
+for base in ['http://skupsrebragorzow.pl', 'https://skupsrebragorzow.pl', 'http://www.skupsrebragorzow.pl', 'https://www.skupsrebragorzow.pl']:
+    for path in ['/', '/blog.html']:
+        url=base+path+'?canonical-diagnostic='+str(time.time_ns())
+        try:
+            try: response=opener.open(url,timeout=20)
+            except urllib.error.HTTPError as error: response=error
+            print('Canonical variant:', {'url':base+path,'status':response.code,'location':response.headers.get('Location'),'server':response.headers.get('Server'),'cf_mitigated':response.headers.get('CF-Mitigated')})
+        except Exception as error: print('Canonical variant failed:',base+path,str(error))
+PY
   echo 'Canonical redirects not installed: hosting did not pass .htaccess capability test. Existing configuration unchanged.'
   exit 0
 fi
