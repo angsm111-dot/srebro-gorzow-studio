@@ -43,7 +43,9 @@ jobs:
         env:
           SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
           JDM_MODE: ${{ github.event_name == 'push' && 'deploy' || inputs.mode }}
-        run: bash scripts/jdm-sync.sh
+        run: |
+          set -o pipefail
+          bash scripts/jdm-sync.sh 2>&1 | tee /tmp/jdm-deployment.log
       - name: Record deployment result
         if: always()
         env:
@@ -66,8 +68,9 @@ jobs:
             git switch --orphan jdm-deployment-status
           fi
           cp /tmp/jdm-deployment.json deployment.json
+          if test -f /tmp/jdm-deployment.log; then cp /tmp/jdm-deployment.log deployment.log; else echo "Transfer step did not execute." > deployment.log; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add deployment.json
+          git add deployment.json deployment.log
           git diff --cached --quiet || git commit -m 'Record JDM deployment result'
           git push origin HEAD:jdm-deployment-status
