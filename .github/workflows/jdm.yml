@@ -7,6 +7,7 @@ on:
       - deployment/jdm-public/**
       - .github/workflows/jdm.yml
       - scripts/jdm-sync.sh
+      - scripts/test-jdm-transfer.sh
       - scripts/verify-production.py
   workflow_dispatch:
     inputs:
@@ -39,6 +40,13 @@ jobs:
           python3 scripts/verify-production.py
       - name: Install transfer tools
         run: sudo apt-get update && sudo apt-get install --yes --no-install-recommends sshpass rsync
+      - name: Test real file update outside the public website
+        if: github.event_name == 'push' || inputs.mode == 'deploy'
+        env:
+          SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
+        run: |
+          set -o pipefail
+          bash scripts/test-jdm-transfer.sh 2>&1 | tee /tmp/jdm-transfer-test.log
       - name: Compare or publish production files
         env:
           SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
@@ -71,6 +79,7 @@ jobs:
           if test -f /tmp/jdm-deployment.log; then cp /tmp/jdm-deployment.log deployment.log; else echo "Transfer step did not execute." > deployment.log; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if test -f /tmp/jdm-transfer-test.log; then cp /tmp/jdm-transfer-test.log transfer-test.log; git add transfer-test.log; fi
           git add deployment.json deployment.log
           git diff --cached --quiet || git commit -m 'Record JDM deployment result'
           git push origin HEAD:jdm-deployment-status
