@@ -1,216 +1,406 @@
 {
-  "baseline_commit": "ec99b33a8c95b1b829798e3766ddb6d5610122b1",
+  "baseline_commit": "92cf020037b2a8a125db85dc2d6e794ee11bf72e",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
       "file": "assets/offer-bars-v1.png",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 2500614,
+      "jdm_bytes": 2500614,
+      "last_modified": null,
+      "github_sha256": "dcaa7473eafbf3b02273bac2857390d88b93f4e9bb8e4f7339cfcf3fc7f40563",
+      "jdm_sha256": "dcaa7473eafbf3b02273bac2857390d88b93f4e9bb8e4f7339cfcf3fc7f40563"
     },
     {
       "file": "assets/offer-bars-v2.png",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 2577626,
+      "jdm_bytes": 2577626,
+      "last_modified": null,
+      "github_sha256": "46bb96624e88077eca998ff1eda3a180ce6199207640c1c276e51f22474ca891",
+      "jdm_sha256": "46bb96624e88077eca998ff1eda3a180ce6199207640c1c276e51f22474ca891"
     },
     {
       "file": "assets/offer-coins-v1.png",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 3161171,
+      "jdm_bytes": 3161171,
+      "last_modified": null,
+      "github_sha256": "fb29a645cb92ed32ec5865105d52b634ad024e8e7139a8d3a3d8f2e54fb0b88f",
+      "jdm_sha256": "fb29a645cb92ed32ec5865105d52b634ad024e8e7139a8d3a3d8f2e54fb0b88f"
     },
     {
       "file": "assets/offer-granulate-v2.png",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 2679833,
+      "jdm_bytes": 2679833,
+      "last_modified": null,
+      "github_sha256": "afd785d5947ecad503852a3028d26db9e4f118d0bc21e9d74f4cfa30b9f99d8a",
+      "jdm_sha256": "afd785d5947ecad503852a3028d26db9e4f118d0bc21e9d74f4cfa30b9f99d8a"
     },
     {
       "file": "assets/offer-jewellery-v2.png",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 2134302,
+      "jdm_bytes": 2134302,
+      "last_modified": null,
+      "github_sha256": "2d0e6569de9a233cdb17fb85cd86a011abf67f08c21f8ba70bcceab0a943e06a",
+      "jdm_sha256": "2d0e6569de9a233cdb17fb85cd86a011abf67f08c21f8ba70bcceab0a943e06a"
     },
     {
       "file": "assets/offer-scrap-v2.png",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 2674129,
+      "jdm_bytes": 2674129,
+      "last_modified": null,
+      "github_sha256": "a294ec28852d7ae5236177a536615fda7057436c5cec0d34064f5b62b5ab0604",
+      "jdm_sha256": "a294ec28852d7ae5236177a536615fda7057436c5cec0d34064f5b62b5ab0604"
     },
     {
       "file": "assets/offer-tableware-v1.png",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 2459558,
+      "jdm_bytes": 2459558,
+      "last_modified": null,
+      "github_sha256": "0896c41370467ee391efbf0c372e21ccb08f7bb7c97c4bd6c7d777bdf86d220d",
+      "jdm_sha256": "0896c41370467ee391efbf0c372e21ccb08f7bb7c97c4bd6c7d777bdf86d220d"
     },
     {
       "file": "assets/silver-collection-hero-v5.jpg",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 295089,
+      "jdm_bytes": 295089,
+      "last_modified": null,
+      "github_sha256": "709fdb761edc49de7028519fbc0595b74521e7f383c55416f4a80544780eb972",
+      "jdm_sha256": "709fdb761edc49de7028519fbc0595b74521e7f383c55416f4a80544780eb972"
     },
     {
       "file": "assets/silver-collection-hero-v5.png",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 2892555,
+      "jdm_bytes": 2892555,
+      "last_modified": null,
+      "github_sha256": "94377e9419d0310e9cff16220f0407c6a6f1ead911e686c27ad4c1ea4c992c82",
+      "jdm_sha256": "94377e9419d0310e9cff16220f0407c6a6f1ead911e686c27ad4c1ea4c992c82"
     },
     {
       "file": "blog.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 33099,
+      "jdm_bytes": 22175,
+      "last_modified": null,
+      "github_sha256": "74aaf987d9e959e68e5cd2607e1ced532ec4a14a3d86e785480d1f2a2a9fc4df",
+      "jdm_sha256": "de3374788b0b57f83f79595ff898bf4020705723b43cdff9cfd96df941003b06",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "cennik.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 8925,
+      "jdm_bytes": 8604,
+      "last_modified": null,
+      "github_sha256": "c2943f0a94219a4cf4ce52ee6c5d36d5c71a498380b4739615aead2faa327fff",
+      "jdm_sha256": "cee4cd7cabd017dc91b73b4674338b3127ee798f64574ee7c2cd1206b9a374d4",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "co-kupujemy.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 8775,
+      "jdm_bytes": 9560,
+      "last_modified": null,
+      "github_sha256": "e78516b0de3cb96381ca4fc8ccf9a613d6de597f816d3520e6d56b24f9a781e0",
+      "jdm_sha256": "a68e63ed571a9514253d93df8f3df1fb25b0f53c9724b15aa4521461989d3176",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "faq.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 7598,
+      "jdm_bytes": 7580,
+      "last_modified": null,
+      "github_sha256": "550c8cb3f2ad59a178ca87d31ae6da6ec92b18ae5cb493fe87cb6f206f4e1295",
+      "jdm_sha256": "a1f6a4207fac3172f512090d6e864117f85d3096104e082adb6fe8be5f57a71f",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "index.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 6068,
+      "jdm_bytes": 11651,
+      "last_modified": null,
+      "github_sha256": "68ad4ea327eadd9f5805e062928627f66dc46e2e78288cdc8809213fbf439149",
+      "jdm_sha256": "7bc9b1965c552069860639eaab81cc0ec84ecbbaf6167f4c191698725806eaa7",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "kontakt.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 8263,
+      "jdm_bytes": 8073,
+      "last_modified": null,
+      "github_sha256": "6d9c2f17b566c96c1286dd5fe90e65689de55fd277c10fd45ec922775f5166e5",
+      "jdm_sha256": "cc25ffb3f3a0a2512ed98bc50071f9c878f8450d126397bce4addb6ee5f9dce3",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "regulamin.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 7179,
+      "jdm_bytes": 7032,
+      "last_modified": null,
+      "github_sha256": "3b5740bf37ba0fc53a04f7a4bf664e1e11d89e4c0dfb529c992be3a3c4179431",
+      "jdm_sha256": "fbcf84c42d5dadecf26ff431affbba11151ce78cf0af95461397a4c72620dda6",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "site.css",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 16265,
+      "jdm_bytes": 16265,
+      "last_modified": null,
+      "github_sha256": "d49ed32a3adc031ae4a836a0b4d3eb09c0b90a0dd80884496c8c5338b508ada9",
+      "jdm_sha256": "d49ed32a3adc031ae4a836a0b4d3eb09c0b90a0dd80884496c8c5338b508ada9"
     },
     {
       "file": "sitemap.xml",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 716,
+      "jdm_bytes": 2254,
+      "last_modified": null,
+      "github_sha256": "2285b9a9030e7440c7dbbb024aefc6784239cb43de6e0b081771475624d397a1",
+      "jdm_sha256": "257c79ddd0213a00fea3dd4fd18afa7493c64b9f4304ad7bd01d3a1c9dce0ca3",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-contact-20261004-status.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 3785,
+      "jdm_bytes": 3771,
+      "last_modified": null,
+      "github_sha256": "a55f73a8cd58f9fb896f40ca34c445f7edcd0d39725f2874c69c926455d2a08d",
+      "jdm_sha256": "2737bed03100a2fd81dd59bfa83f1eff8ccd49a7f9e32daecda0ad0c94a8e683",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-contact-20261004.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 2135,
+      "jdm_bytes": 1972,
+      "last_modified": null,
+      "github_sha256": "857264d6e47d9e6cc0c958d02e8645da6ebe1d2e6f33890d10ed964af5ce5342",
+      "jdm_sha256": "46f3e047cba56ac6b841cf5b56dc4fd1dd8240cb2c374b9e8363714dfecaeb0a",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-contact-smtp-20261007.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 3785,
+      "jdm_bytes": 3767,
+      "last_modified": null,
+      "github_sha256": "a55f73a8cd58f9fb896f40ca34c445f7edcd0d39725f2874c69c926455d2a08d",
+      "jdm_sha256": "169db393bf06951d90e847b3305c64eb66d3e7baad83999e47a81d51c36cf0ab",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-custom.css",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 4075,
+      "jdm_bytes": 4037,
+      "last_modified": null,
+      "github_sha256": "fe64b7db15e3a1bf9eec2246df56189f60578b0d9f8e9ba511918cac1740304b",
+      "jdm_sha256": "a08093f77d9ca27da826cbff6479323d4d2333ed76a13c81d036af6e2878243d",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-enhancements-20261004-blog-dates.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 30529,
+      "jdm_bytes": 30529,
+      "last_modified": null,
+      "github_sha256": "7621f6d4fdfa97a03f1523f5f574af8725febca0264218f3dd2c49a420787c3c",
+      "jdm_sha256": "7621f6d4fdfa97a03f1523f5f574af8725febca0264218f3dd2c49a420787c3c"
     },
     {
       "file": "studio-enhancements-20261004-blog.css",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 17864,
+      "jdm_bytes": 17864,
+      "last_modified": null,
+      "github_sha256": "7897124f86eeb83900c73aa8e4ac5fdd3b8e29fd8d1db87caa019bf6761373b5",
+      "jdm_sha256": "7897124f86eeb83900c73aa8e4ac5fdd3b8e29fd8d1db87caa019bf6761373b5"
     },
     {
       "file": "studio-enhancements-20261004-blog.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 29473,
+      "jdm_bytes": 29473,
+      "last_modified": null,
+      "github_sha256": "d19e3f1dda54247395df32de749ee0366eb58deed236a167965a0e419feaf81e",
+      "jdm_sha256": "d19e3f1dda54247395df32de749ee0366eb58deed236a167965a0e419feaf81e"
     },
     {
       "file": "studio-enhancements-20261004-price-contact.css",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 23070,
+      "jdm_bytes": 25102,
+      "last_modified": null,
+      "github_sha256": "844833bb53c727a34b37c6aabbeb7a925866ac203744f563c1e0645f932c6c9a",
+      "jdm_sha256": "bbc0bc7c99a196557d4eced079d69d14b9daf02f42d0c474f3affacf8baf22c9",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-enhancements-20261004-price-contact.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 30466,
+      "jdm_bytes": 35794,
+      "last_modified": null,
+      "github_sha256": "762484a051508080e767c39e5a2a576c88480fe59a644c4b1195250c330e9140",
+      "jdm_sha256": "f134062b98e63f4846b23d1884ddec4596b059dd065a1055ff78e2203d7a04c3",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-enhancements-20261004.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 25492,
+      "jdm_bytes": 25492,
+      "last_modified": null,
+      "github_sha256": "34f8642d064e6ff564b49d7a03773b61d8e42c6bf62d289eb712f98846592007",
+      "jdm_sha256": "34f8642d064e6ff564b49d7a03773b61d8e42c6bf62d289eb712f98846592007"
     },
     {
       "file": "studio-enhancements.css",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 17112,
+      "jdm_bytes": 17112,
+      "last_modified": null,
+      "github_sha256": "0f44f821e14f3efac7d56cb6197d4bde706ee42151aa4b700eb83c6fa8c70fbf",
+      "jdm_sha256": "0f44f821e14f3efac7d56cb6197d4bde706ee42151aa4b700eb83c6fa8c70fbf"
     },
     {
       "file": "studio-enhancements.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 30012,
+      "jdm_bytes": 30012,
+      "last_modified": null,
+      "github_sha256": "b0ac7b343ffdc4e18770a9509553392d0a79bf49a25e523fcaf89b055d3602fa",
+      "jdm_sha256": "b0ac7b343ffdc4e18770a9509553392d0a79bf49a25e523fcaf89b055d3602fa"
     },
     {
       "file": "studio-live-prices-20261004.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 10759,
+      "jdm_bytes": 10679,
+      "last_modified": null,
+      "github_sha256": "46efc4940dab978e45503301fd887e6f52f87390ed77309aa399adc7f88d50ea",
+      "jdm_sha256": "31f835854ed280bcb3a74de1896f88e1905b979d496b149c562dd0b90916c6ea",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-live-prices.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 9567,
+      "jdm_bytes": 9567,
+      "last_modified": null,
+      "github_sha256": "816d4702d9f36895ce7043c33595304bedb903fe44507a97d036d75762286874",
+      "jdm_sha256": "816d4702d9f36895ce7043c33595304bedb903fe44507a97d036d75762286874"
     },
     {
       "file": "studio-modern.css",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 7573,
+      "jdm_bytes": 7573,
+      "last_modified": null,
+      "github_sha256": "2b83cd9357c15cf3f725df9ac432ff29d231cb3d5dd18c8998839d741cf55521",
+      "jdm_sha256": "2b83cd9357c15cf3f725df9ac432ff29d231cb3d5dd18c8998839d741cf55521"
     },
     {
       "file": "studio-pages-20261004.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 6916,
+      "jdm_bytes": 7341,
+      "last_modified": null,
+      "github_sha256": "73db5c96c49124a02b0c9667d12fa88fb90787ed746177dea675f4c152e0d8d7",
+      "jdm_sha256": "e8a6103a2bc644f7a1e699a0a20519f4489194e210d8ff5281ea934d9273b720",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-pages.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 6247,
+      "jdm_bytes": 6247,
+      "last_modified": null,
+      "github_sha256": "6c6380d090861d6ffa36377c5d7ad48acf2f865c244ecad3262007e11544a175",
+      "jdm_sha256": "6c6380d090861d6ffa36377c5d7ad48acf2f865c244ecad3262007e11544a175"
     },
     {
       "file": "studio-quick-20261004.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 3996,
+      "jdm_bytes": 3994,
+      "last_modified": null,
+      "github_sha256": "f3255627455acebc209a6a6b0b1323dec3c220e9fd1dc1ad3197cd75e90b48a5",
+      "jdm_sha256": "66c09eb3595c2e80fac8ca96c3130ad5765d3ed2a292372d0504bc9144092f86",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-silver.css",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 4230,
+      "jdm_bytes": 4162,
+      "last_modified": null,
+      "github_sha256": "31bd10d945f1e21c74bfbaa925804bd1779060574c64f6b5925b98642e497ee5",
+      "jdm_sha256": "821bafa3041236ad0cecdd6b25320c5e70909bf0625e05974c3339713894fe8d",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-site.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 27908,
+      "jdm_bytes": 27893,
+      "last_modified": null,
+      "github_sha256": "9dda6e0c354dd4ddd1ad2b7c9f36e8a0ac9a37b8ec0b63a9acbd27bcb4201205",
+      "jdm_sha256": "c152b56b3f2534433fd0cc31c7ee7d0bef1e451b7ee33b2f5844a357d6389187",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio.css",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 6666,
+      "jdm_bytes": 6610,
+      "last_modified": null,
+      "github_sha256": "199c96c4cadd60fd96d8d2ad8773ef6df8c562c89ba336cdb9ba7036ae925cc3",
+      "jdm_sha256": "7084be7f617562d14df2725afa0da0ee908d0b91ab172d24dddefbec51ac4735",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio.js",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "same",
+      "github_bytes": 3889,
+      "jdm_bytes": 3889,
+      "last_modified": null,
+      "github_sha256": "d3f785063035764d2ac82a1e36ab71037b58325c21f819c9a1b27fef47e23caa",
+      "jdm_sha256": "d3f785063035764d2ac82a1e36ab71037b58325c21f819c9a1b27fef47e23caa"
     },
     {
       "file": "wycena.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 9529,
+      "jdm_bytes": 9492,
+      "last_modified": null,
+      "github_sha256": "ded23e32c2d21fa75aa414740680301f08dca55171c6f935042376294616f15a",
+      "jdm_sha256": "de00030480e2cc44f7a669de1a892bbbd509ed4bb436e59d0433a9a68abb5519",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "wykres.html",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "different",
+      "github_bytes": 12259,
+      "jdm_bytes": 12158,
+      "last_modified": null,
+      "github_sha256": "38f3a0881ffc7a9303d4fbe3189cae5446fa5e826e15cb6d65a4f176604bc27f",
+      "jdm_sha256": "8a42fc65a79d43fc5ba15158d7de208414a0d7d3e0aa8cfce48f6454a0284414",
+      "same_ignoring_line_endings": false
     }
   ]
 }

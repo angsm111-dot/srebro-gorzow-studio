@@ -1,0 +1,2595 @@
+--- GitHub/blog.html
++++ JDM/blog.html
+@@ -7,27 +7,36 @@
+   <link rel="canonical" href="https://www.skupsrebragorzow.pl/blog.html">
+   <title>Blog — Skup srebra Gorzów</title>
+   <meta name="description" content="Poradnik o srebrze: próby, wycena biżuterii, monet i sztabek oraz przygotowanie przedmiotów do sprzedaży.">
+-  <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="blog">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="blog" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta">Co kupujemy</a>
+@@ -39,53 +48,21 @@
+ <a href="/kontakt.html" data-page="kontakt">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
+-    <section id="start" class="hero wrap" hidden>
+-<div class="hero-copy">
+-<div class="eyebrow" hidden>
+-</div>
+-<h1>Odkryj wartość<br>
+-<em>swojego srebra.</em>
+-</h1>
+-<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i złom srebra. Poznaj wartość swoich przedmiotów.</p>
+-<div class="home-buy-prices" aria-label="Aktualny cennik skupu">
+-<div class="home-buy-heading">
+-<strong>AKTUALNY CENNIK SKUPU</strong>
+-<div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
+-<span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
+-</span>
+-</div>
+-</div>
+-<div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
+-</span>
+-</div>
+-</div>
+-<div class="actions">
+-<a class="button primary hero-desktop-action" href="/cennik.html">Aktualny cennik</a>
+-<a class="text-link hero-desktop-action" href="/co-kupujemy.html">Zobacz, co skupujemy</a>
+-<a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+-<a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+-</div>
+-<div class="hero-meta" hidden>
+-</div>
+-</div>
+-<div class="hero-visual">
+-<img src="assets/silver-collection-hero-v5.jpg" alt="Srebrna patera z ozdobnym wazonikiem, sztabką z wybitym oznaczeniem 999,9, monetami, widelcem, zegarkiem, łańcuszkiem, bransoletką oraz pierścionkiem z oczkiem" width="1536" height="1024" fetchpriority="high" decoding="async">
+-<div class="photo-label">
+-<span>Ag · 999,9</span>
+-<span>Srebro w wielu formach</span>
+-</div>
+-</div>
+-</section>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Blog</span>
++</nav>
++<main>
++    
+     <div id="content">
++
++
++
++
++
++
++
+ <section id="blog" class="section wrap blog-page">
+ <div class="section-head">
+ <div>
+@@ -96,123 +73,243 @@
+ </div>
+ <div class="blog-grid">
+ <article>
+-<img src="assets/offer-jewellery-v2.png" alt="Jak przygotować srebro do wyceny w Gorzowie" loading="lazy">
++<a class="blog-image-link" href="/blog-przygotowanie-srebra-do-wyceny.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-jewellery-v2-960.webp" srcset="assets/offer-jewellery-v2-480.webp 480w, assets/offer-jewellery-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-09-08">Opublikowano: 8 września 2026</time>
+-<h3>Jak przygotować srebro do wyceny w Gorzowie</h3>
+-<p>Przed wizytą warto oddzielić srebrne przedmioty od pozostałych metali i przygotować je według rodzaju. W skupie srebra w Gorzowie najważniejsza jest masa, próba oraz stan przedmiotu. Biżuteria z kamieniami, stare sztućce czy granulat wymagają innego podejścia, dlatego spokojne uporządkowanie rzeczy przyspiesza rozmowę i ułatwia ocenę. Oznaczenia takie jak 800, 925 lub 999 bywają niewielkie, ale warto ich poszukać na zapięciach, spodach naczyń i brzegach monet. Nie czyść przedmiotów agresywną chemią tylko po to, aby wyglądały na nowe — patyna zwykle nie przeszkadza w rozpoznaniu metalu. Jeśli nie ma oznaczenia, nie przesądza to o braku srebra; w punkcie można zweryfikować materiał. Skup srebra Gorzów pomaga rozróżnić przedmioty użytkowe, biżuterię i produkty inwestycyjne. Przy większej liczbie rzeczy wygodnie jest spisać orientacyjną wagę oraz liczbę sztuk. Dzięki temu kalkulator daje bardziej czytelny wynik orientacyjny, a końcowa wycena może zostać wykonana sprawniej. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-coins-v1.png" alt="Próba 925 — co oznacza na biżuterii srebrnej?" loading="lazy">
++<h3>
++<a href="/blog-przygotowanie-srebra-do-wyceny.html">Jak przygotować srebro do wyceny w Gorzowie</a>
++</h3>
++<p>Przed wizytą warto oddzielić srebrne przedmioty od pozostałych metali i przygotować je według rodzaju. W skupie srebra w Gorzowie najważniejsza jest masa, próba oraz stan przedmiotu. Biżuteria z kamieniami,…</p>
++<a class="blog-more" href="/blog-przygotowanie-srebra-do-wyceny.html">Czytaj więcej<span class="sr-only">: Jak przygotować srebro do wyceny w Gorzowie</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-proba-925-bizuteria.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-coins-v1-960.webp" srcset="assets/offer-coins-v1-480.webp 480w, assets/offer-coins-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-09-11">Opublikowano: 11 września 2026</time>
+-<h3>Próba 925 — co oznacza na biżuterii srebrnej?</h3>
+-<p>Próba 925 oznacza, że w stopie znajduje się 925 części srebra na 1000 części materiału. Pozostała część stopu odpowiada za trwałość i codzienną odporność biżuterii. To najczęściej spotykane oznaczenie na łańcuszkach, pierścionkach, bransoletkach i kolczykach. W praktyce skup srebra w Gorzowie bierze pod uwagę masę całego przedmiotu, próbę oraz elementy, które nie są srebrem. Kamienie, szkło, stalowe sprężyny lub inne dodatki nie zwiększają masy metalu do wyceny. Dlatego przy biżuterii z dużym oczkiem warto traktować wynik kalkulatora jako punkt wyjścia. Oznaczenie może występować jako 925, S925 albo w formie drobnej puncy. Brak widocznego stempla nie musi niczego przesądzać, bo jest on czasem zatarty lub ukryty przy zapięciu. Najbezpieczniej nie zgadywać — oględziny pozwalają potwierdzić materiał. Skup srebra Gorzów wycenia zawartość metalu, a nie domyślnie markę czy wartość sentymentalną przedmiotu. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-bars-v1.png" alt="Monety srebrne: kiedy liczy się kruszec, a kiedy historia?" loading="lazy">
++<h3>
++<a href="/blog-proba-925-bizuteria.html">Próba 925 — co oznacza na biżuterii srebrnej?</a>
++</h3>
++<p>Próba 925 oznacza, że w stopie znajduje się 925 części srebra na 1000 części materiału. Pozostała część stopu odpowiada za trwałość i codzienną odporność biżuterii. To najczęściej spotykane oznaczenie na…</p>
++<a class="blog-more" href="/blog-proba-925-bizuteria.html">Czytaj więcej<span class="sr-only">: Próba 925 — co oznacza na biżuterii srebrnej?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-monety-srebrne-wartosc.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-bars-v1-960.webp" srcset="assets/offer-bars-v1-480.webp 480w, assets/offer-bars-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-09-15">Opublikowano: 15 września 2026</time>
+-<h3>Monety srebrne: kiedy liczy się kruszec, a kiedy historia?</h3>
+-<p>Monety mogą mieć dwie różne wartości: wartość srebra zawartego w stopie i wartość kolekcjonerską. Monety bulionowe są zwykle rozliczane według jasno określonej masy oraz próby, dlatego łatwo porównać je z aktualną ceną produktu. Monety historyczne wymagają większej ostrożności. Rocznik, nakład, stan zachowania i autentyczność mogą sprawić, że wartość kolekcjonerska będzie ważniejsza niż sam metal. W skupie srebra Gorzów warto pokazać monety osobno, bez czyszczenia i polerowania. Mocne czyszczenie może usunąć naturalną powierzchnię i obniżyć zainteresowanie kolekcjonerów. W kalkulatorze można wpisać masę i próbę, aby poznać orientacyjną wartość kruszcu. Taki wynik nie zastępuje oceny numizmatycznej, ale pomaga zrozumieć dolną granicę wartości metalu. Dla monet bulionowych aktualne pozycje i ceny są widoczne w cenniku. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-tableware-v1.png" alt="Sztabki srebra 100 g, 500 g i 1 kg — jak je wycenić?" loading="lazy">
++<h3>
++<a href="/blog-monety-srebrne-wartosc.html">Monety srebrne: kiedy liczy się kruszec, a kiedy historia?</a>
++</h3>
++<p>Monety mogą mieć dwie różne wartości: wartość srebra zawartego w stopie i wartość kolekcjonerską. Monety bulionowe są zwykle rozliczane według jasno określonej masy oraz próby, dlatego łatwo porównać je z…</p>
++<a class="blog-more" href="/blog-monety-srebrne-wartosc.html">Czytaj więcej<span class="sr-only">: Monety srebrne: kiedy liczy się kruszec, a kiedy historia?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-wycena-sztabek-srebra.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-tableware-v1-960.webp" srcset="assets/offer-tableware-v1-480.webp 480w, assets/offer-tableware-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-09-18">Opublikowano: 18 września 2026</time>
+-<h3>Sztabki srebra 100 g, 500 g i 1 kg — jak je wycenić?</h3>
+-<p>Sztabki srebra są produktami inwestycyjnymi, dlatego oprócz próby liczy się ich masa, stan i rozpoznawalność producenta. Najczęściej spotyka się wybite informacje takie jak FINE SILVER, 999,9 oraz gramaturę 100 g, 500 g albo 1 kg. Warto zachować opakowanie lub certyfikat, jeżeli były dołączone, choć ich brak nie musi przekreślać wyceny. Skup srebra w Gorzowie korzysta z aktualnych pozycji produktowych widocznych w cenniku. Dzięki temu ceny monet i sztabek można aktualizować w jednym miejscu. Na stronie zobaczysz cennik produktu, a w kalkulatorze możesz wskazać właściwą gramaturę. Przy sztabkach inwestycyjnych nie należy szorować powierzchni ani usuwać naklejek. Naturalne ślady przechowywania są mniej istotne niż potwierdzenie masy i materiału. Jeśli sztabka ma nietypową formę, wartość ostateczna wymaga sprawdzenia na miejscu. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-scrap-v2.png" alt="Srebrne sztućce i zastawy — na co zwrócić uwagę?" loading="lazy">
++<h3>
++<a href="/blog-wycena-sztabek-srebra.html">Sztabki srebra 100 g, 500 g i 1 kg — jak je wycenić?</a>
++</h3>
++<p>Sztabki srebra są produktami inwestycyjnymi, dlatego oprócz próby liczy się ich masa, stan i rozpoznawalność producenta. Najczęściej spotyka się wybite informacje takie jak FINE SILVER, 999,9 oraz gramaturę…</p>
++<a class="blog-more" href="/blog-wycena-sztabek-srebra.html">Czytaj więcej<span class="sr-only">: Sztabki srebra 100 g, 500 g i 1 kg — jak je wycenić?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-srebrne-sztucce-zastawy.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-scrap-v2-960.webp" srcset="assets/offer-scrap-v2-480.webp 480w, assets/offer-scrap-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-09-22">Opublikowano: 22 września 2026</time>
+-<h3>Srebrne sztućce i zastawy — na co zwrócić uwagę?</h3>
+-<p>Srebrne sztućce, tace, cukiernice i naczynia bywają oznaczone próbą, ale czasem posiadają tylko znak wytwórcy lub informację o platerowaniu. To ważna różnica: przedmiot posrebrzany ma cienką warstwę srebra na innym metalu i nie jest tym samym co wyrób ze srebra. W skupie srebra Gorzów można rozpocząć od wyszukania oznaczeń na spodzie naczynia albo na trzonku sztućca. Kompletny zestaw warto przynieść razem, również gdy część elementów jest uszkodzona. Nie trzeba usuwać ciemnej patyny ani polerować detali. Dla wyceny metalu istotna jest próba i masa srebrnej części, a nie połysk po domowym czyszczeniu. Jeżeli przedmiot ma drewnianą rączkę, wypełnienie lub elementy z innego metalu, masa tych dodatków zostaje odjęta. To pozwala uzyskać uczciwszy wynik orientacyjny. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-granulate-v2.png" alt="Złom srebra i uszkodzona biżuteria też mają wartość" loading="lazy">
++<h3>
++<a href="/blog-srebrne-sztucce-zastawy.html">Srebrne sztućce i zastawy — na co zwrócić uwagę?</a>
++</h3>
++<p>Srebrne sztućce, tace, cukiernice i naczynia bywają oznaczone próbą, ale czasem posiadają tylko znak wytwórcy lub informację o platerowaniu. To ważna różnica: przedmiot posrebrzany ma cienką warstwę srebra na…</p>
++<a class="blog-more" href="/blog-srebrne-sztucce-zastawy.html">Czytaj więcej<span class="sr-only">: Srebrne sztućce i zastawy — na co zwrócić uwagę?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-zlom-srebra-bizuteria.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-granulate-v2-960.webp" srcset="assets/offer-granulate-v2-480.webp 480w, assets/offer-granulate-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-09-25">Opublikowano: 25 września 2026</time>
+-<h3>Złom srebra i uszkodzona biżuteria też mają wartość</h3>
+-<p>Zerwany łańcuszek, pojedynczy kolczyk, pęknięty pierścionek czy fragment sztućca nie muszą leżeć bezczynnie w szufladzie. Jeżeli element jest wykonany ze srebra, jego stan wizualny nie przekreśla wartości metalu. Skup srebra Gorzów obejmuje również złom srebrny, czyli uszkodzone przedmioty, ścinki i pojedyncze fragmenty. Najlepiej zebrać takie rzeczy w jednym woreczku, bez mieszania ich z metalami nieszlachetnymi. W kalkulatorze wybierz biżuterię i złom, wpisz wagę oraz próbę, a gdy przedmiot ma kamienie lub dodatkowe części — odejmij ich orientacyjną masę. Wynik jest pomocny, ale końcowa weryfikacja zawsze opiera się na oględzinach. Złom srebra może mieć różne próby, dlatego oddzielanie oznaczonych elementów ułatwia wycenę. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-jewellery-v2.png" alt="Granulat srebrny — czym różni się od złomu?" loading="lazy">
++<h3>
++<a href="/blog-zlom-srebra-bizuteria.html">Złom srebra i uszkodzona biżuteria też mają wartość</a>
++</h3>
++<p>Zerwany łańcuszek, pojedynczy kolczyk, pęknięty pierścionek czy fragment sztućca nie muszą leżeć bezczynnie w szufladzie. Jeżeli element jest wykonany ze srebra, jego stan wizualny nie przekreśla wartości…</p>
++<a class="blog-more" href="/blog-zlom-srebra-bizuteria.html">Czytaj więcej<span class="sr-only">: Złom srebra i uszkodzona biżuteria też mają wartość</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-granulat-srebrny.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-jewellery-v2-960.webp" srcset="assets/offer-jewellery-v2-480.webp 480w, assets/offer-jewellery-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-09-28">Opublikowano: 28 września 2026</time>
+-<h3>Granulat srebrny — czym różni się od złomu?</h3>
+-<p>Granulat srebrny ma postać drobnych kulek lub nieregularnych ziaren i jest używany między innymi w jubilerstwie oraz procesach przemysłowych. W odróżnieniu od złomu zwykle jest bardziej jednorodny, dlatego ważne są jego masa i potwierdzona próba. Na stronie skupu srebra w Gorzowie granulat ma osobną kategorię, aby nie mieszać go ze złomem, biżuterią ani sztućcami. Granulat powinien być przechowywany w szczelnym pojemniku lub woreczku, by nie rozsypywał się i nie mieszał z innymi materiałami. Przygotowując go do wyceny, nie dodawaj do środka drobinek innych metali, kamieni czy elementów technicznych. Kalkulator pokazuje orientacyjny wynik dla wybranej próby, a finalna cena wynika z potwierdzenia zawartości srebra. Aktualne stawki są regularnie aktualizowane, dzięki czemu pozostają spójne z cennikiem. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-coins-v1.png" alt="Dlaczego aktualny cennik skupu srebra jest ważny?" loading="lazy">
++<h3>
++<a href="/blog-granulat-srebrny.html">Granulat srebrny — czym różni się od złomu?</a>
++</h3>
++<p>Granulat srebrny ma postać drobnych kulek lub nieregularnych ziaren i jest używany między innymi w jubilerstwie oraz procesach przemysłowych. W odróżnieniu od złomu zwykle jest bardziej jednorodny, dlatego…</p>
++<a class="blog-more" href="/blog-granulat-srebrny.html">Czytaj więcej<span class="sr-only">: Granulat srebrny — czym różni się od złomu?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-aktualny-cennik-skupu-srebra.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-coins-v1-960.webp" srcset="assets/offer-coins-v1-480.webp 480w, assets/offer-coins-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-10-01">Opublikowano: 1 października 2026</time>
+-<h3>Dlaczego aktualny cennik skupu srebra jest ważny?</h3>
+-<p>Cena srebra zmienia się wraz z notowaniami rynku, dlatego cennik powinien być aktualny i czytelny. Na stronie skupu srebra Gorzów ceny prób 800, 925 i 999 są aktualizowane. Warto jednak pamiętać, że kurs giełdowy to nie to samo co cena skupu konkretnego przedmiotu. Biżuteria, złom, granulat, monety bulionowe i sztabki są rozliczane według różnych zasad. Kurs pomaga zrozumieć kierunek rynku, a cennik przedstawia stawki używane przy orientacyjnej wycenie. Końcowa oferta wymaga sprawdzenia masy, próby i rodzaju produktu. Przejrzysta prezentacja danych pozwala przygotować przedmioty i porównać warianty jeszcze przed wizytą w punkcie. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-tableware-v1.png" alt="Skup srebra Gorzów: jak wycenić stare sztućce i zastawę?" loading="lazy">
++<h3>
++<a href="/blog-aktualny-cennik-skupu-srebra.html">Dlaczego aktualny cennik skupu srebra jest ważny?</a>
++</h3>
++<p>Cena srebra zmienia się wraz z notowaniami rynku, dlatego cennik powinien być aktualny i czytelny. Na stronie skupu srebra Gorzów ceny prób 800, 925 i 999 są aktualizowane. Warto jednak pamiętać, że kurs…</p>
++<a class="blog-more" href="/blog-aktualny-cennik-skupu-srebra.html">Czytaj więcej<span class="sr-only">: Dlaczego aktualny cennik skupu srebra jest ważny?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-wycena-starych-sztuccow.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-tableware-v1-960.webp" srcset="assets/offer-tableware-v1-480.webp 480w, assets/offer-tableware-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-10-02">Opublikowano: 2 października 2026</time>
+-<h3>Skup srebra Gorzów: jak wycenić stare sztućce i zastawę?</h3>
+-<p>Srebrne widelce, łyżki, noże, cukiernice i patery często trafiają do domu po rodzinie. Przy wycenie liczy się przede wszystkim próba, masa oraz to, czy cały przedmiot jest wykonany ze srebra. Wiele zastaw ma oznaczenia 800, 830, 835, 900 lub 925, umieszczone na spodzie albo przy uchwycie. Skup srebra Gorzów pomaga rozpoznać takie sygnatury i oddzielić srebro od wyrobów posrebrzanych. Nie trzeba samodzielnie polerować sztućców ani usuwać patyny — ważniejsze jest bezpieczne przygotowanie kompletu i zebranie wszystkich elementów w jednym miejscu. Jeśli w zestawie są noże ze stalowymi ostrzami, ich konstrukcja może mieć wpływ na masę metalu do wyceny. Warto zabrać całe komplety, także pojedyncze sztuki oraz niekompletne zastawy. Dzięki temu skup srebra w Gorzowie może sprawnie ocenić, które przedmioty mają zawartość srebra i jak je ująć w wycenie. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-granulate-v2.png" alt="Granulat srebrny — co warto wiedzieć przed sprzedażą?" loading="lazy">
++<h3>
++<a href="/blog-wycena-starych-sztuccow.html">Skup srebra Gorzów: jak wycenić stare sztućce i zastawę?</a>
++</h3>
++<p>Srebrne widelce, łyżki, noże, cukiernice i patery często trafiają do domu po rodzinie. Przy wycenie liczy się przede wszystkim próba, masa oraz to, czy cały przedmiot jest wykonany ze srebra. Wiele zastaw ma…</p>
++<a class="blog-more" href="/blog-wycena-starych-sztuccow.html">Czytaj więcej<span class="sr-only">: Skup srebra Gorzów: jak wycenić stare sztućce i zastawę?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-sprzedaz-granulatu-srebrnego.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-granulate-v2-960.webp" srcset="assets/offer-granulate-v2-480.webp 480w, assets/offer-granulate-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-10-03">Opublikowano: 3 października 2026</time>
+-<h3>Granulat srebrny — co warto wiedzieć przed sprzedażą?</h3>
+-<p>Granulat srebrny to drobne ziarna metalu, spotykane między innymi w pracowniach jubilerskich, odlewniach i przy odzysku surowca. W skupie srebra najważniejsza jest jego próba oraz rzeczywista masa. Granulat może mieć różną czystość, dlatego oznaczenie 999 lub 999,9 warto traktować jako ważną informację, ale nie zastępuje ono sprawdzenia materiału. Przed wizytą dobrze jest przechowywać granulat w szczelnym pojemniku albo woreczku, tak aby nie mieszał się z innymi metalami i zabrudzeniami. Skup srebra Gorzów pozwala przygotować orientacyjną wycenę na podstawie aktualnej stawki za gram, a końcowa ocena uwzględnia potwierdzoną próbę. Jeśli masz kilka partii granulatu o różnym pochodzeniu, warto rozdzielić je osobno. To ułatwia ważenie i pomaga uniknąć łączenia materiałów o różnych parametrach. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-tableware-v1.png" alt="Srebrne talerze, patery i naczynia: srebro czy posrebrzanie?" loading="lazy">
++<h3>
++<a href="/blog-sprzedaz-granulatu-srebrnego.html">Granulat srebrny — co warto wiedzieć przed sprzedażą?</a>
++</h3>
++<p>Granulat srebrny to drobne ziarna metalu, spotykane między innymi w pracowniach jubilerskich, odlewniach i przy odzysku surowca. W skupie srebra najważniejsza jest jego próba oraz rzeczywista masa. Granulat…</p>
++<a class="blog-more" href="/blog-sprzedaz-granulatu-srebrnego.html">Czytaj więcej<span class="sr-only">: Granulat srebrny — co warto wiedzieć przed sprzedażą?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-naczynia-srebro-czy-posrebrzanie.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-tableware-v1-960.webp" srcset="assets/offer-tableware-v1-480.webp 480w, assets/offer-tableware-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-10-04">Opublikowano: 4 października 2026</time>
+-<h3>Srebrne talerze, patery i naczynia: srebro czy posrebrzanie?</h3>
+-<p>Stare talerze, misy, świeczniki i patery mogą wyglądać jak srebro, ale nie każdy błyszczący przedmiot zawiera srebro w całej swojej masie. Wyroby posrebrzane mają cienką warstwę srebra na innym metalu, dlatego ich wycena przebiega inaczej niż w przypadku naczyń wykonanych ze stopu 800 lub 925. Warto obejrzeć spód przedmiotu i szukać punc, cyfr albo znaków wytwórcy. Skup srebra w Gorzowie pomaga odróżnić oznaczenia prób od symboli informujących jedynie o powłoce. Przygotowując przedmioty do wyceny, nie używaj silnych środków chemicznych ani nie próbuj usuwać elementów konstrukcyjnych. Naczynie z dekoracją, uchwytami lub wkładami może wymagać osobnej oceny masy. Skup srebra Gorzów pozwala uzyskać jasną informację, czy przedmiot nadaje się do wyceny jako srebro, zanim podejmiesz decyzję o sprzedaży. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
+-</div>
+-</article>
+-<article>
+-<img src="assets/offer-scrap-v2.png" alt="Skup srebra w Gorzowie — biżuteria, złom i pojedyncze przedmioty" loading="lazy">
++<h3>
++<a href="/blog-naczynia-srebro-czy-posrebrzanie.html">Srebrne talerze, patery i naczynia: srebro czy posrebrzanie?</a>
++</h3>
++<p>Stare talerze, misy, świeczniki i patery mogą wyglądać jak srebro, ale nie każdy błyszczący przedmiot zawiera srebro w całej swojej masie. Wyroby posrebrzane mają cienką warstwę srebra na innym metalu, dlatego…</p>
++<a class="blog-more" href="/blog-naczynia-srebro-czy-posrebrzanie.html">Czytaj więcej<span class="sr-only">: Srebrne talerze, patery i naczynia: srebro czy posrebrzanie?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-skup-bizuterii-pojedyncze-przedmioty.html" tabindex="-1" aria-hidden="true">
++<img src="assets/offer-scrap-v2-960.webp" srcset="assets/offer-scrap-v2-480.webp 480w, assets/offer-scrap-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
+ <div>
+ <span>SKUP SREBRA GORZÓW</span>
+ <time datetime="2026-10-04">Opublikowano: 4 października 2026</time>
+-<h3>Skup srebra w Gorzowie — biżuteria, złom i pojedyncze przedmioty</h3>
+-<p>Do skupu srebra można przygotować nie tylko komplet biżuterii, ale również pojedyncze kolczyki, zerwany łańcuszek, pierścionek bez pary, uszkodzoną bransoletkę czy niewielkie fragmenty srebrnego złomu. Stan użytkowy przedmiotu nie przekreśla jego wartości metalu. Najważniejsze pozostają próba i masa części wykonanych ze srebra. Przed wizytą warto odłożyć kamienie, elementy stalowe lub inne dodatki do osobnej oceny, jeśli można to zrobić bez uszkodzenia przedmiotu. Skup srebra Gorzów obsługuje zarówno osoby z jednym drobnym przedmiotem, jak i klientów przygotowujących większą ilość srebra użytkowego. Kalkulator na stronie pomaga sprawdzić orientacyjną wartość, natomiast końcowa wycena jest ustalana po sprawdzeniu przedmiotu. Takie podejście pozwala przejrzyście odpowiedzieć na pytanie, ile może być warte srebro i jakie informacje warto zabrać ze sobą do punktu. Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.</p>
+-<button type="button" class="blog-more">Czytaj więcej</button>
++<h3>
++<a href="/blog-skup-bizuterii-pojedyncze-przedmioty.html">Skup srebra w Gorzowie — biżuteria, złom i pojedyncze przedmioty</a>
++</h3>
++<p>Do skupu srebra można przygotować nie tylko komplet biżuterii, ale również pojedyncze kolczyki, zerwany łańcuszek, pierścionek bez pary, uszkodzoną bransoletkę czy niewielkie fragmenty srebrnego złomu. Stan…</p>
++<a class="blog-more" href="/blog-skup-bizuterii-pojedyncze-przedmioty.html">Czytaj więcej<span class="sr-only">: Skup srebra w Gorzowie — biżuteria, złom i pojedyncze przedmioty</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-porownanie-wyceny-bizuterii.html" tabindex="-1" aria-hidden="true">
++<img src="assets/blog-wazenie-srebra-20261014-960.webp" srcset="assets/blog-wazenie-srebra-20261014-480.webp 480w, assets/blog-wazenie-srebra-20261014-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
++<div>
++<span>SKUP SREBRA GORZÓW</span>
++<time datetime="2026-10-14">Opublikowano: 14 października 2026</time>
++<h3>
++<a href="/blog-porownanie-wyceny-bizuterii.html">Skup srebra — jak porównać wycenę biżuterii?</a>
++</h3>
++<p>Przy sprzedaży biżuterii warto zacząć od trzech informacji: masy, próby i ceny za gram danego stopu. Skup srebra nie powinien być oceniany wyłącznie na podstawie jednej liczby w nagłówku cennika. Sprawdź, czy…</p>
++<a class="blog-more" href="/blog-porownanie-wyceny-bizuterii.html">Czytaj więcej<span class="sr-only">: Skup srebra — jak porównać wycenę biżuterii?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-zatarta-punca-srebra.html" tabindex="-1" aria-hidden="true">
++<img src="assets/blog-punca-srebra-20261014-960.webp" srcset="assets/blog-punca-srebra-20261014-480.webp 480w, assets/blog-punca-srebra-20261014-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
++<div>
++<span>SKUP SREBRA GORZÓW</span>
++<time datetime="2026-10-14">Opublikowano: 14 października 2026</time>
++<h3>
++<a href="/blog-zatarta-punca-srebra.html">Skup srebra Gorzów: co zrobić, gdy punca jest zatarta?</a>
++</h3>
++<p>Oznaczenie na srebrnym przedmiocie bywa ukryte na zapięciu, wewnątrz pierścionka lub na spodzie naczynia. Po wielu latach użytkowania może być trudne do odczytania. Brak czytelnego znaku nie oznacza…</p>
++<a class="blog-more" href="/blog-zatarta-punca-srebra.html">Czytaj więcej<span class="sr-only">: Skup srebra Gorzów: co zrobić, gdy punca jest zatarta?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-wycena-swiecznikow.html" tabindex="-1" aria-hidden="true">
++<img src="assets/blog-swieczniki-srebrne-20261014-960.webp" srcset="assets/blog-swieczniki-srebrne-20261014-480.webp 480w, assets/blog-swieczniki-srebrne-20261014-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
++<div>
++<span>SKUP SREBRA GORZÓW</span>
++<time datetime="2026-10-14">Opublikowano: 14 października 2026</time>
++<h3>
++<a href="/blog-wycena-swiecznikow.html">Skup srebra w Gorzowie — jak przygotować świeczniki do wyceny?</a>
++</h3>
++<p>Świeczniki mają często szeroką podstawę, ozdobny trzon i kilka łączonych części. Masa całego przedmiotu nie zawsze odpowiada masie srebra: konstrukcja może zawierać obciążenie, wypełnienie albo elementy z…</p>
++<a class="blog-more" href="/blog-wycena-swiecznikow.html">Czytaj więcej<span class="sr-only">: Skup srebra w Gorzowie — jak przygotować świeczniki do wyceny?</span>
++</a>
++</div>
++</article>
++<article>
++<a class="blog-image-link" href="/blog-wspolna-wycena-srebra.html" tabindex="-1" aria-hidden="true">
++<img src="assets/blog-segregowanie-srebra-20261014-960.webp" srcset="assets/blog-segregowanie-srebra-20261014-480.webp 480w, assets/blog-segregowanie-srebra-20261014-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
++</a>
++<div>
++<span>SKUP SREBRA GORZÓW</span>
++<time datetime="2026-10-14">Opublikowano: 14 października 2026</time>
++<h3>
++<a href="/blog-wspolna-wycena-srebra.html">Skup srebra: jak uporządkować kilka przedmiotów do wspólnej wyceny?</a>
++</h3>
++<p>W jednej szufladzie często leżą pierścionki, pojedyncze kolczyki i zerwane łańcuszki. Przy większej liczbie rzeczy przygotuj prosty podział. Osobno odłóż wyroby z czytelną próbą, osobno nieoznaczone, a monety…</p>
++<a class="blog-more" href="/blog-wspolna-wycena-srebra.html">Czytaj więcej<span class="sr-only">: Skup srebra: jak uporządkować kilka przedmiotów do wspólnej wyceny?</span>
++</a>
+ </div>
+ </article>
+ </div>
+@@ -246,26 +343,44 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
++  
++  <div class="mobile-cta">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
+ </script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++<script src="site-prices-20261016.js?v=1">
+ </script>
+ </body>
+ </html>
+-
+
+--- GitHub/cennik.html
++++ JDM/cennik.html
+@@ -9,25 +9,35 @@
+   <meta name="description" content="Aktualny cennik skupu srebra w Gorzowie: ceny biżuterii według próby oraz ceny monet i sztabek srebra.">
+   <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="cennik">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="cennik" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta">Co kupujemy</a>
+@@ -39,58 +49,21 @@
+ <a href="/kontakt.html" data-page="kontakt">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
+-    <section id="start" class="hero wrap" hidden>
+-<div class="hero-copy">
+-<div class="eyebrow" hidden>
+-</div>
+-<h1>Odkryj wartość<br>
+-<em>swojego srebra.</em>
+-</h1>
+-<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i złom srebra. Poznaj wartość swoich przedmiotów.</p>
+-<div class="home-buy-prices" aria-label="Aktualny cennik skupu">
+-<div class="home-buy-heading">
+-<strong>AKTUALNY CENNIK SKUPU</strong>
+-<div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
+-<span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
+-</span>
+-</div>
+-</div>
+-<div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
+-</span>
+-</div>
+-</div>
+-<div class="actions">
+-<a class="button primary hero-desktop-action" href="/cennik.html">Aktualny cennik</a>
+-<a class="text-link hero-desktop-action" href="/co-kupujemy.html">Zobacz, co skupujemy</a>
+-<a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+-<a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+-</div>
+-<div class="hero-meta" hidden>
+-</div>
+-</div>
+-<div class="hero-visual">
+-<img src="assets/silver-collection-hero-v5.jpg" alt="Srebrna patera z ozdobnym wazonikiem, sztabką z wybitym oznaczeniem 999,9, monetami, widelcem, zegarkiem, łańcuszkiem, bransoletką oraz pierścionkiem z oczkiem" width="1536" height="1024" fetchpriority="high" decoding="async">
+-<div class="photo-label">
+-<span>Ag · 999,9</span>
+-<span>Srebro w wielu formach</span>
+-</div>
+-</div>
+-</section>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Cennik</span>
++</nav>
++<main>
++    
+     <div id="content">
++
++
+ <section id="cennik" class="section wrap">
+ <div class="section-head">
+ <div>
+ <span class="eyebrow">CENNIK</span>
+-<h1>Wszystko w jednym miejscu.</h1>
++<h1>Aktualny cennik skupu srebra</h1>
+ </div>
+ <p>Aktualne stawki dla popularnych prób srebra.</p>
+ </div>
+@@ -114,7 +87,6 @@
+ <thead>
+ <tr>
+ <th>Próba</th>
+-<th>Zawartość srebra</th>
+ <th>Cena / g</th>
+ <th>
+ <span class="sr-only">Wycena</span>
+@@ -126,7 +98,6 @@
+ <td>
+ <b>600</b>
+ </td>
+-<td>60,00%</td>
+ <td>2,27 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="600">Wyceń</button>
+@@ -136,7 +107,6 @@
+ <td>
+ <b>800</b>
+ </td>
+-<td>80,00%</td>
+ <td>3,02 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="800">Wyceń</button>
+@@ -146,7 +116,6 @@
+ <td>
+ <b>830</b>
+ </td>
+-<td>83,00%</td>
+ <td>3,14 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="830">Wyceń</button>
+@@ -156,7 +125,6 @@
+ <td>
+ <b>835</b>
+ </td>
+-<td>83,50%</td>
+ <td>3,16 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="835">Wyceń</button>
+@@ -166,7 +134,6 @@
+ <td>
+ <b>875</b>
+ </td>
+-<td>87,50%</td>
+ <td>3,31 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="875">Wyceń</button>
+@@ -176,7 +143,6 @@
+ <td>
+ <b>900</b>
+ </td>
+-<td>90,00%</td>
+ <td>3,40 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="900">Wyceń</button>
+@@ -186,7 +152,6 @@
+ <td>
+ <b>925</b>
+ </td>
+-<td>92,50%</td>
+ <td>4,20 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="925">Wyceń</button>
+@@ -196,7 +161,6 @@
+ <td>
+ <b>960</b>
+ </td>
+-<td>96,00%</td>
+ <td>4,72 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="960">Wyceń</button>
+@@ -206,7 +170,6 @@
+ <td>
+ <b>999</b>
+ </td>
+-<td>99,90%</td>
+ <td>6,04 zł</td>
+ <td>
+ <button class="text-button" type="button" data-live-price="999">Wyceń</button>
+@@ -227,6 +190,10 @@
+ </div>
+ </aside>
+ </section>
++
++
++
++
+ <footer class="footer">
+ <div class="wrap">
+ <div class="footer-top">
+@@ -256,26 +223,44 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
++  
++  <div class="mobile-cta">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
+ </script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++<script src="site-prices-20261016.js?v=1">
+ </script>
+ </body>
+ </html>
+-
+
+--- GitHub/co-kupujemy.html
++++ JDM/co-kupujemy.html
+@@ -7,27 +7,36 @@
+   <link rel="canonical" href="https://www.skupsrebragorzow.pl/co-kupujemy.html">
+   <title>Co kupujemy — Skup srebra Gorzów</title>
+   <meta name="description" content="Sprawdź, jakie srebro kupujemy w Gorzowie: biżuterię, monety, sztabki, sztućce, zastawy, granulat i złom srebra.">
+-  <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="oferta">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="oferta" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta" aria-current="page">Co kupujemy</a>
+@@ -39,52 +48,13 @@
+ <a href="/kontakt.html" data-page="kontakt">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
+-    <section id="start" class="hero wrap" hidden>
+-<div class="hero-copy">
+-<div class="eyebrow" hidden>
+-</div>
+-<h1>Odkryj wartość<br>
+-<em>swojego srebra.</em>
+-</h1>
+-<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i złom srebra. Poznaj wartość swoich przedmiotów.</p>
+-<div class="home-buy-prices" aria-label="Aktualny cennik skupu">
+-<div class="home-buy-heading">
+-<strong>AKTUALNY CENNIK SKUPU</strong>
+-<div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
+-<span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
+-</span>
+-</div>
+-</div>
+-<div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
+-</span>
+-</div>
+-</div>
+-<div class="actions">
+-<a class="button primary hero-desktop-action" href="/cennik.html">Aktualny cennik</a>
+-<a class="text-link hero-desktop-action" href="/co-kupujemy.html">Zobacz, co skupujemy</a>
+-<a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+-<a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+-</div>
+-<div class="hero-meta" hidden>
+-</div>
+-</div>
+-<div class="hero-visual">
+-<img src="assets/silver-collection-hero-v5.jpg" alt="Srebrna patera z ozdobnym wazonikiem, sztabką z wybitym oznaczeniem 999,9, monetami, widelcem, zegarkiem, łańcuszkiem, bransoletką oraz pierścionkiem z oczkiem" width="1536" height="1024" fetchpriority="high" decoding="async">
+-<div class="photo-label">
+-<span>Ag · 999,9</span>
+-<span>Srebro w wielu formach</span>
+-</div>
+-</div>
+-</section>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Co kupujemy</span>
++</nav>
++<main>
++    
+     <div id="content">
+ <section class="offer wrap section" id="oferta">
+ <div class="section-head">
+@@ -97,7 +67,7 @@
+ <div class="offer-grid">
+ <button class="offer-item" data-category="scrap">
+ <div class="product-photo">
+-<img src="assets/offer-jewellery-v2.png" alt="Srebrna biżuteria: łańcuszek, bransoletka, pierścionki i kolczyki" loading="lazy">
++<img src="assets/offer-jewellery-v2-960.webp" srcset="assets/offer-jewellery-v2-480.webp 480w, assets/offer-jewellery-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 50vw" alt="Srebrna biżuteria: łańcuszek, bransoletka, pierścionki i kolczyki" loading="lazy" width="960" height="640" decoding="async">
+ </div>
+ <div class="offer-title">
+ <h3>Biżuteria srebrna</h3>
+@@ -108,7 +78,7 @@
+ </button>
+ <button class="offer-item" data-category="coins">
+ <div class="product-photo">
+-<img src="assets/offer-coins-v1.png" alt="Srebrne monety bulionowe i historyczne" loading="lazy">
++<img src="assets/offer-coins-v1-960.webp" srcset="assets/offer-coins-v1-480.webp 480w, assets/offer-coins-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 50vw" alt="Srebrne monety bulionowe i historyczne" loading="lazy" width="960" height="640" decoding="async">
+ </div>
+ <div class="offer-title">
+ <h3>Monety</h3>
+@@ -119,7 +89,7 @@
+ </button>
+ <button class="offer-item" data-category="bars">
+ <div class="product-photo">
+-<img src="assets/offer-bars-v2.png" alt="Srebrne sztabki z naturalnie wytłoczonymi oznaczeniami Fine Silver, 999,9 oraz gramaturą" loading="lazy">
++<img src="assets/offer-bars-v2-960.webp" srcset="assets/offer-bars-v2-480.webp 480w, assets/offer-bars-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 50vw" alt="Srebrne sztabki z naturalnie wytłoczonymi oznaczeniami Fine Silver, 999,9 oraz gramaturą" loading="lazy" width="960" height="640" decoding="async">
+ </div>
+ <div class="offer-title">
+ <h3>Sztabki srebra</h3>
+@@ -130,7 +100,7 @@
+ </button>
+ <button class="offer-item" data-category="scrap">
+ <div class="product-photo">
+-<img src="assets/offer-tableware-v1.png" alt="Srebrne sztućce i zastawy" loading="lazy">
++<img src="assets/offer-tableware-v1-960.webp" srcset="assets/offer-tableware-v1-480.webp 480w, assets/offer-tableware-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 50vw" alt="Srebrne sztućce i zastawy" loading="lazy" width="960" height="640" decoding="async">
+ </div>
+ <div class="offer-title">
+ <h3>Sztućce i zastawy</h3>
+@@ -141,7 +111,7 @@
+ </button>
+ <button class="offer-item" data-category="scrap">
+ <div class="product-photo">
+-<img src="assets/offer-scrap-v2.png" alt="Złom srebra: uszkodzona biżuteria i fragmenty sztućców" loading="lazy">
++<img src="assets/offer-scrap-v2-960.webp" srcset="assets/offer-scrap-v2-480.webp 480w, assets/offer-scrap-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 50vw" alt="Złom srebra: uszkodzona biżuteria i fragmenty sztućców" loading="lazy" width="960" height="640" decoding="async">
+ </div>
+ <div class="offer-title">
+ <h3>Złom srebra</h3>
+@@ -152,7 +122,7 @@
+ </button>
+ <button class="offer-item" data-category="scrap">
+ <div class="product-photo">
+-<img src="assets/offer-granulate-v2.png" alt="Czysty granulat srebrny" loading="lazy">
++<img src="assets/offer-granulate-v2-960.webp" srcset="assets/offer-granulate-v2-480.webp 480w, assets/offer-granulate-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 50vw" alt="Czysty granulat srebrny" loading="lazy" width="960" height="640" decoding="async">
+ </div>
+ <div class="offer-title">
+ <h3>Granulat srebrny</h3>
+@@ -163,6 +133,12 @@
+ </button>
+ </div>
+ </section>
++
++
++
++
++
++
+ <footer class="footer">
+ <div class="wrap">
+ <div class="footer-top">
+@@ -192,26 +168,44 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
++  
++  <div class="mobile-cta">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
+ </script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++<script src="site-prices-20261016.js?v=1">
+ </script>
+ </body>
+ </html>
+-
+
+--- GitHub/faq.html
++++ JDM/faq.html
+@@ -9,25 +9,35 @@
+   <meta name="description" content="Odpowiedzi na pytania dotyczące skupu i wyceny srebra, prób, ważenia oraz sprzedaży monet, sztabek i biżuterii.">
+   <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="faq">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="faq" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta">Co kupujemy</a>
+@@ -39,58 +49,24 @@
+ <a href="/kontakt.html" data-page="kontakt">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
+-    <section id="start" class="hero wrap" hidden>
+-<div class="hero-copy">
+-<div class="eyebrow" hidden>
+-</div>
+-<h1>Odkryj wartość<br>
+-<em>swojego srebra.</em>
+-</h1>
+-<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i złom srebra. Poznaj wartość swoich przedmiotów.</p>
+-<div class="home-buy-prices" aria-label="Aktualny cennik skupu">
+-<div class="home-buy-heading">
+-<strong>AKTUALNY CENNIK SKUPU</strong>
+-<div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
+-<span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
+-</span>
+-</div>
+-</div>
+-<div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
+-</span>
+-</div>
+-</div>
+-<div class="actions">
+-<a class="button primary hero-desktop-action" href="/cennik.html">Aktualny cennik</a>
+-<a class="text-link hero-desktop-action" href="/co-kupujemy.html">Zobacz, co skupujemy</a>
+-<a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+-<a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+-</div>
+-<div class="hero-meta" hidden>
+-</div>
+-</div>
+-<div class="hero-visual">
+-<img src="assets/silver-collection-hero-v5.jpg" alt="Srebrna patera z ozdobnym wazonikiem, sztabką z wybitym oznaczeniem 999,9, monetami, widelcem, zegarkiem, łańcuszkiem, bransoletką oraz pierścionkiem z oczkiem" width="1536" height="1024" fetchpriority="high" decoding="async">
+-<div class="photo-label">
+-<span>Ag · 999,9</span>
+-<span>Srebro w wielu formach</span>
+-</div>
+-</div>
+-</section>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Pytania i odpowiedzi</span>
++</nav>
++<main>
++    
+     <div id="content">
++
++
++
++
++
+ <section id="faq" class="section faq-zone">
+ <div class="wrap faq-layout">
+ <div>
+ <span class="eyebrow">PYTANIA I ODPOWIEDZI</span>
+-<h1>Warto wiedzieć.</h1>
++<h1>Pytania o skup i wycenę srebra</h1>
+ <p>Najważniejsze informacje<br>przed wyceną srebra.</p>
+ </div>
+ <div class="faq-list">
+@@ -100,7 +76,7 @@
+ </details>
+ <details>
+ <summary>Czy moneta jest warta tyle, ile zawarte w niej srebro?</summary>
+-<p>Kalkulator pokazuje tylko demonstracyjną wartość metalu. Monety kolekcjonerskie mogą mieć dodatkową wartość zależną od m.in. stanu i rzadkości, dlatego wymagają osobnej oceny.</p>
++<p>Kalkulator pokazuje tylko orientacyjną wartość metalu. Monety kolekcjonerskie mogą mieć dodatkową wartość zależną od m.in. stanu i rzadkości, dlatego wymagają osobnej oceny.</p>
+ </details>
+ <details>
+ <summary>Jak wycenić przedmiot z kamieniami?</summary>
+@@ -112,11 +88,12 @@
+ </details>
+ <details>
+ <summary>Czy ceny i wykres są aktualne?</summary>
+-<p>Ta strona jest projektem demonstracyjnym. Cennik i wykres zawierają dane przykładowe. Przed uruchomieniem właściwej strony trzeba wprowadzić rzeczywiste stawki skupu i ustalić źródło wykresu.</p>
++<p>Cennik pobiera dane z naszego źródła cen przy otwarciu strony oraz co 5 minut. Stawki automatyczne zależą od kursu srebra i ustawień cennika. Ceny mogą pozostać bez zmian między odczytami. Datę ostatnich danych znajdziesz na górnej belce. Wycena końcowa wymaga sprawdzenia przedmiotu w punkcie.</p>
+ </details>
+ </div>
+ </div>
+ </section>
++
+ <footer class="footer">
+ <div class="wrap">
+ <div class="footer-top">
+@@ -146,26 +123,44 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
++  
++  <div class="mobile-cta">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
+ </script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++<script src="site-prices-20261016.js?v=1">
+ </script>
+ </body>
+ </html>
+-
+
+--- GitHub/index.html
++++ JDM/index.html
+@@ -9,25 +9,35 @@
+   <meta name="description" content="Skup srebra w Gorzowie Wielkopolskim. Sprawdź aktualny cennik, wyceń biżuterię, monety i sztabki oraz skontaktuj się z punktem przy ul. Pocztowej 11.">
+   <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="start">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="start" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start" aria-current="page">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta">Co kupujemy</a>
+@@ -39,10 +49,15 @@
+ <a href="/kontakt.html" data-page="kontakt">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony" hidden="">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Strona główna</span>
++</nav>
++<main>
+     <section id="start" class="hero wrap">
+ <div class="hero-copy">
+-<div class="eyebrow" hidden>
++<div class="eyebrow" hidden="">
+ </div>
+ <h1>Odkryj wartość<br>
+ <em>swojego srebra.</em>
+@@ -52,19 +67,18 @@
+ <div class="home-buy-heading">
+ <strong>AKTUALNY CENNIK SKUPU</strong>
+ <div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
++<span class="home-rate-change down" data-home-change="">▼ 0,02%</span>
+ <span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
++<b data-home-countdown="">5:00</b>
+ </span>
+ </div>
+ </div>
+ <div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
++<span>pr. 999,9 <b data-home-purity="999">6,04 zł/g</b>
++</span>
++<span>pr. 925 <b data-home-purity="925">4,20 zł/g</b>
++</span>
++<span>pr. 800 <b data-home-purity="800">3,02 zł/g</b>
+ </span>
+ </div>
+ </div>
+@@ -74,7 +88,7 @@
+ <a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+ <a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+ </div>
+-<div class="hero-meta" hidden>
++<div class="hero-meta" hidden="">
+ </div>
+ </div>
+ <div class="hero-visual">
+@@ -85,7 +99,124 @@
+ </div>
+ </div>
+ </section>
++<form class="quick-quote wrap" novalidate="" aria-label="Szybka wycena srebra">
++<div class="quick-heading">
++<h2>Kalkulator srebra</h2>
++<p>Szybka, orientacyjna wycena.</p>
++</div>
++<label>Waga (g)<input id="quick-weight" type="number" min="0.001" max="1000000" step="any" inputmode="decimal" placeholder="Wpisz wagę" value="">
++</label>
++<label>Próba<select id="quick-purity">
++<option value="" disabled="">Wybierz próbę srebra</option>
++<option value="999">Próba 999</option>
++<option value="925" selected="">Próba 925</option>
++<option value="900">Próba 900</option>
++<option value="875">Próba 875</option>
++<option value="835">Próba 835</option>
++<option value="830">Próba 830</option>
++<option value="800">Próba 800</option>
++</select>
++</label>
++<div class="quick-total">
++<small>Wartość orientacyjna</small>
++<output id="quick-result" aria-live="polite">Wpisz wagę</output>
++</div>
++<button class="button primary">Pełna wycena</button>
++<p class="quick-error" id="quick-error" role="alert" hidden="">
++</p>
++</form>
++<div class="home-links wrap">
++<a href="/co-kupujemy.html">
++<div class="home-card-top">
++<span>OFERTA</span>
++<img class="home-card-icon" src="assets/home-silver-items.svg" alt="" width="160" height="120" loading="lazy">
++</div>
++<h2>Zobacz co można sprzedać</h2>
++<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i srebro użytkowe.</p>
++</a>
++<a href="/cennik.html">
++<div class="home-card-top">
++<span>CENNIK</span>
++<img class="home-card-icon" src="assets/home-price-table.svg" alt="" width="160" height="120" loading="lazy">
++</div>
++<h2>Sprawdź aktualny cennik online</h2>
++<p>Porównaj stawki dla popularnych prób srebra.</p>
++</a>
++<a href="/kontakt.html">
++<div class="home-card-top">
++<span>KONTAKT</span>
++<img class="home-card-icon" src="assets/home-questions.svg" alt="" width="160" height="120" loading="lazy">
++</div>
++<h2>Masz pytanie?</h2>
++<p>Przygotuj zapytanie lub sprawdź kontakt do punktu.</p>
++</a>
++</div>
++<section class="google-reviews wrap">
++<div class="google-review-card">
++<div class="google-review-copy">
++<span class="google-word" aria-label="Google">
++<span>G</span>
++<span>o</span>
++<span>o</span>
++<span>g</span>
++<span>l</span>
++<span>e</span>
++</span>
++<span class="review-kicker">OPINIE KLIENTÓW</span>
++<h2>Doceniana obsługa<br>w Gorzowie.</h2>
++<p>Sprawdź doświadczenia osób, które odwiedziły punkt SEZAM przy ul. Pocztowej 11.</p>
++<a class="button review-cta" href="https://www.google.com/maps/search/?api=1&amp;query=Lombard+SEZAM+Pocztowa+11+Gorz%C3%B3w+Wielkopolski" target="_blank" rel="noopener">Zobacz opinie Google <span aria-hidden="true">→</span>
++</a>
++</div>
++<div class="review-rating" aria-label="Ocena 4,9 na 5 na podstawie ponad 290 opinii">
++<div>
++<strong>4,9</strong>
++<span>/ 5,0</span>
++</div>
++<div class="review-stars">★★★★★</div>
++<p>Ponad 290 opinii</p>
++<small>Google</small>
++</div>
++</div>
++</section>
++<section class="desktop-market-preview wrap">
++<div class="section-head">
++<div>
++<span class="eyebrow">NOTOWANIA NA ŻYWO</span>
++<h2>Aktualny kurs srebra.</h2>
++</div>
++<p>Obserwuj zmianę wartości srebra w wybranym okresie.</p>
++</div>
++<div class="chart-toolbar">
++<div>
++<b id="desktop-spot">—</b>
++<span> / gram czystego srebra</span>
++</div>
++<div class="period-tabs" role="group" aria-label="Zakres wykresu na stronie głównej">
++<button data-home-period="1" aria-pressed="false">Dzień</button>
++<button data-home-period="7" aria-pressed="false">Tydzień</button>
++<button data-home-period="30" aria-pressed="true">Miesiąc</button>
++<button data-home-period="365" aria-pressed="false">Rok</button>
++</div>
++<span class="quote-timer" id="home-quote-timer">Następne notowanie za 2:36</span>
++</div>
++<div class="chart-area">
++<svg id="desktop-market-line" role="img" aria-label="Wykres kursu srebra">
++</svg>
++</div>
++<div class="chart-foot">
++<span id="home-chart-range">—</span>
++<span id="desktop-change">Aktualne notowania</span>
++</div>
++</section>
+     <div id="content">
++
++
++
++
++
++
++
+ <footer class="footer">
+ <div class="wrap">
+ <div class="footer-top">
+@@ -115,26 +246,48 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
+-</script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++  
++  <div class="mobile-cta">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
++</script>
++<script src="site-calculator-20261016.js?v=3">
++</script>
++<script src="site-charts-20261016.js?v=1">
++</script>
++<script src="site-prices-20261016.js?v=1">
+ </script>
+ </body>
+ </html>
+-
+
+--- GitHub/kontakt.html
++++ JDM/kontakt.html
+@@ -9,25 +9,35 @@
+   <meta name="description" content="Kontakt ze skupem srebra PUH SEZAM w Gorzowie Wielkopolskim, ul. Pocztowa 11. Telefon i formularz zapytania.">
+   <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="kontakt">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="kontakt" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta">Co kupujemy</a>
+@@ -39,58 +49,25 @@
+ <a href="/kontakt.html" data-page="kontakt" aria-current="page">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
+-    <section id="start" class="hero wrap" hidden>
+-<div class="hero-copy">
+-<div class="eyebrow" hidden>
+-</div>
+-<h1>Odkryj wartość<br>
+-<em>swojego srebra.</em>
+-</h1>
+-<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i złom srebra. Poznaj wartość swoich przedmiotów.</p>
+-<div class="home-buy-prices" aria-label="Aktualny cennik skupu">
+-<div class="home-buy-heading">
+-<strong>AKTUALNY CENNIK SKUPU</strong>
+-<div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
+-<span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
+-</span>
+-</div>
+-</div>
+-<div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
+-</span>
+-</div>
+-</div>
+-<div class="actions">
+-<a class="button primary hero-desktop-action" href="/cennik.html">Aktualny cennik</a>
+-<a class="text-link hero-desktop-action" href="/co-kupujemy.html">Zobacz, co skupujemy</a>
+-<a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+-<a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+-</div>
+-<div class="hero-meta" hidden>
+-</div>
+-</div>
+-<div class="hero-visual">
+-<img src="assets/silver-collection-hero-v5.jpg" alt="Srebrna patera z ozdobnym wazonikiem, sztabką z wybitym oznaczeniem 999,9, monetami, widelcem, zegarkiem, łańcuszkiem, bransoletką oraz pierścionkiem z oczkiem" width="1536" height="1024" fetchpriority="high" decoding="async">
+-<div class="photo-label">
+-<span>Ag · 999,9</span>
+-<span>Srebro w wielu formach</span>
+-</div>
+-</div>
+-</section>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Kontakt</span>
++</nav>
++<main>
++    
+     <div id="content">
++
++
++
++
++
++
+ <section id="kontakt" class="section wrap">
+ <div class="section-head">
+ <div>
+ <span class="eyebrow">KONTAKT</span>
+-<h1>Porozmawiajmy o Twoim srebrze.</h1>
++<h1>Kontakt ze skupem srebra w Gorzowie</h1>
+ </div>
+ <p>Skontaktuj się telefonicznie, przez WhatsApp lub wyznacz trasę do punktu.</p>
+ </div>
+@@ -113,20 +90,13 @@
+ <h3>Przygotuj zapytanie</h3>
+ <p>Napisz wiadomość — trafi bezpośrednio do naszego punktu.</p>
+ <div class="fields">
+-<label>Twoje imię<input id="contact-name" autocomplete="given-name" required="" maxlength="80">
++<label>Twoje imię<input id="contact-name" autocomplete="given-name" required="" maxlength="80" value="">
+ </label>
+-<label>Twój e-mail<input id="contact-email" type="email" autocomplete="email" maxlength="150" required="">
++<label>Twój e-mail<input id="contact-email" type="email" autocomplete="email" maxlength="150" required="" value="">
+ </label>
+ <label class="wide-field">Co chcesz wycenić?<textarea id="contact-message" rows="5" required="" maxlength="4000" placeholder="Opisz przedmioty, podaj wagę i próbę...">
+ </textarea>
+ </label>
+-</div>
+-<div class="turnstile-box" aria-label="Ochrona antyspamowa">
+-<div>
+-<div>
+-</div>
+-<input type="hidden" name="cf-turnstile-response" id="cf-chl-widget-ljikl_response" value="">
+-</div>
+ </div>
+ <button type="submit" class="button primary">Wyślij wiadomość</button>
+ <span id="message-status" role="status">
+@@ -137,7 +107,7 @@
+ </label>
+ <button type="button" class="button" id="copy-message">Kopiuj wiadomość</button>
+ </div>
+-<input name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position: absolute; left: -9999px; opacity: 0;">
++<p class="small-note">Administratorem danych jest PUH SEZAM Sp. z o.o. Dane służą obsłudze zapytania. <a href="/polityka-prywatnosci.html">Zasady przetwarzania danych</a>.</p>
+ </form>
+ </div>
+ </section>
+@@ -170,26 +140,46 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
++  
++  <div class="mobile-cta">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
+ </script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
++<script src="site-prices-20261016.js?v=1">
+ </script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++<script src="studio-contact-smtp-20261007.js?v=20261016-static">
+ </script>
+ </body>
+ </html>
+-
+
+--- GitHub/regulamin.html
++++ JDM/regulamin.html
+@@ -9,25 +9,35 @@
+   <meta name="description" content="Regulamin serwisu skupu srebra w Gorzowie: zasady korzystania z cennika, kalkulatora i informacji na stronie.">
+   <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="regulamin">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="regulamin" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta">Co kupujemy</a>
+@@ -39,53 +49,21 @@
+ <a href="/kontakt.html" data-page="kontakt">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
+-    <section id="start" class="hero wrap" hidden>
+-<div class="hero-copy">
+-<div class="eyebrow" hidden>
+-</div>
+-<h1>Odkryj wartość<br>
+-<em>swojego srebra.</em>
+-</h1>
+-<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i złom srebra. Poznaj wartość swoich przedmiotów.</p>
+-<div class="home-buy-prices" aria-label="Aktualny cennik skupu">
+-<div class="home-buy-heading">
+-<strong>AKTUALNY CENNIK SKUPU</strong>
+-<div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
+-<span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
+-</span>
+-</div>
+-</div>
+-<div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
+-</span>
+-</div>
+-</div>
+-<div class="actions">
+-<a class="button primary hero-desktop-action" href="/cennik.html">Aktualny cennik</a>
+-<a class="text-link hero-desktop-action" href="/co-kupujemy.html">Zobacz, co skupujemy</a>
+-<a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+-<a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+-</div>
+-<div class="hero-meta" hidden>
+-</div>
+-</div>
+-<div class="hero-visual">
+-<img src="assets/silver-collection-hero-v5.jpg" alt="Srebrna patera z ozdobnym wazonikiem, sztabką z wybitym oznaczeniem 999,9, monetami, widelcem, zegarkiem, łańcuszkiem, bransoletką oraz pierścionkiem z oczkiem" width="1536" height="1024" fetchpriority="high" decoding="async">
+-<div class="photo-label">
+-<span>Ag · 999,9</span>
+-<span>Srebro w wielu formach</span>
+-</div>
+-</div>
+-</section>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Regulamin</span>
++</nav>
++<main>
++    
+     <div id="content">
++
++
++
++
++
++
++
+ <section id="regulamin" class="section wrap terms-page">
+ <div class="section-head">
+ <div>
+@@ -135,26 +113,44 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
++  
++  <div class="mobile-cta">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
+ </script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++<script src="site-prices-20261016.js?v=1">
+ </script>
+ </body>
+ </html>
+-
+
+--- GitHub/sitemap.xml
++++ JDM/sitemap.xml
+@@ -1,13 +1,81 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+-  <url><loc>https://www.skupsrebragorzow.pl/</loc></url>
+-  <url><loc>https://www.skupsrebragorzow.pl/co-kupujemy.html</loc></url>
+-  <url><loc>https://www.skupsrebragorzow.pl/wycena.html</loc></url>
+-  <url><loc>https://www.skupsrebragorzow.pl/cennik.html</loc></url>
+-  <url><loc>https://www.skupsrebragorzow.pl/wykres.html</loc></url>
+-  <url><loc>https://www.skupsrebragorzow.pl/faq.html</loc></url>
+-  <url><loc>https://www.skupsrebragorzow.pl/blog.html</loc></url>
+-  <url><loc>https://www.skupsrebragorzow.pl/kontakt.html</loc></url>
+-  <url><loc>https://www.skupsrebragorzow.pl/regulamin.html</loc></url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/co-kupujemy.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/wycena.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/cennik.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/wykres.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/faq.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/kontakt.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/regulamin.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-przygotowanie-srebra-do-wyceny.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-proba-925-bizuteria.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-monety-srebrne-wartosc.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-wycena-sztabek-srebra.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-srebrne-sztucce-zastawy.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-zlom-srebra-bizuteria.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-granulat-srebrny.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-aktualny-cennik-skupu-srebra.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-wycena-starych-sztuccow.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-sprzedaz-granulatu-srebrnego.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-naczynia-srebro-czy-posrebrzanie.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-skup-bizuterii-pojedyncze-przedmioty.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-porownanie-wyceny-bizuterii.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-zatarta-punca-srebra.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-wycena-swiecznikow.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/blog-wspolna-wycena-srebra.html</loc>
++</url>
++<url>
++<loc>https://www.skupsrebragorzow.pl/polityka-prywatnosci.html</loc>
++</url>
+ </urlset>
+-
+
+--- GitHub/studio-contact-20261004-status.js
++++ JDM/studio-contact-20261004-status.js
+@@ -61,7 +61,7 @@
+     status.textContent = 'Wysyłanie wiadomości…';
+     try {
+       const body = new URLSearchParams({name: name.value.trim(), email: email.value.trim(), message: message.value.trim(), company: trap.value, form_started: String(formStarted), 'cf-turnstile-response': token});
+-      const response = await fetch('send-message-smtp-20261007.php', {method: 'POST', headers: {'Content-Type': 'application/x-www-form-urlencoded'}, body});
++      const response = await fetch('send-message.php', {method: 'POST', headers: {'Content-Type': 'application/x-www-form-urlencoded'}, body});
+       const responseText = await response.text();
+       let result;
+       try {
+
+--- GitHub/studio-contact-20261004.js
++++ JDM/studio-contact-20261004.js
+@@ -13,8 +13,6 @@
+   if (email) email.required = true;
+   if (description) description.textContent = 'Napisz wiadomość — trafi bezpośrednio do naszego punktu.';
+   if (button) button.textContent = 'Wyślij wiadomość';
+-  // Komunikat musi być widoczny także wtedy, gdy dawny podgląd wiadomości jest ukryty.
+-  if (status && button) button.after(status);
+ 
+   const trap = document.createElement('input');
+   trap.name = 'company';
+@@ -29,7 +27,7 @@
+     if (!form.reportValidity() || !button) return;
+     button.disabled = true;
+     button.textContent = 'Wysyłanie…';
+-    status.textContent = 'Wysyłanie wiadomości…';
++    status.textContent = '';
+     try {
+       const body = new URLSearchParams({name: name.value.trim(), email: email.value.trim(), message: message.value.trim(), company: trap.value});
+       const response = await fetch('send-message.php', {method: 'POST', headers: {'Content-Type': 'application/x-www-form-urlencoded'}, body});
+
+--- GitHub/studio-contact-smtp-20261007.js
++++ JDM/studio-contact-smtp-20261007.js
+@@ -17,7 +17,6 @@
+   if (email) email.required = true;
+   if (description) description.textContent = 'Napisz wiadomość — trafi bezpośrednio do naszego punktu.';
+   if (button) button.textContent = 'Wyślij wiadomość';
+-  // Komunikat musi być widoczny także wtedy, gdy dawny podgląd wiadomości jest ukryty.
+   if (status && button) button.after(status);
+ 
+   const trap = document.createElement('input');
+@@ -72,6 +71,7 @@
+       if (!response.ok || !result.ok) throw new Error(result.message || 'Nie udało się wysłać wiadomości.');
+       status.textContent = result.message;
+       form.reset();
++      try { sessionStorage.removeItem('silver-contact-draft'); } catch {}
+       turnstileToken = '';
+       if (window.turnstile && turnstileWidget !== undefined) window.turnstile.reset(turnstileWidget);
+     } catch (error) {
+
+--- GitHub/studio-custom.css
++++ JDM/studio-custom.css
+@@ -1,3 +1,2 @@
+-/* Zmiany ograniczone do Studio 2. */
+ .studio .hero-visual .bar-engraving{position:absolute;z-index:2;right:9.4%;top:31%;width:22%;display:grid;gap:5px;color:#4c4e4d;text-align:center;font-family:Arial,sans-serif;font-size:clamp(7px,.72vw,12px);letter-spacing:.11em;font-weight:700;line-height:1.05;transform:rotate(-8deg);text-shadow:0 1px #ffffff80;pointer-events:none}.studio .hero-visual .bar-engraving strong{font-size:clamp(10px,1vw,17px);letter-spacing:.15em}.google-reviews-link{display:inline-flex;margin-top:8px;font-weight:700;text-decoration:underline;text-underline-offset:3px}@media(max-width:680px){.studio .hero-visual .bar-engraving{right:8%;top:31%;width:26%;font-size:8px}.studio .hero-visual .bar-engraving strong{font-size:12px}}
+ .studio .demo{min-height:34px;display:flex;align-items:center;justify-content:center;gap:9px;font-size:12px;letter-spacing:.25px}.silver-rate-bar strong{font-variant-numeric:tabular-nums;color:#294f43}.studio .quick-quote{background:linear-gradient(135deg,#e4e9e8,#d9e0df);border:1px solid #b7c3c1;box-shadow:0 14px 32px #33413f1a}.studio .quick-quote input,.studio .quick-quote select{background:#fff;border-color:#aebdbc;box-shadow:0 1px 0 #fff}.studio #quick-purity{appearance:none;padding-right:54px;background-image:linear-gradient(45deg,transparent 50%,#36584a 50%),linear-gradient(135deg,#36584a 50%,transparent 50%);background-position:calc(100% - 26px) 52%,calc(100% - 18px) 52%;background-size:9px 9px,9px 9px;background-repeat:no-repeat}.studio .quick-quote label{font-weight:600;color:#415052}.home-links>a{min-height:174px;display:flex;flex-direction:column;justify-content:center}.google-reviews{padding:8px 0 62px}.google-review-card{border:1px solid #c8d1cf;background:#fff;padding:28px 30px;display:flex;align-items:center;justify-content:space-between;gap:28px;box-shadow:0 8px 24px #35423d0c}.google-review-card h2{font-size:clamp(25px,3vw,36px);margin:5px 0 8px}.google-review-card p{max-width:560px}.google-word{font-family:Arial,sans-serif;font-weight:700;letter-spacing:-1px}.google-word span:nth-child(1),.google-word span:nth-child(4){color:#4285f4}.google-word span:nth-child(2),.google-word span:nth-child(6){color:#ea4335}.google-word span:nth-child(3){color:#fbbc05}.google-word span:nth-child(5){color:#34a853}.review-stars{color:#e5a91e;font-size:24px;letter-spacing:2px;white-space:nowrap}.google-review-note{font-size:12px;color:var(--muted)}.studio .footer{padding-top:42px}.studio .footer-top{grid-template-columns:1fr;gap:20px;text-align:left}.studio .footer-top p{display:block;max-width:350px}.studio .footer-top nav{display:flex;flex-wrap:wrap;gap:10px 22px;max-width:680px}.studio .footer-bottom{justify-content:flex-start;flex-wrap:wrap}.studio .footer-bottom>span{width:auto}.studio .footer .small-note,.archive-reference{display:none!important}.pricing-toolbar{display:flex;justify-content:flex-end;margin:-12px 0 18px}.pricing-toolbar .button{font-size:14px;min-height:42px}.price-panel{border:1px solid #b8c9c1;background:linear-gradient(135deg,#f3f8f5,#e1eee8);padding:24px;margin:0 0 30px}.price-panel[hidden]{display:none}.price-panel-head{display:flex;justify-content:space-between;gap:20px;align-items:start}.price-panel h3{font-size:24px;margin:0 0 6px}.price-panel p{font-size:14px;max-width:660px}.price-panel form{display:grid;grid-template-columns:minmax(180px,280px) auto;gap:16px;align-items:end;margin-top:18px}.price-panel label{font-weight:600;font-size:14px}.price-panel input{background:#fff}.price-panel .panel-actions{display:flex;gap:10px;flex-wrap:wrap}.price-panel-status{font-size:13px;grid-column:1/-1;margin:0;color:#36584a}@media(max-width:680px){.studio .demo{padding:8px 18px;justify-content:flex-start;line-height:1.4}.google-review-card{align-items:flex-start;flex-direction:column}.google-reviews{padding-bottom:40px}.review-stars{font-size:21px}.price-panel{padding:20px}.price-panel form{grid-template-columns:1fr}.pricing-toolbar{justify-content:flex-start}.studio #quick-purity{background-position:calc(100% - 24px) 52%,calc(100% - 16px) 52%}}
+
+--- GitHub/studio-enhancements-20261004-price-contact.css
++++ JDM/studio-enhancements-20261004-price-contact.css
+@@ -1,9 +1,11 @@
+ 
+-/* Mobile product list: name and details on left, visible price on right. */
+ .product-mobile-details{display:none}
++@media(max-width:360px){.studio .actions .hero-mobile-action{min-width:0;font-size:12px;padding-inline:6px}}
++.studio .blog-grid .blog-image-link{display:block}.studio .blog-grid h3 a{color:inherit}.studio .blog-grid h3 a:hover{text-decoration:underline;text-underline-offset:4px}.studio .blog-article-heading{max-width:850px;margin-inline:auto}.studio .blog-article{max-width:850px;margin-inline:auto}.studio .blog-article>time{display:block;color:#647a72;font-size:13px;margin-bottom:18px}.studio .blog-article-photo{display:block;width:100%;height:auto;max-height:480px;object-fit:cover;border-radius:16px;margin-bottom:28px}.studio .blog-article-copy p{font-size:17px;line-height:1.85;margin:0 0 20px;color:var(--ink)}.studio .blog-article-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:30px}.studio .blog-related{border-top:1px solid var(--line);padding-top:24px;margin-top:32px}.studio .blog-related h2{font-size:23px;margin-bottom:12px}.studio .blog-related>a{color:#3f7d61;text-decoration:underline;text-underline-offset:4px}@media(max-width:800px){.studio .blog-article-copy p{font-size:16px;line-height:1.75}.studio .blog-article-heading h1{overflow-wrap:anywhere}.studio .blog-article-actions .button{flex:1;white-space:nowrap;padding-inline:12px}}
+ @media(max-width:800px){.studio .product-table{overflow:visible;min-width:0}.studio .product-table table{width:100%;min-width:0;table-layout:fixed}.studio .product-table th:nth-child(2),.studio .product-table td:nth-child(2),.studio .product-table th:nth-child(3),.studio .product-table td:nth-child(3){display:none}.studio .product-table th:first-child,.studio .product-table td:first-child{width:64%;white-space:normal;overflow-wrap:anywhere;padding:10px 8px}.studio .product-table th:last-child,.studio .product-table td:last-child{width:36%;white-space:nowrap;text-align:right;padding:10px 8px;font-size:13px}.studio .product-table td:first-child b{font-size:13px;line-height:1.3}.studio .product-mobile-details{display:block;margin-top:3px;font-size:11px;line-height:1.3;color:#626b72}}
+ 
+-/* Requested home strip and mobile-only compact buy prices. */
++.studio .home-card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:88px}.studio .home-card-icon{display:block;width:116px;height:87px;object-fit:contain;flex:0 0 auto}.studio .home-links>a{overflow:hidden}.studio .home-links h2{margin-top:12px}@media(max-width:800px){.studio .home-card-top{min-height:72px}.studio .home-card-icon{width:100px;height:75px}}
++@media(max-width:800px){.studio #cennik .pricing-layout>.table-wrap:not(.product-table) table{width:100%;min-width:0;table-layout:fixed}.studio #cennik .pricing-layout>.table-wrap:not(.product-table) th,.studio #cennik .pricing-layout>.table-wrap:not(.product-table) td{padding:10px 6px;white-space:nowrap}.studio #cennik .pricing-layout>.table-wrap:not(.product-table) th:first-child{width:25%}.studio #cennik .pricing-layout>.table-wrap:not(.product-table) th:nth-child(2){width:40%}.studio #cennik .pricing-layout>.table-wrap:not(.product-table) th:last-child{width:35%}.studio #cennik .pricing-layout>.table-wrap:not(.product-table) td:last-child{text-align:right}}
+ .studio #start .hero-copy>p{line-height:1.75}
+ .studio .silver-rate-bar{display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;gap:8px;white-space:nowrap}
+ .studio .silver-rate-bar .rate-time{white-space:nowrap}
+@@ -19,7 +21,6 @@
+ .home-buy-price-row>span{flex:1;font-size:11px;line-height:1.3}.home-buy-price-row>span+span{border-left:1px solid #a9cbbb}
+ .home-buy-price-row b{display:block;margin-top:2px;font-size:16px;line-height:1.2;white-space:nowrap}
+ }
+-/* Aktualizacja mobilna Studio 2. */
+ .studio .silver-rate-bar{gap:12px;min-height:42px;padding:8px 18px;font-size:12px}.silver-rate-bar .rate-label{text-transform:uppercase;letter-spacing:.08em;font-weight:700}.silver-rate-bar strong{font-size:15px}.rate-change{font-weight:800}.rate-change.up{color:#197344}.rate-change.down{color:#b43636}.rate-time{color:var(--muted)}
+ .price-categories{margin:0 0 26px}.price-category-tabs{display:flex;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px}.price-category-tabs button{border:1px solid #aac9bb;background:#fff;color:#315846;padding:11px 17px;border-radius:999px;font-weight:700}.price-category-tabs button[aria-selected=true]{background:#d6eee4;border-color:#8eb8a3}.pricing-category-note{margin:18px 0}.product-price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.product-price-grid article{padding:18px;border:1px solid var(--line);background:#fff;border-radius:14px}.product-price-grid span,.blog-page article>div>span{font-size:11px;letter-spacing:.08em;color:#53746a;font-weight:700}.product-price-grid h3{font-size:20px;margin:8px 0}.product-price-grid strong{display:block;font-size:22px;color:#315846}.product-price-grid small{color:var(--muted)}
+ .contact-address{font-size:18px;margin:12px 0 20px}.contact-callout{display:grid;gap:2px;background:#fff;padding:16px;border-radius:12px;border:1px solid var(--line);margin:16px 0}.contact-callout span{font-size:12px;text-transform:uppercase;letter-spacing:.08em}.contact-callout a{font-size:25px;font-weight:800;color:#284b3e}.contact-actions,.footer-actions{display:flex;flex-wrap:wrap;gap:10px}.whatsapp-button{background:#d8f1e3!important;border-color:#93c9aa!important;color:#17623d!important}.footer-actions{margin:22px 0}.studio .offer-link{background:#d6eee4;border:1px solid #a8cdb8;border-radius:999px;padding:8px 12px;color:#294f40;text-decoration:none}.studio .offer-item:nth-child(3) .product-photo{position:relative}.studio .offer-item:nth-child(3) .product-photo:after{content:'FINE SILVER · 999,9\A1000 g · 500 g';white-space:pre;position:absolute;right:10px;bottom:10px;padding:7px 9px;border:1px solid #9ea8a7;border-radius:5px;background:#ffffffc9;color:#4b5555;font:bold 10px/1.4 Arial;letter-spacing:.08em;text-shadow:0 1px #fff}.blog-page .section-head{margin-bottom:28px}.blog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.blog-grid article{overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:16px}.blog-grid img{width:100%;height:230px;object-fit:cover}.blog-grid article>div{padding:22px}.blog-grid h3{font-size:26px;margin:8px 0 12px}.blog-grid p{font-size:15px;line-height:1.7}
+@@ -49,10 +50,8 @@
+ .studio .chart-notice,.studio .home-notice{fill:#53635c;font-size:14px;font-weight:600}
+ .blog-grid time{display:block;margin-top:7px;font-size:12px;color:#647a72}
+ @media(max-width:800px){.studio .actions .text-link{order:-1}}
+-/* Na telefonie lista wspólnej wyceny jest ważniejsza niż podgląd pojedynczej pozycji. */
+ @media(max-width:800px){.studio .calculator .calc-result{display:none}}
+ .valuation-actions{display:flex;gap:12px;margin-top:18px;align-items:stretch}.valuation-actions #add-item{margin-top:0}.valuation-actions .button{margin:0}.reset-valuation-mobile{display:none}@media(max-width:800px){.reset-valuation-desktop{display:none}.reset-valuation-mobile{display:inline-flex}.valuation-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.studio .valuation-actions .reset-valuation{width:auto;margin-top:0;padding-inline:10px;font-size:14px}}
+-/* Center the home photograph on mobile only. */
+ .basket-actions #reset-valuation-basket{display:flex;width:100%;flex-basis:100%;order:3}.basket-actions #copy-status{order:4}
+ @media(max-width:800px){.studio .mobile-cta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding-inline:10px}.studio .mobile-cta>span{font-size:11px;flex:0 1 auto}.studio .mobile-cta>a{width:100%;min-width:0;min-height:44px;margin:0;padding:9px 4px;font-size:12px;white-space:nowrap;justify-content:center;gap:4px}.studio .mobile-cta .mobile-call{margin-left:0}.studio .mobile-cta .whatsapp-button:before{display:none!important}.studio .mobile-cta .whatsapp-button svg{flex:0 0 20px}.studio #nav a[data-page="start"]{order:0}.studio #nav a[data-page="oferta"]{order:1}.studio #nav a[data-page="cennik"]{order:2}.studio #nav a[data-page="kalkulator"]{order:3}.studio #nav a[data-page="wykres"]{order:4}.studio #nav a[data-page="faq"]{order:5}.studio #nav a[data-page="blog"]{order:6}.studio #nav a[data-page="kontakt"]{order:7}.studio #nav a[data-page="regulamin"]{order:8}}
+ @media(max-width:800px){.studio #start .hero-visual{left:auto;right:auto;margin-inline:auto;align-self:center}.studio #start .hero-visual img{margin-inline:auto;transform:none;object-position:100% center}}
+
+--- GitHub/studio-enhancements-20261004-price-contact.js
++++ JDM/studio-enhancements-20261004-price-contact.js
+@@ -123,11 +123,12 @@
+     ,['Srebrne talerze, patery i naczynia: srebro czy posrebrzanie?','Stare talerze, misy, świeczniki i patery mogą wyglądać jak srebro, ale nie każdy błyszczący przedmiot zawiera srebro w całej swojej masie. Wyroby posrebrzane mają cienką warstwę srebra na innym metalu, dlatego ich wycena przebiega inaczej niż w przypadku naczyń wykonanych ze stopu 800 lub 925. Warto obejrzeć spód przedmiotu i szukać punc, cyfr albo znaków wytwórcy. Skup srebra w Gorzowie pomaga odróżnić oznaczenia prób od symboli informujących jedynie o powłoce. Przygotowując przedmioty do wyceny, nie używaj silnych środków chemicznych ani nie próbuj usuwać elementów konstrukcyjnych. Naczynie z dekoracją, uchwytami lub wkładami może wymagać osobnej oceny masy. Skup srebra Gorzów pozwala uzyskać jasną informację, czy przedmiot nadaje się do wyceny jako srebro, zanim podejmiesz decyzję o sprzedaży.']
+     ,['Skup srebra w Gorzowie — biżuteria, złom i pojedyncze przedmioty','Do skupu srebra można przygotować nie tylko komplet biżuterii, ale również pojedyncze kolczyki, zerwany łańcuszek, pierścionek bez pary, uszkodzoną bransoletkę czy niewielkie fragmenty srebrnego złomu. Stan użytkowy przedmiotu nie przekreśla jego wartości metalu. Najważniejsze pozostają próba i masa części wykonanych ze srebra. Przed wizytą warto odłożyć kamienie, elementy stalowe lub inne dodatki do osobnej oceny, jeśli można to zrobić bez uszkodzenia przedmiotu. Skup srebra Gorzów obsługuje zarówno osoby z jednym drobnym przedmiotem, jak i klientów przygotowujących większą ilość srebra użytkowego. Kalkulator na stronie pomaga sprawdzić orientacyjną wartość, natomiast końcowa wycena jest ustalana po sprawdzeniu przedmiotu. Takie podejście pozwala przejrzyście odpowiedzieć na pytanie, ile może być warte srebro i jakie informacje warto zabrać ze sobą do punktu.']
+   ];
++  articles.push(...[["Skup srebra — jak porównać wycenę biżuterii?","Przy sprzedaży biżuterii warto zacząć od trzech informacji: masy, próby i ceny za gram danego stopu. Skup srebra nie powinien być oceniany wyłącznie na podstawie jednej liczby w nagłówku cennika. Sprawdź, czy stawka dotyczy czystego srebra, biżuterii próby 925 czy konkretnej monety. Dzięki temu porównujesz podobne przedmioty. Łańcuszek z kamieniem i prosty pierścionek mogą wymagać innego ustalenia masy srebrnej części. Domowa waga daje punkt odniesienia, ale przy drobnej biżuterii jej dokładność może być niewystarczająca. W punkcie zapytaj o masę przyjętą do wyceny i elementy, które nie są zaliczane do srebra. Nie musisz samodzielnie wyjmować kamieni ani rozbierać zapięć. Bezpieczniej przynieść rzeczy w całości. Na naszej stronie porównasz cennik z orientacyjnym wynikiem kalkulatora. Skup srebra w Gorzowie pozwala następnie zweryfikować materiał i wagę podczas oględzin. Jeśli przygotowujesz kilka przedmiotów, zanotuj ich liczbę i rozdziel je według oznaczeń. Przed decyzją poproś o wyjaśnienie końcowej kwoty. Przejrzysta wycena to nie tylko wynik, lecz również zrozumiałe zasady obliczenia."],["Skup srebra Gorzów: co zrobić, gdy punca jest zatarta?","Oznaczenie na srebrnym przedmiocie bywa ukryte na zapięciu, wewnątrz pierścionka lub na spodzie naczynia. Po wielu latach użytkowania może być trudne do odczytania. Brak czytelnego znaku nie oznacza automatycznie, że rzecz nie zawiera srebra. Sam stempel również nie zastępuje sprawdzenia materiału. Skup srebra Gorzów pozwala przedstawić przedmiot do oględzin, zamiast rozstrzygać jego skład wyłącznie na podstawie fotografii. Do wstępnego obejrzenia oznaczenia użyj dobrego światła i lupy. Nie pogłębiaj znaków ostrym narzędziem, nie szlifuj powierzchni i nie stosuj przypadkowych odczynników. Możesz uszkodzić przedmiot, nie uzyskując pewnej odpowiedzi. Zrób zdjęcie całej rzeczy i osobne zbliżenie puncy. Informacja o pochodzeniu lub dawnym opakowaniu może ułatwić rozmowę, ale nie przesądza o próbie. Skup srebra w Gorzowie rozpoczyna wycenę od ustalenia materiału i masy. Jeśli nie znasz próby, nie wybieraj najwyższej w kalkulatorze tylko dlatego, że przedmiot wygląda na srebrny. Zaczekaj na weryfikację. Kolor, połysk i ciemniejsza powierzchnia nie wystarczą do samodzielnego ustalenia zawartości srebra."],["Skup srebra w Gorzowie — jak przygotować świeczniki do wyceny?","Świeczniki mają często szeroką podstawę, ozdobny trzon i kilka łączonych części. Masa całego przedmiotu nie zawsze odpowiada masie srebra: konstrukcja może zawierać obciążenie, wypełnienie albo elementy z innego materiału. Część wyrobów jest jedynie posrebrzana. Skup srebra w Gorzowie pozwala omówić te różnice bez samodzielnego rozbierania delikatnych przedmiotów. Przed wizytą obejrzyj spód podstawy i miejsca łączenia. Jeżeli widzisz puncę, zapisz oznaczenie lub zrób fotografię. Nie odrywaj filcu, nie odkręcaj części na siłę i nie usuwaj wypełnienia. Do transportu zastosuj miękkie opakowanie, aby elementy nie obijały się o siebie. Jeśli świeczniki tworzą parę, przynieś oba: podobne sztuki mogą różnić się budową i stanem. Skup srebra dotyczy oceny materiału, jednak przy starszych wyrobach warto również rozważyć wartość kolekcjonerską lub użytkową. Nie utożsamiaj jej automatycznie z samą ceną kruszcu. Zapytaj, jaka próba i masa zostały przyjęte oraz czy wynik dotyczy wyłącznie srebrnych części. Kalkulator może pomóc po ustaleniu właściwych parametrów, lecz nie zastąpi sprawdzenia konstrukcji."],["Skup srebra: jak uporządkować kilka przedmiotów do wspólnej wyceny?","W jednej szufladzie często leżą pierścionki, pojedyncze kolczyki i zerwane łańcuszki. Przy większej liczbie rzeczy przygotuj prosty podział. Osobno odłóż wyroby z czytelną próbą, osobno nieoznaczone, a monety i sztabki zachowaj w opakowaniach, jeśli je masz. Skup srebra może wtedy ocenić każdą kategorię według odpowiednich parametrów, zamiast traktować woreczek jako jednorodny materiał. Nie mieszaj srebra z przypadkowymi metalowymi dodatkami. Drobne części zabezpiecz w zamykanych pojemnikach; możesz dołączyć krótki spis ich zawartości. Nie trzeba polerować rzeczy ani doprowadzać ich do wyglądu nowych. Skup srebra Gorzów pozwala omówić zarówno pojedynczy wyrób, jak i zestaw różnych przedmiotów. Na stronie skorzystaj ze wspólnej wyceny: dodawaj pozycje oddzielnie, podając masę oraz próbę. Łatwiej zobaczysz, skąd bierze się suma. Jeśli przedmiot ma kamienie lub inne dodatki, nie przypisuj całej jego masy srebru. Zachowaj listę rzeczy do porównania podczas oględzin. Skup srebra w Gorzowie oznacza końcową ocenę po sprawdzeniu materiału; podsumowanie kalkulatora przygotowuje do rozmowy, a nie stanowi wiążącej ceny sprzedaży."]]);
+   articles.forEach(article=>{article[1]=article[1].replaceAll('aktualną ceną produktu w panelu','aktualną ceną produktu').replaceAll('są pobierane ze wspólnego panelu cen','są widoczne w cenniku').replaceAll('podłączonych do panelu cen','widocznych w cenniku').replaceAll('synchronizowane z panelem cen','regularnie aktualizowane').replaceAll('są pobierane ze wspólnego panelu','są aktualizowane').replaceAll('Ta sama baza zasila kalkulator i cennik produktów, więc zmiana wykonana w panelu nie wymaga ręcznego poprawiania wielu miejsc. ','');});
+   const practicalNote=' Warto zachować rozsądek przy samodzielnej ocenie. Zdjęcia i kalkulator pozwalają się przygotować, lecz nie są badaniem laboratoryjnym ani wiążącą ofertą. Różnice w konstrukcji przedmiotu, ślady napraw, elementy nieszlachetne oraz brak czytelnej puncy mogą zmienić wynik. W razie wątpliwości najlepiej przynieść przedmiot w takim stanie, w jakim został znaleziony, razem z opakowaniem lub dokumentem, jeżeli je posiadasz. Nie trzeba podejmować decyzji od razu: dobrze jest zapytać o sposób oceny, potwierdzić próbę i dopiero potem porównać możliwości. Dla osób sprzedających większą ilość rzeczy pomocne jest rozdzielenie kategorii i spisanie masy. Skup srebra w Gorzowie ma służyć przejrzystej rozmowie o wartości metalu, a aktualne stawki pokazane na stronie są punktem odniesienia przed końcową weryfikacją. W ten sposób łatwiej odróżnić informację o rynku od ceny konkretnego przedmiotu i uniknąć przypadkowych pomyłek.';
+-  articles.forEach(article=>article[1]+=practicalNote);
+-  const articleImages=['offer-jewellery-v2.png','offer-coins-v1.png','offer-bars-v1.png','offer-tableware-v1.png','offer-scrap-v2.png','offer-granulate-v2.png','offer-jewellery-v2.png','offer-coins-v1.png','offer-tableware-v1.png','offer-granulate-v2.png','offer-tableware-v1.png','offer-scrap-v2.png'];
+-  const articleDates=[['2026-09-08','8 września 2026'],['2026-09-11','11 września 2026'],['2026-09-15','15 września 2026'],['2026-09-18','18 września 2026'],['2026-09-22','22 września 2026'],['2026-09-25','25 września 2026'],['2026-09-28','28 września 2026'],['2026-10-01','1 października 2026'],['2026-10-02','2 października 2026'],['2026-10-03','3 października 2026'],['2026-10-04','4 października 2026'],['2026-10-04','4 października 2026']];
++  articles.slice(0,12).forEach(article=>article[1]+=practicalNote);
++  const articleImages=['offer-jewellery-v2.png','offer-coins-v1.png','offer-bars-v1.png','offer-tableware-v1.png','offer-scrap-v2.png','offer-granulate-v2.png','offer-jewellery-v2.png','offer-coins-v1.png','offer-tableware-v1.png','offer-granulate-v2.png','offer-tableware-v1.png','offer-scrap-v2.png',"blog-wazenie-srebra-20261014.jpg","blog-punca-srebra-20261014.jpg","blog-swieczniki-srebrne-20261014.jpg","blog-segregowanie-srebra-20261014.jpg"];
++  const articleDates=[['2026-09-08','8 września 2026'],['2026-09-11','11 września 2026'],['2026-09-15','15 września 2026'],['2026-09-18','18 września 2026'],['2026-09-22','22 września 2026'],['2026-09-25','25 września 2026'],['2026-09-28','28 września 2026'],['2026-10-01','1 października 2026'],['2026-10-02','2 października 2026'],['2026-10-03','3 października 2026'],['2026-10-04','4 października 2026'],['2026-10-04','4 października 2026'],["2026-10-14","14 października 2026"],["2026-10-14","14 października 2026"],["2026-10-14","14 października 2026"],["2026-10-14","14 października 2026"]];
+   if(blog) blog.innerHTML=`<div class="section-head"><div><span class="eyebrow">PORADNIK</span><h2>Blog o srebrze</h2></div><p>Praktyczne informacje: skup srebra Gorzów, monety, sztabki i biżuteria.</p></div><div class="blog-grid">${articles.map((a,i)=>`<article><img src="assets/${articleImages[i]}" alt="${a[0]}" loading="lazy"><div><span>SKUP SREBRA GORZÓW</span><time datetime="${articleDates[i][0]}">Opublikowano: ${articleDates[i][1]}</time><h3>${a[0]}</h3><p>${a[1]}</p></div></article>`).join('')}</div>`;
+   if(blog && document.body.dataset.page==='blog'){const heading=blog.querySelector('.section-head h2');if(heading){const h=document.createElement('h1');h.innerHTML=heading.innerHTML;heading.replaceWith(h);}}
+   blog?.querySelectorAll('.blog-grid article').forEach(article=>{const button=document.createElement('button');button.type='button';button.className='blog-more';button.textContent='Czytaj więcej';button.onclick=()=>{const open=article.classList.toggle('expanded');button.textContent=open?'Zwiń artykuł':'Czytaj więcej';};article.querySelector('div').append(button);});
+
+--- GitHub/studio-live-prices-20261004.js
++++ JDM/studio-live-prices-20261004.js
+@@ -52,7 +52,7 @@
+     const heading = document.getElementById('base-price');
+     if (heading) heading.textContent = `${format(bootstrap.purities[999])} zł / g`;
+     const rows = document.getElementById('price-rows');
+-    if (rows) rows.innerHTML = Object.entries(bootstrap.purities).sort(([a], [b]) => Number(a) - Number(b)).map(([purity, price]) => `<tr><td><b>${purity}</b></td><td>${format(Number(purity) / 10)}%</td><td>${format(price)} zł</td><td><button class="text-button" type="button" data-live-price="${purity}">Wyceń</button></td></tr>`).join('');
++    if (rows) rows.innerHTML = Object.entries(bootstrap.purities).sort(([a], [b]) => Number(a) - Number(b)).map(([purity, price]) => `<tr><td><b>${purity}</b></td><td>${format(price)} zł</td><td><button class="text-button" type="button" data-live-price="${purity}">Wyceń</button></td></tr>`).join('');
+   }
+   showBootstrap();
+ 
+@@ -86,7 +86,7 @@
+ 
+     const rows = document.getElementById('price-rows');
+     if (rows) {
+-      rows.innerHTML = Object.entries(window.silverLivePrices).sort(([a], [b]) => Number(a) - Number(b)).map(([purity, price]) => `<tr><td><b>${purity}</b></td><td>${format(Number(purity) / 10)}%</td><td>${format(price)} zł</td><td><button class="text-button" type="button" data-live-price="${purity}">Wyceń</button></td></tr>`).join('');
++      rows.innerHTML = Object.entries(window.silverLivePrices).sort(([a], [b]) => Number(a) - Number(b)).map(([purity, price]) => `<tr><td><b>${purity}</b></td><td>${format(price)} zł</td><td><button class="text-button" type="button" data-live-price="${purity}">Wyceń</button></td></tr>`).join('');
+       rows.querySelectorAll('[data-live-price]').forEach(button => button.addEventListener('click', () => {
+         configureCategory('scrap');
+         document.getElementById('purity').value = button.dataset.livePrice;
+
+--- GitHub/studio-pages-20261004.js
++++ JDM/studio-pages-20261004.js
+@@ -9,7 +9,7 @@
+ 
+ const intro=document.createElement('div');
+ intro.className='home-links wrap';
+-intro.innerHTML='<a href="/co-kupujemy.html"><span>OFERTA</span><h2>Zobacz co można sprzedać</h2><p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i srebro użytkowe.</p></a><a href="/cennik.html"><span>CENNIK</span><h2>Sprawdź aktualny cennik online</h2><p>Porównaj stawki dla popularnych prób srebra.</p></a><a href="/kontakt.html"><span>KONTAKT</span><h2>Masz pytanie?</h2><p>Przygotuj zapytanie lub sprawdź kontakt do punktu.</p></a>';
++intro.innerHTML='<a href="/co-kupujemy.html"><div class="home-card-top"><span>OFERTA</span><img class="home-card-icon" src="assets/home-silver-items.svg" alt="" width="160" height="120" loading="lazy"></div><h2>Zobacz co można sprzedać</h2><p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i srebro użytkowe.</p></a><a href="/cennik.html"><div class="home-card-top"><span>CENNIK</span><img class="home-card-icon" src="assets/home-price-table.svg" alt="" width="160" height="120" loading="lazy"></div><h2>Sprawdź aktualny cennik online</h2><p>Porównaj stawki dla popularnych prób srebra.</p></a><a href="/kontakt.html"><div class="home-card-top"><span>KONTAKT</span><img class="home-card-icon" src="assets/home-questions.svg" alt="" width="160" height="120" loading="lazy"></div><h2>Masz pytanie?</h2><p>Przygotuj zapytanie lub sprawdź kontakt do punktu.</p></a>';
+ quick.after(intro);
+ 
+ const blog=document.createElement('section');
+
+--- GitHub/studio-quick-20261004.js
++++ JDM/studio-quick-20261004.js
+@@ -4,7 +4,7 @@
+ quick.className='quick-quote wrap';
+ quick.noValidate=true;
+ quick.setAttribute('aria-label','Szybka wycena srebra');
+-quick.innerHTML='<div class="quick-heading"><h2>Kalkulator srebra</h2><p>Szybka, demonstracyjna wycena.</p></div><label>Waga (g)<input id="quick-weight" type="number" min="0.001" max="1000000" step="any" inputmode="decimal" placeholder="Wpisz wagę"></label><label>Próba<select id="quick-purity"><option value="" disabled>Wybierz próbę srebra</option><option value="999">Próba 999</option><option value="925" selected>Próba 925</option><option value="900">Próba 900</option><option value="875">Próba 875</option><option value="835">Próba 835</option><option value="830">Próba 830</option><option value="800">Próba 800</option></select></label><div class="quick-total"><small>Wartość orientacyjna</small><output id="quick-result" aria-live="polite">Wpisz wagę</output></div><button class="button primary">Pełna wycena</button><p class="quick-error" id="quick-error" role="alert" hidden></p>';
++quick.innerHTML='<div class="quick-heading"><h2>Kalkulator srebra</h2><p>Szybka, orientacyjna wycena.</p></div><label>Waga (g)<input id="quick-weight" type="number" min="0.001" max="1000000" step="any" inputmode="decimal" placeholder="Wpisz wagę"></label><label>Próba<select id="quick-purity"><option value="" disabled>Wybierz próbę srebra</option><option value="999">Próba 999</option><option value="925" selected>Próba 925</option><option value="900">Próba 900</option><option value="875">Próba 875</option><option value="835">Próba 835</option><option value="830">Próba 830</option><option value="800">Próba 800</option></select></label><div class="quick-total"><small>Wartość orientacyjna</small><output id="quick-result" aria-live="polite">Wpisz wagę</output></div><button class="button primary">Pełna wycena</button><p class="quick-error" id="quick-error" role="alert" hidden></p>';
+ document.querySelector('.hero').after(quick);
+ 
+ const qw=document.getElementById('quick-weight');
+
+--- GitHub/studio-silver.css
++++ JDM/studio-silver.css
+@@ -1,4 +1,3 @@
+-/* Silver surfaces, graphite text, restrained pale mint accents. */
+ .studio{--ink:#30383b;--muted:#5c6669;--accent:#d6eee4;--wash:#eef0f0;--line:#cbd1d1;background:#f6f7f7;color:var(--ink)}
+ .studio .demo{background:#e5e8e8;color:#515b5e}.studio .header{background:#fafbfb}.studio .header nav a{color:#424d50}.studio .header nav a:hover{background:#e9eded;color:#303b3d}.studio .header nav a[aria-current=page]{background:#dceee6;color:#294f43}
+ .studio .button{background:linear-gradient(180deg,#fafbfb,#e3e7e7);border-color:#bfc8c8;color:#354346;box-shadow:0 2px 4px #313e4009}.studio .primary{background:linear-gradient(180deg,#e1f3eb,#cde6da);border-color:#a9cbbb;color:#284b3e;box-shadow:0 3px 8px #395e4e12}.studio .button:hover{background:#dce3e2;box-shadow:0 5px 14px #35454216}.studio .primary:hover{background:#c2e0d1;border-color:#8fb6a3}.studio .text-link,.studio .text-button{color:#3c6254}.studio .eyebrow{color:#596568}.studio .hero-meta{color:#626d70}
+
+--- GitHub/studio-site.js
++++ JDM/studio-site.js
+@@ -14,14 +14,14 @@
+ <button class="offer-item" data-category="scrap"><div class="product-photo"><img src="assets/offer-tableware-v1.png" alt="Srebrne sztućce i zastawy" loading="lazy"></div><div class="offer-title"><h3>Sztućce i zastawy</h3><span>04</span></div><p>Łyżki, widelce, cukiernice i inne srebrne elementy zastawy.</p><span class="offer-link">Wyceń zastawę</span></button>
+ <button class="offer-item" data-category="scrap"><div class="product-photo"><img src="assets/offer-scrap-v2.png" alt="Złom srebra: uszkodzona biżuteria i fragmenty sztućców" loading="lazy"></div><div class="offer-title"><h3>Złom srebra</h3><span>05</span></div><p>Uszkodzona biżuteria, fragmenty sztućców i inne srebrne elementy.</p><span class="offer-link">Wyceń złom</span></button>
+ <button class="offer-item" data-category="scrap"><div class="product-photo"><img src="assets/offer-granulate-v2.png" alt="Czysty granulat srebrny" loading="lazy"></div><div class="offer-title"><h3>Granulat srebrny</h3><span>06</span></div><p>Granulat i śrut srebrny — wycena według masy i próby.</p><span class="offer-link">Wyceń granulat</span></button></div></section>
+-<section class="calculator-zone section" id="kalkulator"><div class="wrap"><div class="section-head"><div><span class="eyebrow">TWOJA WYCENA</span><h2>Ile warte jest<br>Twoje srebro?</h2></div><p>Wybierz przedmiot i uzupełnij dane.<br>Wynik przelicza się automatycznie.</p></div><div class="calculator"><div class="calc-main"><div class="category-tabs" role="group" aria-label="Rodzaj srebra"><button data-kind="scrap" aria-pressed="true">Biżuteria i złom</button><button data-kind="coins" aria-pressed="false">Monety</button><button data-kind="bars" aria-pressed="false">Sztabki</button></div><form id="calc-form" novalidate><div class="fields"><label class="wide-field" id="preset-label">Rodzaj przedmiotu<select id="preset"></select></label><label><span id="weight-label">Waga srebra (g)</span><input id="weight" type="number" inputmode="decimal" min="0.001" max="1000000" step="any" value="100"></label><label>Próba srebra<select id="purity"><option value="999">999</option><option value="925" selected>925</option><option value="900">900</option><option value="875">875</option><option value="835">835</option><option value="830">830</option><option value="800">800</option></select></label><label id="quantity-label" hidden>Liczba sztuk<input id="quantity" type="number" inputmode="numeric" min="1" max="10000" step="1" value="1"></label><label id="deduction-label">Masa kamieni / innych części (g)<input id="deduction" type="number" inputmode="decimal" min="0" step="any" value="0"></label></div><p id="calc-error" class="error" role="alert" hidden></p><p class="field-help" id="calc-help">Odejmij masę kamieni i elementów wykonanych z innych materiałów.</p><div class="valuation-actions"><button class="button primary" id="add-item" type="submit">Dodaj do wyceny</button><button class="button primary reset-valuation reset-valuation-mobile" id="reset-valuation-mobile" type="button">Wyzeruj wycenę</button></div></form></div><aside class="calc-result" aria-live="polite"><span class="eyebrow">ORIENTACYJNA WARTOŚĆ</span><output id="result">277,50 zł</output><div class="result-meta"><div><span>Masa do wyceny</span><b id="net-weight">100 g</b></div><div><span>Zawartość czystego srebra</span><b id="fine-weight">92,5 g</b></div><div><span>Stawka za gram przedmiotu</span><b id="gram-rate">2,775 zł</b></div></div><span class="demo-tag">Stawki demonstracyjne</span><p>To przykład obliczenia, nie oferta handlowa. Ostateczna wycena wymaga sprawdzenia masy i próby.</p></aside></div>
+-<div class="basket"><div class="basket-head"><h3>Twoje przedmioty <span id="item-count">0</span></h3><button class="button reset-valuation reset-valuation-desktop" id="reset-valuation" type="button">Wyzeruj wycenę</button></div><p id="empty-basket">Dodaj monety, sztabki lub biżuterię, aby obliczyć łączną wartość.</p><ul id="basket-list"></ul><div class="basket-total"><span>Łączna wycena demonstracyjna</span><strong id="basket-total">0,00 zł</strong></div><div class="basket-actions"><button class="button" id="copy-quote" disabled>Kopiuj podsumowanie</button><button class="button primary" id="ask-quote" disabled>Przejdź do zapytania</button><button class="button primary reset-valuation" id="reset-valuation-basket" type="button" disabled>Wyzeruj wycenę</button><span id="copy-status" role="status"></span></div></div></div></section>
+-<section id="cennik" class="section wrap"><div class="section-head"><div><span class="eyebrow">CENNIK</span><h2>Wszystko w jednym miejscu.</h2></div><p>Przykładowe stawki dla każdej próby.<br>Ten cennik zasila kalkulator.</p></div><div class="pricing-layout"><div class="pricing-intro"><span class="large-ag">Ag</span><h3 id="base-price">3,00 zł / g</h3><p>Demonstracyjna stawka bazowa<br>za gram czystego srebra.</p><span class="demo-tag">Dane przykładowe · 29.09.2026</span></div><div class="table-wrap"><table><caption>Demonstracyjny cennik srebra</caption><thead><tr><th>Próba</th><th>Zawartość srebra</th><th>Cena / g</th><th><span class="sr-only">Wycena</span></th></tr></thead><tbody id="price-rows"></tbody></table></div></div><p class="small-note">W tej demonstracji wartość metalu = masa netto × próba / 1000 × 3,00 zł. Wycena nie uwzględnia wartości kolekcjonerskiej ani ewentualnych premii za produkt.</p></section>
+-<section id="wykres" class="section market-zone"><div class="wrap"><div class="section-head"><div><span class="eyebrow">WYKRES SREBRA</span><h2>Zobacz zmianę wartości.</h2></div><p>Przykładowa historia ceny czystego srebra.<br>To dane symulowane, nie notowania giełdowe.</p></div><div class="chart-toolbar"><div><b id="chart-last">3,00 zł</b><span> / gram czystego srebra</span></div><div class="period-tabs" role="group" aria-label="Zakres wykresu"><button data-period="7" aria-pressed="false">7 dni</button><button data-period="30" aria-pressed="true">30 dni</button><button data-period="90" aria-pressed="false">90 dni</button></div></div><div class="chart-area"><svg id="chart" role="img" aria-label="Symulowany wykres ceny srebra w złotych za gram"></svg><div id="chart-tooltip" hidden></div></div><div class="chart-foot"><span id="chart-range"></span><span>Symulacja · bez połączenia z giełdą</span></div><details class="chart-data"><summary>Pokaż dane wykresu w tabeli</summary><div class="table-wrap"><table><thead><tr><th>Data</th><th>Cena demonstracyjna / g</th></tr></thead><tbody id="chart-table"></tbody></table></div></details></div></section>
++<section class="calculator-zone section" id="kalkulator"><div class="wrap"><div class="section-head"><div><span class="eyebrow">TWOJA WYCENA</span><h2>Ile warte jest<br>Twoje srebro?</h2></div><p>Wybierz przedmiot i uzupełnij dane.<br>Wynik przelicza się automatycznie.</p></div><div class="calculator"><div class="calc-main"><div class="category-tabs" role="group" aria-label="Rodzaj srebra"><button data-kind="scrap" aria-pressed="true">Biżuteria i złom</button><button data-kind="coins" aria-pressed="false">Monety</button><button data-kind="bars" aria-pressed="false">Sztabki</button></div><form id="calc-form" novalidate><div class="fields"><label class="wide-field" id="preset-label">Rodzaj przedmiotu<select id="preset"></select></label><label><span id="weight-label">Waga srebra (g)</span><input id="weight" type="number" inputmode="decimal" min="0.001" max="1000000" step="any" value="100"></label><label>Próba srebra<select id="purity"><option value="999">999</option><option value="925" selected>925</option><option value="900">900</option><option value="875">875</option><option value="835">835</option><option value="830">830</option><option value="800">800</option></select></label><label id="quantity-label" hidden>Liczba sztuk<input id="quantity" type="number" inputmode="numeric" min="1" max="10000" step="1" value="1"></label><label id="deduction-label">Masa kamieni / innych części (g)<input id="deduction" type="number" inputmode="decimal" min="0" step="any" value="0"></label></div><p id="calc-error" class="error" role="alert" hidden></p><p class="field-help" id="calc-help">Odejmij masę kamieni i elementów wykonanych z innych materiałów.</p><div class="valuation-actions"><button class="button primary" id="add-item" type="submit">Dodaj do wyceny</button><button class="button primary reset-valuation reset-valuation-mobile" id="reset-valuation-mobile" type="button">Wyzeruj wycenę</button></div></form></div><aside class="calc-result" aria-live="polite"><span class="eyebrow">ORIENTACYJNA WARTOŚĆ</span><output id="result">277,50 zł</output><div class="result-meta"><div><span>Masa do wyceny</span><b id="net-weight">100 g</b></div><div><span>Zawartość czystego srebra</span><b id="fine-weight">92,5 g</b></div><div><span>Stawka za gram przedmiotu</span><b id="gram-rate">2,775 zł</b></div></div><span class="demo-tag">Wycena orientacyjna</span><p>To przykład obliczenia, nie oferta handlowa. Ostateczna wycena wymaga sprawdzenia masy i próby.</p></aside></div>
++<div class="basket"><div class="basket-head"><h3>Twoje przedmioty <span id="item-count">0</span></h3><button class="button reset-valuation reset-valuation-desktop" id="reset-valuation" type="button">Wyzeruj wycenę</button></div><p id="empty-basket">Dodaj monety, sztabki lub biżuterię, aby obliczyć łączną wartość.</p><ul id="basket-list"></ul><div class="basket-total"><span>Łączna orientacyjna wycena</span><strong id="basket-total">0,00 zł</strong></div><div class="basket-actions"><button class="button" id="copy-quote" disabled>Kopiuj podsumowanie</button><button class="button primary" id="ask-quote" disabled>Przejdź do zapytania</button><button class="button primary reset-valuation" id="reset-valuation-basket" type="button" disabled>Wyzeruj wycenę</button><span id="copy-status" role="status"></span></div></div></div></section>
++<section id="cennik" class="section wrap"><div class="section-head"><div><span class="eyebrow">CENNIK</span><h2>Wszystko w jednym miejscu.</h2></div><p>Stawki skupu dla poszczególnych prób.<br>Ten cennik zasila kalkulator.</p></div><div class="pricing-layout"><div class="pricing-intro"><span class="large-ag">Ag</span><h3 id="base-price">3,00 zł / g</h3><p>Stawka skupu<br>za gram czystego srebra.</p><span class="demo-tag">Pobieranie aktualnych stawek</span></div><div class="table-wrap"><table><caption>Cennik skupu srebra</caption><thead><tr><th>Próba</th><th>Cena / g</th><th><span class="sr-only">Wycena</span></th></tr></thead><tbody id="price-rows"></tbody></table></div></div><p class="small-note">Orientacyjna wartość jest obliczana na podstawie masy oraz stawki skupu dla wybranej próby. Wycena nie uwzględnia wartości kolekcjonerskiej ani ewentualnych premii za produkt.</p></section>
++<section id="wykres" class="section market-zone"><div class="wrap"><div class="section-head"><div><span class="eyebrow">WYKRES SREBRA</span><h2>Zobacz zmianę wartości.</h2></div><p>Historia kursu srebra po pobraniu danych ze źródła notowań.</p></div><div class="chart-toolbar"><div><b id="chart-last">3,00 zł</b><span> / gram czystego srebra</span></div><div class="period-tabs" role="group" aria-label="Zakres wykresu"><button data-period="7" aria-pressed="false">7 dni</button><button data-period="30" aria-pressed="true">30 dni</button><button data-period="90" aria-pressed="false">90 dni</button></div></div><div class="chart-area"><svg id="chart" role="img" aria-label="Wykres kursu srebra w złotych za gram"></svg><div id="chart-tooltip" hidden></div></div><div class="chart-foot"><span id="chart-range"></span><span>Pobieranie danych wykresu</span></div><details class="chart-data"><summary>Pokaż dane wykresu w tabeli</summary><div class="table-wrap"><table><thead><tr><th>Data</th><th>Cena / g</th></tr></thead><tbody id="chart-table"></tbody></table></div></details></div></section>
+ <section class="section wrap process" id="jak-to-dziala"><div class="section-head"><div><span class="eyebrow">JAK TO DZIAŁA</span><h2>Od przedmiotu do wyceny.</h2></div></div><div class="process-grid"><article><span>01</span><h3>Sprawdź oznaczenie</h3><p>Odszukaj próbę na przedmiocie. Jeśli jej nie znasz, wycena wymaga sprawdzenia w punkcie.</p></article><article><span>02</span><h3>Oblicz wartość</h3><p>Wprowadź wagę i próbę. Dodaj kilka przedmiotów, aby zobaczyć ich łączną wartość.</p></article><article><span>03</span><h3>Skontaktuj się</h3><p>Przygotuj zapytanie z podsumowaniem. Końcowa wycena następuje po oględzinach przedmiotu.</p></article></div></section>
+-<section id="faq" class="section faq-zone"><div class="wrap faq-layout"><div><span class="eyebrow">PYTANIA I ODPOWIEDZI</span><h2>Warto wiedzieć.</h2><p>Najważniejsze informacje<br>przed wyceną srebra.</p></div><div class="faq-list"><details><summary>Co oznacza próba 925?</summary><p>Próba 925 oznacza nominalnie 925 części srebra na 1000 części stopu, czyli 92,5%. Samo oznaczenie nie zastępuje weryfikacji autentyczności.</p></details><details><summary>Czy moneta jest warta tyle, ile zawarte w niej srebro?</summary><p>Kalkulator pokazuje tylko demonstracyjną wartość metalu. Monety kolekcjonerskie mogą mieć dodatkową wartość zależną od m.in. stanu i rzadkości, dlatego wymagają osobnej oceny.</p></details><details><summary>Jak wycenić przedmiot z kamieniami?</summary><p>Wybierz „Biżuteria i złom” i odejmij masę kamieni oraz pozostałych elementów niebędących srebrem. Jeśli nie znasz tej masy, wynik będzie przybliżony.</p></details><details><summary>Czy kalkulator obsługuje kilka przedmiotów?</summary><p>Tak. Po obliczeniu wartości kliknij „Dodaj do wspólnej wyceny”. Możesz łączyć różne próby, monety i sztabki, a potem skopiować podsumowanie.</p></details><details><summary>Czy ceny i wykres są aktualne?</summary><p>Ta strona jest projektem demonstracyjnym. Cennik i wykres zawierają dane przykładowe. Przed uruchomieniem właściwej strony trzeba wprowadzić rzeczywiste stawki skupu i ustalić źródło wykresu.</p></details></div></div></section>
+-<section id="kontakt" class="section wrap"><div class="section-head"><div><span class="eyebrow">KONTAKT</span><h2>Porozmawiajmy<br>o Twoim srebrze.</h2></div><p>Przykładowe dane kontaktowe.<br>Do zastąpienia danymi Twojego punktu.</p></div><div class="contact-layout"><div class="contact-info"><h3>Skup srebra / Gorzów</h3><dl><div><dt>Adres przykładowy</dt><dd>ul. Przykładowa 12<br>66-400 Gorzów Wielkopolski</dd></div><div><dt>Telefon — numer demonstracyjny</dt><dd>+48 000 000 000</dd></div><div><dt>E-mail — adres demonstracyjny</dt><dd>kontakt@example.com</dd></div><div><dt>Przykładowe godziny</dt><dd>Poniedziałek–piątek: 9:00–17:00<br>Sobota: 10:00–14:00</dd></div></dl><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Gorz%C3%B3w%20Wielkopolski" target="_blank" rel="noopener">Zobacz Gorzów na mapie</a><p class="small-note">Mapa pokazuje miasto, nie rzeczywistą lokalizację punktu.</p></div><form id="contact-form" class="contact-form"><h3>Przygotuj zapytanie</h3><p>Wersja demonstracyjna przygotuje treść do skopiowania. Nie wysyła wiadomości.</p><div class="fields"><label>Twoje imię<input id="contact-name" autocomplete="given-name" required maxlength="80"></label><label>Twój e-mail<input id="contact-email" type="email" autocomplete="email" required maxlength="150"></label><label class="wide-field">Co chcesz wycenić?<textarea id="contact-message" rows="5" required maxlength="4000" placeholder="Opisz przedmioty, podaj wagę i próbę..."></textarea></label></div><button type="submit" class="button primary">Przygotuj wiadomość</button><div id="message-preview" hidden><label>Gotowa treść<textarea id="message-output" rows="7" readonly></textarea></label><button type="button" class="button" id="copy-message">Kopiuj wiadomość</button><span id="message-status" role="status"></span></div></form></div></section>
+-<footer class="footer"><div class="wrap"><div class="footer-top"><a class="brand" href="#start"><span class="brand-mark">Ag.</span><span>srebro / gorzów<small>SKUP SREBRA</small></span></a><p>Srebro w wielu formach.<br>Wycena w jednym miejscu.</p><nav aria-label="Menu w stopce"><a href="#oferta">Co skupujemy</a><a href="#kalkulator">Kalkulator</a><a href="#cennik">Cennik</a><a href="#wykres">Wykres</a><a href="#faq">Pytania</a><a href="#kontakt">Kontakt</a></nav></div><div class="footer-bottom"><span>© 2026 · www.skupsrebragorzow.pl</span><button class="text-button" id="privacy-open">Informacje o stronie</button><a href="#start">Na początek</a></div><p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p></div></footer>
++<section id="faq" class="section faq-zone"><div class="wrap faq-layout"><div><span class="eyebrow">PYTANIA I ODPOWIEDZI</span><h2>Warto wiedzieć.</h2><p>Najważniejsze informacje<br>przed wyceną srebra.</p></div><div class="faq-list"><details><summary>Co oznacza próba 925?</summary><p>Próba 925 oznacza nominalnie 925 części srebra na 1000 części stopu, czyli 92,5%. Samo oznaczenie nie zastępuje weryfikacji autentyczności.</p></details><details><summary>Czy moneta jest warta tyle, ile zawarte w niej srebro?</summary><p>Kalkulator pokazuje tylko orientacyjną wartość metalu. Monety kolekcjonerskie mogą mieć dodatkową wartość zależną od m.in. stanu i rzadkości, dlatego wymagają osobnej oceny.</p></details><details><summary>Jak wycenić przedmiot z kamieniami?</summary><p>Wybierz „Biżuteria i złom” i odejmij masę kamieni oraz pozostałych elementów niebędących srebrem. Jeśli nie znasz tej masy, wynik będzie przybliżony.</p></details><details><summary>Czy kalkulator obsługuje kilka przedmiotów?</summary><p>Tak. Po obliczeniu wartości kliknij „Dodaj do wspólnej wyceny”. Możesz łączyć różne próby, monety i sztabki, a potem skopiować podsumowanie.</p></details><details><summary>Czy ceny i wykres są aktualne?</summary><p>Cennik pobiera dane z naszego źródła cen przy otwarciu strony oraz co 5 minut. Stawki automatyczne zależą od kursu srebra i ustawień cennika. Ceny mogą pozostać bez zmian między odczytami. Datę ostatnich danych znajdziesz na górnej belce. Wycena końcowa wymaga sprawdzenia przedmiotu w punkcie.</p></details></div></div></section>
++<section id="kontakt" class="section wrap"><div class="section-head"><div><span class="eyebrow">KONTAKT</span><h2>Porozmawiajmy<br>o Twoim srebrze.</h2></div><p>Skontaktuj się z naszym punktem w Gorzowie Wielkopolskim.</p></div><div class="contact-layout"><div class="contact-info"><h3>Skup srebra / Gorzów</h3><dl><div><dt>Adres przykładowy</dt><dd>ul. Przykładowa 12<br>66-400 Gorzów Wielkopolski</dd></div><div><dt>Telefon — numer demonstracyjny</dt><dd>+48 000 000 000</dd></div><div><dt>E-mail — adres demonstracyjny</dt><dd>kontakt@example.com</dd></div><div><dt>Przykładowe godziny</dt><dd>Poniedziałek–piątek: 9:00–17:00<br>Sobota: 10:00–14:00</dd></div></dl><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Gorz%C3%B3w%20Wielkopolski" target="_blank" rel="noopener">Zobacz Gorzów na mapie</a><p class="small-note">Mapa pokazuje miasto, nie rzeczywistą lokalizację punktu.</p></div><form id="contact-form" class="contact-form"><h3>Przygotuj zapytanie</h3><p>Napisz wiadomość — trafi bezpośrednio do naszego punktu.</p><div class="fields"><label>Twoje imię<input id="contact-name" autocomplete="given-name" required maxlength="80"></label><label>Twój e-mail<input id="contact-email" type="email" autocomplete="email" required maxlength="150"></label><label class="wide-field">Co chcesz wycenić?<textarea id="contact-message" rows="5" required maxlength="4000" placeholder="Opisz przedmioty, podaj wagę i próbę..."></textarea></label></div><button type="submit" class="button primary">Przygotuj wiadomość</button><div id="message-preview" hidden><label>Gotowa treść<textarea id="message-output" rows="7" readonly></textarea></label><button type="button" class="button" id="copy-message">Kopiuj wiadomość</button><span id="message-status" role="status"></span></div></form></div></section>
++<footer class="footer"><div class="wrap"><div class="footer-top"><a class="brand" href="#start"><span class="brand-mark">Ag.</span><span>srebro / gorzów<small>SKUP SREBRA</small></span></a><p>Srebro w wielu formach.<br>Wycena w jednym miejscu.</p><nav aria-label="Menu w stopce"><a href="#oferta">Co skupujemy</a><a href="#kalkulator">Kalkulator</a><a href="#cennik">Cennik</a><a href="#wykres">Wykres</a><a href="#faq">Pytania</a><a href="#kontakt">Kontakt</a></nav></div><div class="footer-bottom"><span>© 2026 · www.skupsrebragorzow.pl</span><button class="text-button" id="privacy-open">Informacje o stronie</button><a href="#start">Na początek</a></div><p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p></div></footer>
+ <dialog id="privacy"><h3>Informacje o stronie</h3><p>Formularz kontaktowy przesyła wiadomość do naszego punktu. Podane imię, adres e-mail i treść wiadomości służą obsłudze zapytania.</p><p>Formularz jest chroniony przed spamem za pomocą Cloudflare Turnstile. Czcionki mogą być pobierane z Google Fonts.</p><button class="button primary" id="privacy-close">Zamknij</button></dialog>`;
+ 
+ const $=id=>document.getElementById(id),money=n=>new Intl.NumberFormat('pl-PL',{style:'currency',currency:'PLN'}).format(n),number=(n,d=3)=>new Intl.NumberFormat('pl-PL',{maximumFractionDigits:d}).format(n);
+
+--- GitHub/studio.css
++++ JDM/studio.css
+@@ -1,4 +1,3 @@
+-/* Silver Studio — complete version of concept 02. */
+ .studio{--ink:#303b43;--muted:#626b72;--accent:#e4e8e9;--wash:#f3f4f4;--line:#d8dddf;--radius:0px;--heading:'Playfair Display',Georgia,serif;font-size:16px}
+ .studio .offer-grid{grid-template-columns:repeat(3,1fr)}.studio .product-photo,.studio .offer-item:first-child .product-photo{height:270px}
+ .studio .wrap{width:min(1360px,calc(100% - 88px))}.studio .demo{font-size:12px}.studio .header{min-height:94px;position:relative;z-index:20;background:#fff}.studio .brand{font:500 23px var(--heading);letter-spacing:3px}.studio .brand-mark,.studio .brand small{display:none}.studio .header nav{gap:22px;font-size:14px}.studio .nav-contact{border-radius:0}.studio .eyebrow{font-size:12px;letter-spacing:2.4px}.studio .hero{position:relative;min-height:610px;padding-block:85px;isolation:isolate;display:flex}.studio .hero-copy{width:57%;z-index:1}.studio h1{font-size:clamp(48px,5.7vw,82px);line-height:1.06;letter-spacing:-3px}.studio h1 em{color:var(--ink)}.studio .hero-copy>p{max-width:450px;font-size:18px;line-height:1.6}.studio .hero-visual{position:absolute;right:0;top:0;width:63%;height:100%;z-index:-1}.studio .hero-visual:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#fff 0%,#ffffffdb 13%,#ffffff00 48%)}.studio .hero-visual img{width:100%;height:100%;object-fit:cover;object-position:58% center}.studio .photo-label{position:absolute;right:18px;bottom:12px;background:#ffffffde;padding:8px 14px;gap:30px}.studio .hero-meta{letter-spacing:2px;margin-top:38px}.studio .primary{background:#e1e6e8;border-color:#c6ced2}.studio .button{min-height:48px;font-size:15px}.studio .section{padding-block:72px}.studio .section h2{font-size:clamp(32px,3.5vw,49px)}
+
+--- GitHub/wycena.html
++++ JDM/wycena.html
+@@ -9,25 +9,35 @@
+   <meta name="description" content="Oblicz orientacyjną wartość srebra według aktualnego cennika. Dodaj biżuterię, monety i sztabki do wspólnej wyceny.">
+   <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="kalkulator">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="kalkulator" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta">Co kupujemy</a>
+@@ -39,53 +49,15 @@
+ <a href="/kontakt.html" data-page="kontakt">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
+-    <section id="start" class="hero wrap" hidden>
+-<div class="hero-copy">
+-<div class="eyebrow" hidden>
+-</div>
+-<h1>Odkryj wartość<br>
+-<em>swojego srebra.</em>
+-</h1>
+-<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i złom srebra. Poznaj wartość swoich przedmiotów.</p>
+-<div class="home-buy-prices" aria-label="Aktualny cennik skupu">
+-<div class="home-buy-heading">
+-<strong>AKTUALNY CENNIK SKUPU</strong>
+-<div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
+-<span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
+-</span>
+-</div>
+-</div>
+-<div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
+-</span>
+-</div>
+-</div>
+-<div class="actions">
+-<a class="button primary hero-desktop-action" href="/cennik.html">Aktualny cennik</a>
+-<a class="text-link hero-desktop-action" href="/co-kupujemy.html">Zobacz, co skupujemy</a>
+-<a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+-<a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+-</div>
+-<div class="hero-meta" hidden>
+-</div>
+-</div>
+-<div class="hero-visual">
+-<img src="assets/silver-collection-hero-v5.jpg" alt="Srebrna patera z ozdobnym wazonikiem, sztabką z wybitym oznaczeniem 999,9, monetami, widelcem, zegarkiem, łańcuszkiem, bransoletką oraz pierścionkiem z oczkiem" width="1536" height="1024" fetchpriority="high" decoding="async">
+-<div class="photo-label">
+-<span>Ag · 999,9</span>
+-<span>Srebro w wielu formach</span>
+-</div>
+-</div>
+-</section>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Wycena srebra</span>
++</nav>
++<main>
++    
+     <div id="content">
++
+ <section class="calculator-zone section" id="kalkulator">
+ <div class="wrap">
+ <div class="section-head">
+@@ -105,7 +77,7 @@
+ <form id="calc-form" novalidate="">
+ <div class="fields">
+ <label class="wide-field" id="preset-label">Rodzaj przedmiotu<select id="preset">
+-<option value="jewelry">Biżuteria srebrna</option>
++<option value="jewelry" selected="">Biżuteria srebrna</option>
+ <option value="cutlery">Sztućce srebrne</option>
+ <option value="utility">Srebro użytkowe</option>
+ <option value="granulate">Granulat srebrny</option>
+@@ -113,7 +85,7 @@
+ </label>
+ <label>
+ <span id="weight-label">Waga (g)</span>
+-<input id="weight" type="number" inputmode="decimal" min="0.001" max="1000000" step="any" value="100">
++<input id="weight" type="number" inputmode="decimal" min="0.001" max="1000000" step="any" placeholder="wpisz wagę">
+ </label>
+ <label>Próba srebra<select id="purity">
+ <option value="999">999</option>
+@@ -135,26 +107,26 @@
+ <p class="field-help" id="calc-help" hidden="">
+ </p>
+ <div class="valuation-actions">
+-<button class="button primary" id="add-item" type="submit">Dodaj do wyceny</button>
++<button class="button primary" id="add-item" type="submit" disabled>Dodaj do wyceny</button>
+ <button class="button primary reset-valuation reset-valuation-mobile" id="reset-valuation-mobile" type="button">Wyzeruj wycenę</button>
+ </div>
+ </form>
+ </div>
+-<aside class="calc-result" aria-live="polite">
++<aside class="calc-result awaiting-parameters" aria-live="polite">
+ <span class="eyebrow">ORIENTACYJNA WARTOŚĆ</span>
+-<output id="result">420,00&nbsp;zł</output>
++<output id="result">Wpisz wagę</output>
+ <div class="result-meta">
+ <div>
+ <span>Masa do wyceny</span>
+-<b id="net-weight">100 g</b>
++<b id="net-weight">—</b>
+ </div>
+ <div>
+ <span>Zawartość czystego srebra</span>
+-<b id="fine-weight">92,5 g</b>
++<b id="fine-weight">—</b>
+ </div>
+ <div>
+ <span>Stawka za gram przedmiotu</span>
+-<b id="gram-rate">4,2 zł</b>
++<b id="gram-rate">—</b>
+ </div>
+ </div>
+ </aside>
+@@ -169,7 +141,7 @@
+ <ul id="basket-list">
+ </ul>
+ <div class="basket-total">
+-<span>Łączna wycena demonstracyjna</span>
++<span>Łączna orientacyjna wycena</span>
+ <strong id="basket-total">0,00&nbsp;zł</strong>
+ </div>
+ <div class="basket-actions">
+@@ -182,6 +154,11 @@
+ </div>
+ </div>
+ </section>
++
++
++
++
++
+ <footer class="footer">
+ <div class="wrap">
+ <div class="footer-top">
+@@ -211,26 +188,46 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
++  
++  <div class="mobile-cta" hidden="">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
+ </script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
++<script src="site-calculator-20261016.js?v=3">
+ </script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++<script src="site-prices-20261016.js?v=1">
+ </script>
+ </body>
+ </html>
+-
+
+--- GitHub/wykres.html
++++ JDM/wykres.html
+@@ -9,25 +9,35 @@
+   <meta name="description" content="Sprawdź wykres kursu srebra i zmiany notowań w różnych okresach. Skup srebra w Gorzowie Wielkopolskim.">
+   <link rel="preload" as="image" href="assets/silver-collection-hero-v5.jpg" fetchpriority="high">
+   <link rel="stylesheet" href="site.css">
+-  <link rel="stylesheet" href="studio.css">
++  <link rel="stylesheet" href="studio.css?v=20261016-cleanup">
+   <link rel="stylesheet" href="studio-modern.css">
+-  <link rel="stylesheet" href="studio-silver.css">
+-  <link rel="stylesheet" href="studio-custom.css">
+-  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261008-html-pages">
++  <link rel="stylesheet" href="studio-silver.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-custom.css?v=20261016-cleanup">
++  <link rel="stylesheet" href="studio-enhancements-20261004-price-contact.css?v=20261016-static">
+   <style>.hero .eyebrow[hidden],.hero-meta[hidden]{display:none!important}.hero-mobile-action{display:none}@media(max-width:800px){.hero-desktop-action{display:none!important}.hero-mobile-action{display:inline-flex!important;flex:1;justify-content:center;white-space:nowrap;padding-inline:8px}.studio .actions{flex-wrap:nowrap;gap:8px}}</style>
+ </head>
+-<body class="studio" data-initial-page="wykres">
++  <link rel="icon" href="/favicon.ico?v=20261016" sizes="32x32">
++  <link rel="icon" href="/favicon.svg?v=20261016" type="image/svg+xml" sizes="any">
++  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261016">
++<body class="studio" data-page="wykres" data-runtime="static-v1">
+   <div class="demo silver-rate-bar" id="silver-rate-bar">
+ <span class="rate-label">Kurs srebra</span>
+ <strong>7,56 zł/g</strong>
+ <span class="rate-change down">▼ 0,02%</span>
++<span class="rate-time">aktualizacja: 04.10, 00:00</span>
+ </div>
+   <header class="header wrap">
+-    <a class="brand" href="#start">
++    <a class="brand" href="/">
+ <span class="brand-mark">Ag.</span>
+ <span>SKUP SREBRA</span>
+ </a>
+-    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
++    <button id="menu-toggle" aria-expanded="false" aria-controls="nav">
++<span class="menu-icon" aria-hidden="true">
++<i>
++</i>
++<i>
++</i>
++</span>Menu</button>
+     <nav id="nav" aria-label="Menu główne">
+ <a href="/" data-page="start">Start</a>
+ <a href="/co-kupujemy.html" data-page="oferta">Co kupujemy</a>
+@@ -39,53 +49,17 @@
+ <a href="/kontakt.html" data-page="kontakt">Kontakt</a>
+ </nav>
+   </header>
+-  <main>
+-    <section id="start" class="hero wrap" hidden>
+-<div class="hero-copy">
+-<div class="eyebrow" hidden>
+-</div>
+-<h1>Odkryj wartość<br>
+-<em>swojego srebra.</em>
+-</h1>
+-<p>Biżuteria, monety, sztabki, sztućce, zastawy, granulat i złom srebra. Poznaj wartość swoich przedmiotów.</p>
+-<div class="home-buy-prices" aria-label="Aktualny cennik skupu">
+-<div class="home-buy-heading">
+-<strong>AKTUALNY CENNIK SKUPU</strong>
+-<div class="home-price-status">
+-<span class="home-rate-change" data-home-change>
+-</span>
+-<span class="home-price-timer">
+-<b data-home-countdown>5:00</b>
+-</span>
+-</div>
+-</div>
+-<div class="home-buy-price-row">
+-<span>pr. 999,9 <b data-home-purity="999">—</b>
+-</span>
+-<span>pr. 925 <b data-home-purity="925">—</b>
+-</span>
+-<span>pr. 800 <b data-home-purity="800">—</b>
+-</span>
+-</div>
+-</div>
+-<div class="actions">
+-<a class="button primary hero-desktop-action" href="/cennik.html">Aktualny cennik</a>
+-<a class="text-link hero-desktop-action" href="/co-kupujemy.html">Zobacz, co skupujemy</a>
+-<a class="button primary hero-mobile-action" href="/cennik.html">PEŁNY CENNIK</a>
+-<a class="button primary hero-mobile-action" href="/wycena.html">OBLICZ WARTOŚĆ</a>
+-</div>
+-<div class="hero-meta" hidden>
+-</div>
+-</div>
+-<div class="hero-visual">
+-<img src="assets/silver-collection-hero-v5.jpg" alt="Srebrna patera z ozdobnym wazonikiem, sztabką z wybitym oznaczeniem 999,9, monetami, widelcem, zegarkiem, łańcuszkiem, bransoletką oraz pierścionkiem z oczkiem" width="1536" height="1024" fetchpriority="high" decoding="async">
+-<div class="photo-label">
+-<span>Ag · 999,9</span>
+-<span>Srebro w wielu formach</span>
+-</div>
+-</div>
+-</section>
++  <nav class="page-breadcrumb wrap" aria-label="Ścieżka strony">
++<a href="/">Strona główna</a>
++<span aria-hidden="true">/</span>
++<span>Wykres srebra</span>
++</nav>
++<main>
++    
+     <div id="content">
++
++
++
+ <section id="wykres" class="section market-zone">
+ <div class="wrap">
+ <div class="section-head">
+@@ -97,7 +71,7 @@
+ </div>
+ <div class="chart-toolbar">
+ <div>
+-<b id="chart-last">3,00&nbsp;zł</b>
++<b id="chart-last">—</b>
+ <span> / gram czystego srebra</span>
+ </div>
+ <div class="period-tabs" role="group" aria-label="Zakres wykresu">
+@@ -106,7 +80,7 @@
+ <button data-live-period="30" aria-pressed="false">Miesiąc</button>
+ <button data-live-period="365" aria-pressed="false">Rok</button>
+ </div>
+-<span class="quote-timer">Następne notowanie za 0:18</span>
++<span class="quote-timer">Następne notowanie za 2:34</span>
+ </div>
+ <div class="chart-area">
+ <svg id="chart" role="img" aria-label="Wykres kursu srebra w złotych za gram" viewBox="0 0 1190 270">
+@@ -284,6 +258,9 @@
+ </details>
+ </div>
+ </section>
++
++
++
+ <footer class="footer">
+ <div class="wrap">
+ <div class="footer-top">
+@@ -313,26 +290,46 @@
+ </div>
+ <div class="footer-bottom">
+ <span>© 2026 · www.skupsrebragorzow.pl</span>
+-<button class="text-button" id="privacy-open">Informacje o stronie</button>
++<a class="text-button" href="/polityka-prywatnosci.html">Polityka prywatności</a>
+ <a href="/">Na początek</a>
+ </div>
+-<p class="small-note">Projekt demonstracyjny. Ceny, wykres i dane kontaktowe są przykładowe. Zdjęcie srebra wygenerowano do prezentacji.</p>
++<p class="small-note">Wycena online jest orientacyjna. Ostateczną wartość ustalamy po sprawdzeniu masy i próby w punkcie. Zdjęcia mają charakter ilustracyjny.</p>
+ </div>
+ </footer>
+ </div>
+   </main>
+-  <script src="studio-site.js?v=20261009-texts">
++  
++  <div class="mobile-cta">
++<a class="button primary mobile-call" href="tel:+48601775146">ZADZWOŃ</a>
++<a class="button whatsapp-button" href="https://wa.me/48601775146" target="_blank" rel="noopener">
++<svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
++<path fill="currentColor" d="M16 3A13 13 0 0 0 4.7 22.4L3 29l6.8-1.8A13 13 0 1 0 16 3Zm0 23.5a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4A10.5 10.5 0 1 1 16 26.5Zm5.9-7.9-2.2-1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a9 9 0 0 1-4.3-3.7c-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.5l-1-2.3c-.3-.6-.5-.6-.7-.6h-.6c-.3 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.1.2 2.2 3.5 5.4 4.9 2.1.9 3 .8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z">
++</path>
++</svg>WHATSAPP</a>
++</div>
++  
++  
++  <aside class="cookie-consent">
++<div>
++<b>Pliki cookies</b>
++<p>Korzystamy z niezbędnej pamięci przeglądarki do zachowania wyceny i ustawień. Nie uruchamiamy analityki ani reklam.</p>
++<a href="/polityka-prywatnosci.html">Polityka prywatności</a>
++</div>
++<div>
++<button type="button" class="button cookie-settings">Szczegóły</button>
++<button type="button" class="button primary cookie-accept">Rozumiem</button>
++</div>
++</aside>
++    
++
++
++
++
++<script src="site-runtime-20261016.js?v=1">
+ </script>
+-  <script src="studio-quick-20261004.js?v=20261008-html-pages">
++<script src="site-charts-20261016.js?v=1">
+ </script>
+-  <script src="studio-pages-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-live-prices-20261004.js?v=20261008-html-pages">
+-</script>
+-  <script src="studio-enhancements-20261004-price-contact.js?v=20261008-html-pages">
+-</script>
+-    <script src="studio-contact-smtp-20261007.js">
++<script src="site-prices-20261016.js?v=1">
+ </script>
+ </body>
+ </html>
+-
