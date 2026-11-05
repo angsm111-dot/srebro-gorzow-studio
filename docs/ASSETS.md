@@ -11,3 +11,9 @@ dist/assets/silver-products.png, 1536 × 1024. Zapis briefu zwrócony przez agen
 > Wide 3:2 premium studio product photograph for a modern Polish silver buying service; silver chain and rings left, unbranded silver bullion bar center, small stack of blank silver rounds right; seamless pale cool gray background, airy soft daylight, realistic metal and reflections; no text, brands, graphics, watermark, or interface.
 
 Sekcje kategorii kadrują ten sam plik przez CSS. Grafiki nie dokumentują rzeczywistych produktów ani firmy.
+
+## Ilustracje nowych poradników: łańcuszki, sztabki i monety
+
+Pliki assets/blog-chains-20261028-{480,960}.webp, blog-bars-20261028-{480,960}.webp, blog-bullion-20261028-{480,960}.webp oraz blog-prl-20261028-{480,960}.webp w deployment/jdm-public/ powstały z czterech ilustracji AI wygenerowanych na potrzeby wpisów. Jasne tło, miękkie światło i srebrne przedmioty; osobno splot królewski/pancerka, rodzaje sztabek, krążki inwestycyjne i kompozycja numizmatyczna. Źródłowe PNG pozostawiono w /workspace/generated_images; do repo trafiły zoptymalizowane wersje WebP 480×320 oraz 960×640.
+
+Obrazy nie dokumentują stanu magazynowego. Ilustracje numizmatyczne nie odwzorowują konkretnych emisji monet; podpisy artykułów wyraźnie to zaznaczają. Nie wolno wykorzystywać tych grafik jako potwierdzenia autentyczności ani zdjęć konkretnego oferowanego egzemplarza.
