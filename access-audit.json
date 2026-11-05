@@ -244,6 +244,42 @@
       }
     },
     {
+      "url": "https://www.skupsrebragorzow.pl/blog-srebrne-lancuszki-krolewski-pancerka.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-srebrne-lancuszki-krolewski-pancerka.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-popularne-srebrne-monety-bulionowe.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-popularne-srebrne-monety-bulionowe.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-srebrne-monety-prl-rodzaje-wycena.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-srebrne-monety-prl-rodzaje-wycena.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      }
+    },
+    {
       "url": "https://www.skupsrebragorzow.pl/robots.txt",
       "status": 200,
       "final_url": "https://www.skupsrebragorzow.pl/robots.txt",

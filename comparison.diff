@@ -1,3 +1,41 @@
+--- GitHub/blog.html
++++ JDM/blog.html
+@@ -72,10 +72,6 @@
+ <p>Praktyczne informacje: skup srebra Gorzów, monety, sztabki i biżuteria.</p>
+ </div>
+ <div class="blog-grid">
+-<article><a class="blog-image-link" href="/blog-srebrne-lancuszki-krolewski-pancerka.html" tabindex="-1" aria-hidden="true"><img src="assets/blog-chains-20261028-960.webp" srcset="assets/blog-chains-20261028-480.webp 480w, assets/blog-chains-20261028-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async"></a><div><span>PORADNIK / SREBRO</span><time datetime="2026-10-28">Opublikowano: 28 października 2026</time><h3><a href="/blog-srebrne-lancuszki-krolewski-pancerka.html">Srebrne łańcuszki: splot królewski czy pancerka? Jak wybrać i kupić</a></h3><p>Srebrny łańcuszek może być dyskretnym dodatkiem, bazą dla zawieszki albo wyrazistą ozdobą noszoną samodzielnie. O jego charakterze decyduje nie tylko szerokość. Równie ważne są układ ogniw, masa, długość i…</p><a class="blog-more" href="/blog-srebrne-lancuszki-krolewski-pancerka.html">Czytaj więcej<span class="sr-only">: Srebrne łańcuszki: splot królewski czy pancerka? Jak wybrać i kupić</span></a></div></article>
+-<article><a class="blog-image-link" href="/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html" tabindex="-1" aria-hidden="true"><img src="assets/blog-bars-20261028-960.webp" srcset="assets/blog-bars-20261028-480.webp 480w, assets/blog-bars-20261028-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async"></a><div><span>PORADNIK / SREBRO</span><time datetime="2026-10-28">Opublikowano: 28 października 2026</time><h3><a href="/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html">Sztabki srebra: jedna uncja, 100 g, certipack i odlewy — czym się różnią?</a></h3><p>Srebrne sztabki różnią się gramaturą, technologią wykonania, opakowaniem i producentem. Jedna uncja lub 100 g to informacja o masie, a certipack opisuje rodzaj zabezpieczającego opakowania. Z kolei określenia…</p><a class="blog-more" href="/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html">Czytaj więcej<span class="sr-only">: Sztabki srebra: jedna uncja, 100 g, certipack i odlewy — czym się różnią?</span></a></div></article>
+-<article><a class="blog-image-link" href="/blog-popularne-srebrne-monety-bulionowe.html" tabindex="-1" aria-hidden="true"><img src="assets/blog-bullion-20261028-960.webp" srcset="assets/blog-bullion-20261028-480.webp 480w, assets/blog-bullion-20261028-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async"></a><div><span>PORADNIK / SREBRO</span><time datetime="2026-10-28">Opublikowano: 28 października 2026</time><h3><a href="/blog-popularne-srebrne-monety-bulionowe.html">Popularne srebrne monety bulionowe: Filharmonik, Liść Klonowy, Britannia i inne</a></h3><p>Srebrne monety bulionowe to rozpoznawalne produkty związane przede wszystkim z zawartością kruszcu. Mają określoną emisję, parametry i nominał, ale ich cena rynkowa zwykle nie wynika z wartości nominalnej. Wiele…</p><a class="blog-more" href="/blog-popularne-srebrne-monety-bulionowe.html">Czytaj więcej<span class="sr-only">: Popularne srebrne monety bulionowe: Filharmonik, Liść Klonowy, Britannia i inne</span></a></div></article>
+-<article><a class="blog-image-link" href="/blog-srebrne-monety-prl-rodzaje-wycena.html" tabindex="-1" aria-hidden="true"><img src="assets/blog-prl-20261028-960.webp" srcset="assets/blog-prl-20261028-480.webp 480w, assets/blog-prl-20261028-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async"></a><div><span>PORADNIK / SREBRO</span><time datetime="2026-10-28">Opublikowano: 28 października 2026</time><h3><a href="/blog-srebrne-monety-prl-rodzaje-wycena.html">Srebrne monety PRL: jakie występują i jak odróżnić je od zwykłych obiegówek?</a></h3><p>Monety z okresu PRL to szeroka grupa: zwykłe monety obiegowe, emisje okolicznościowe i wyroby kolekcjonerskie. Nie każda moneta z napisem „Polska Rzeczpospolita Ludowa” jest srebrna. Kolor, wysoki nominał i wiek…</p><a class="blog-more" href="/blog-srebrne-monety-prl-rodzaje-wycena.html">Czytaj więcej<span class="sr-only">: Srebrne monety PRL: jakie występują i jak odróżnić je od zwykłych obiegówek?</span></a></div></article>
+ <article>
+ <a class="blog-image-link" href="/blog-jak-pielegnowac-srebrna-bizuterie.html" tabindex="-1" aria-hidden="true">
+ <img src="assets/offer-jewellery-v2-960.webp" srcset="assets/offer-jewellery-v2-480.webp 480w, assets/offer-jewellery-v2-960.webp 960w" sizes="(max-width: 700px) 100vw, 33vw" alt="" loading="lazy" width="960" height="640" decoding="async">
+
+--- GitHub/sitemap.xml
++++ JDM/sitemap.xml
+@@ -98,20 +98,4 @@
+ <loc>https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html</loc>
+ <lastmod>2026-10-28</lastmod>
+ </url>
+-<url>
+-<loc>https://www.skupsrebragorzow.pl/blog-srebrne-lancuszki-krolewski-pancerka.html</loc>
+-<lastmod>2026-10-28</lastmod>
+-</url>
+-<url>
+-<loc>https://www.skupsrebragorzow.pl/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html</loc>
+-<lastmod>2026-10-28</lastmod>
+-</url>
+-<url>
+-<loc>https://www.skupsrebragorzow.pl/blog-popularne-srebrne-monety-bulionowe.html</loc>
+-<lastmod>2026-10-28</lastmod>
+-</url>
+-<url>
+-<loc>https://www.skupsrebragorzow.pl/blog-srebrne-monety-prl-rodzaje-wycena.html</loc>
+-<lastmod>2026-10-28</lastmod>
+-</url>
+ </urlset>
+
 --- GitHub/studio-contact-20261004-status.js
 +++ JDM/studio-contact-20261004-status.js
 @@ -61,7 +61,7 @@

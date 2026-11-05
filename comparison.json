@@ -1,5 +1,5 @@
 {
-  "baseline_commit": "f6f81fb6f4662feda9f6911a4b83fcfec779c31a",
+  "baseline_commit": "266fea1be0ccb57d09edb9b2cb8a61e2359ddabe",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
@@ -10,6 +10,46 @@
       "last_modified": null,
       "github_sha256": "a61e94c63e67e9f78599438760b64040324ef19d6c8da81501c1f00e05e04409",
       "jdm_sha256": "a61e94c63e67e9f78599438760b64040324ef19d6c8da81501c1f00e05e04409"
+    },
+    {
+      "file": "assets/blog-bars-20261028-480.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-bars-20261028-480.webp'"
+    },
+    {
+      "file": "assets/blog-bars-20261028-960.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-bars-20261028-960.webp'"
+    },
+    {
+      "file": "assets/blog-bullion-20261028-480.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-bullion-20261028-480.webp'"
+    },
+    {
+      "file": "assets/blog-bullion-20261028-960.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-bullion-20261028-960.webp'"
+    },
+    {
+      "file": "assets/blog-chains-20261028-480.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-chains-20261028-480.webp'"
+    },
+    {
+      "file": "assets/blog-chains-20261028-960.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-chains-20261028-960.webp'"
+    },
+    {
+      "file": "assets/blog-prl-20261028-480.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-prl-20261028-480.webp'"
+    },
+    {
+      "file": "assets/blog-prl-20261028-960.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-prl-20261028-960.webp'"
     },
     {
       "file": "assets/blog-punca-srebra-20261014-480.webp",
@@ -399,6 +439,11 @@
       "jdm_sha256": "5a85aa4ec945f0bc1af4d51c18cfc76cce2896510a74d6a41ae61c07ce238bfb"
     },
     {
+      "file": "blog-popularne-srebrne-monety-bulionowe.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-popularne-srebrne-monety-bulionowe.html'"
+    },
+    {
       "file": "blog-porownanie-wyceny-bizuterii.html",
       "status": "same",
       "github_bytes": 11482,
@@ -444,6 +489,16 @@
       "jdm_sha256": "ec0d640e452eb60a0426929dc71bc6fb4d8463b860c4ebd0a756de5e2b77897c"
     },
     {
+      "file": "blog-srebrne-lancuszki-krolewski-pancerka.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-srebrne-lancuszki-krolewski-pancerka.html'"
+    },
+    {
+      "file": "blog-srebrne-monety-prl-rodzaje-wycena.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-srebrne-monety-prl-rodzaje-wycena.html'"
+    },
+    {
       "file": "blog-srebrne-sztucce-zastawy.html",
       "status": "same",
       "github_bytes": 11436,
@@ -451,6 +506,11 @@
       "last_modified": null,
       "github_sha256": "db74826cf7a6afeffc8668215c6ab3a3ff6521c768e7b527c2cfc2f7c2e61845",
       "jdm_sha256": "db74826cf7a6afeffc8668215c6ab3a3ff6521c768e7b527c2cfc2f7c2e61845"
+    },
+    {
+      "file": "blog-sztabki-srebra-uncja-100g-certipack-odlewane.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html'"
     },
     {
       "file": "blog-wspolna-wycena-srebra.html",
@@ -508,12 +568,13 @@
     },
     {
       "file": "blog.html",
-      "status": "same",
-      "github_bytes": 23328,
+      "status": "different",
+      "github_bytes": 27636,
       "jdm_bytes": 23328,
       "last_modified": null,
-      "github_sha256": "161228c6be689d38c11f826d30fd8ecae542d302e7a4858f6b3d15c963f30af5",
-      "jdm_sha256": "161228c6be689d38c11f826d30fd8ecae542d302e7a4858f6b3d15c963f30af5"
+      "github_sha256": "26f492cbb48f84c315c38c694be2a4e6d382f1817d5eb54bd9d2ef3f2ba7e99e",
+      "jdm_sha256": "161228c6be689d38c11f826d30fd8ecae542d302e7a4858f6b3d15c963f30af5",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "cennik.html",
@@ -643,12 +704,13 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "same",
-      "github_bytes": 2864,
+      "status": "different",
+      "github_bytes": 3399,
       "jdm_bytes": 2864,
       "last_modified": null,
-      "github_sha256": "55380106418115de221b2ec8a4838c6c38a4df2ff69e03047f4d9688552a3901",
-      "jdm_sha256": "55380106418115de221b2ec8a4838c6c38a4df2ff69e03047f4d9688552a3901"
+      "github_sha256": "ab5fafba37d93135f846b9efc24633517fe5c40c0aacf7ce6b657114140677a4",
+      "jdm_sha256": "55380106418115de221b2ec8a4838c6c38a4df2ff69e03047f4d9688552a3901",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-contact-20261004-status.js",
