@@ -778,13 +778,12 @@
     },
     {
       "file": "index.html",
-      "status": "different",
+      "status": "same",
       "github_bytes": 12658,
-      "jdm_bytes": 15231,
+      "jdm_bytes": 12658,
       "last_modified": null,
       "github_sha256": "7e332fbaab8ac0a51e6b7a7c960b4d039a32b172b8c14753b8a1c50c50fcc3ed",
-      "jdm_sha256": "1fc280d566c67bd2b2e8a853c897ecd47c3c3276c00d62f76dc7270cee57d6ef",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "7e332fbaab8ac0a51e6b7a7c960b4d039a32b172b8c14753b8a1c50c50fcc3ed"
     },
     {
       "file": "kontakt.html",
