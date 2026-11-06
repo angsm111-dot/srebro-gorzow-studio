@@ -4,7 +4,7 @@
       "url": "https://www.skupsrebragorzow.pl/",
       "final_url": "https://www.skupsrebragorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.195,
+      "elapsed_seconds": 0.24,
       "bytes": 15598,
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
@@ -93,7 +93,7 @@
       "url": "https://srebrogorzow.pl/",
       "final_url": "https://www.srebrogorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.357,
+      "elapsed_seconds": 0.815,
       "bytes": 8908,
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
@@ -153,7 +153,7 @@
       "url": "https://www.srebrogorzow.pl/",
       "final_url": "https://www.srebrogorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.351,
+      "elapsed_seconds": 0.816,
       "bytes": 8908,
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
@@ -213,7 +213,7 @@
       "url": "https://srebrogorzow.pl/robots.txt",
       "final_url": "https://www.srebrogorzow.pl/robots.txt",
       "status": 200,
-      "elapsed_seconds": 0.24,
+      "elapsed_seconds": 0.496,
       "bytes": 73,
       "headers": {
         "Content-Type": "text/plain; charset=UTF-8",
@@ -225,7 +225,7 @@
       "url": "https://srebrogorzow.pl/sitemap.xml",
       "final_url": "https://www.srebrogorzow.pl/sitemap.xml",
       "status": 200,
-      "elapsed_seconds": 0.132,
+      "elapsed_seconds": 0.45,
       "bytes": 3913,
       "headers": {
         "Content-Type": "application/xml",
@@ -237,7 +237,7 @@
       "url": "https://www.skupsrebragorzow.pl/robots.txt",
       "final_url": "https://www.skupsrebragorzow.pl/robots.txt",
       "status": 200,
-      "elapsed_seconds": 0.068,
+      "elapsed_seconds": 0.06,
       "bytes": 77,
       "headers": {
         "Content-Type": "text/plain; charset=utf-8",
@@ -249,7 +249,7 @@
       "url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "final_url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "status": 200,
-      "elapsed_seconds": 0.201,
+      "elapsed_seconds": 0.182,
       "bytes": 4013,
       "headers": {
         "Content-Type": "text/xml; charset=utf-8",
