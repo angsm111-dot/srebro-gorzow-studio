@@ -1,22 +1,3 @@
---- GitHub/index.html
-+++ JDM/index.html
-@@ -177,13 +177,13 @@
- <a class="button review-cta" href="https://www.google.com/maps/search/?api=1&amp;query=Lombard+SEZAM+Pocztowa+11+Gorz%C3%B3w+Wielkopolski" target="_blank" rel="noopener">Zobacz opinie Google <span aria-hidden="true">→</span>
- </a>
- </div>
--<div class="review-rating" aria-label="Ocena 4,9 na 5 na podstawie ponad 300 opinii">
-+<div class="review-rating" aria-label="Ocena 4,9 na 5 na podstawie ponad 290 opinii">
- <div>
- <strong>4,9</strong>
- <span>/ 5,0</span>
- </div>
- <div class="review-stars">★★★★★</div>
--<p>Ponad 300 opinii</p>
-+<p>Ponad 290 opinii</p>
- <small>Google</small>
- </div>
- </div>
-
 --- GitHub/studio-contact-20261004-status.js
 +++ JDM/studio-contact-20261004-status.js
 @@ -61,7 +61,7 @@
