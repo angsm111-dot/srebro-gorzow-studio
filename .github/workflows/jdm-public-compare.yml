@@ -9,6 +9,10 @@ on:
       - scripts/compare-site-seo.py
       - .github/workflows/jdm-public-compare.yml
   workflow_dispatch:
+  workflow_run:
+    workflows: ["JDM — compare or deploy"]
+    types: [completed]
+    branches: [main]
 permissions:
   contents: write
 concurrency:
@@ -16,6 +20,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   compare:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
