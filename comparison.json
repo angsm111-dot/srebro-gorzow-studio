@@ -1,5 +1,5 @@
 {
-  "baseline_commit": "4d22c56e92549f44a4269e4ac8030f9e4a336bdc",
+  "baseline_commit": "95ca0ef4f94ea685cf0d0e2342193e84b5abcc2f",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
@@ -31,13 +31,21 @@
     },
     {
       "file": "assets/blog-bracelets-20261106-480.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-bracelets-20261106-480.webp'"
+      "status": "same",
+      "github_bytes": 50936,
+      "jdm_bytes": 50936,
+      "last_modified": null,
+      "github_sha256": "3f93e36c82367fa58b9af4654462ed5fe089ffe72341519cc1dd41ce0f4a81ae",
+      "jdm_sha256": "3f93e36c82367fa58b9af4654462ed5fe089ffe72341519cc1dd41ce0f4a81ae"
     },
     {
       "file": "assets/blog-bracelets-20261106-960.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-bracelets-20261106-960.webp'"
+      "status": "same",
+      "github_bytes": 162166,
+      "jdm_bytes": 162166,
+      "last_modified": null,
+      "github_sha256": "deedfcd40686450c40f2d042fdde8de3adaf3e1d168a71b92e74b4701909627b",
+      "jdm_sha256": "deedfcd40686450c40f2d042fdde8de3adaf3e1d168a71b92e74b4701909627b"
     },
     {
       "file": "assets/blog-bullion-20261028-480.webp",
@@ -77,13 +85,21 @@
     },
     {
       "file": "assets/blog-popular-jewellery-20261106-480.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-popular-jewellery-20261106-480.webp'"
+      "status": "same",
+      "github_bytes": 29652,
+      "jdm_bytes": 29652,
+      "last_modified": null,
+      "github_sha256": "aebdd7661a6a7df4e739c1ec12b4cb41de83ac09821790f48e9a72bd91b761d0",
+      "jdm_sha256": "aebdd7661a6a7df4e739c1ec12b4cb41de83ac09821790f48e9a72bd91b761d0"
     },
     {
       "file": "assets/blog-popular-jewellery-20261106-960.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-popular-jewellery-20261106-960.webp'"
+      "status": "same",
+      "github_bytes": 114582,
+      "jdm_bytes": 114582,
+      "last_modified": null,
+      "github_sha256": "f4070fc266054798a0aac55d56008685f86b33e2514a530c814eaa289d9259bc",
+      "jdm_sha256": "f4070fc266054798a0aac55d56008685f86b33e2514a530c814eaa289d9259bc"
     },
     {
       "file": "assets/blog-prl-20261028-480.webp",
@@ -159,13 +175,21 @@
     },
     {
       "file": "assets/blog-silver-metal-20261106-480.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-silver-metal-20261106-480.webp'"
+      "status": "same",
+      "github_bytes": 34010,
+      "jdm_bytes": 34010,
+      "last_modified": null,
+      "github_sha256": "500d29e9c0815e156161fd6a06a86a55b5250d2abba5becf3a06b1e33f8970b0",
+      "jdm_sha256": "500d29e9c0815e156161fd6a06a86a55b5250d2abba5becf3a06b1e33f8970b0"
     },
     {
       "file": "assets/blog-silver-metal-20261106-960.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-silver-metal-20261106-960.webp'"
+      "status": "same",
+      "github_bytes": 106702,
+      "jdm_bytes": 106702,
+      "last_modified": null,
+      "github_sha256": "b1272f3eb8130f74e9abbd4ae6efdb477a221c737f8715387523917f5a1a171d",
+      "jdm_sha256": "b1272f3eb8130f74e9abbd4ae6efdb477a221c737f8715387523917f5a1a171d"
     },
     {
       "file": "assets/blog-swieczniki-srebrne-20261014-480.webp",
@@ -223,13 +247,21 @@
     },
     {
       "file": "assets/blog-weaves-20261106-480.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-weaves-20261106-480.webp'"
+      "status": "same",
+      "github_bytes": 62782,
+      "jdm_bytes": 62782,
+      "last_modified": null,
+      "github_sha256": "3eac30e1e23a87196908a0c5d21bd3f4a289787518b2721c4b62694a0ef3dfe1",
+      "jdm_sha256": "3eac30e1e23a87196908a0c5d21bd3f4a289787518b2721c4b62694a0ef3dfe1"
     },
     {
       "file": "assets/blog-weaves-20261106-960.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-weaves-20261106-960.webp'"
+      "status": "same",
+      "github_bytes": 194940,
+      "jdm_bytes": 194940,
+      "last_modified": null,
+      "github_sha256": "afc4ea8f7b45307a1361427668a3fcc28b8c491a549b5128369620d1ec3ea8df",
+      "jdm_sha256": "afc4ea8f7b45307a1361427668a3fcc28b8c491a549b5128369620d1ec3ea8df"
     },
     {
       "file": "assets/home-price-table.svg",
@@ -476,8 +508,12 @@
     },
     {
       "file": "blog-dlaczego-srebrna-bizuteria-jest-popularna.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-dlaczego-srebrna-bizuteria-jest-popularna.html'"
+      "status": "same",
+      "github_bytes": 11389,
+      "jdm_bytes": 11389,
+      "last_modified": null,
+      "github_sha256": "dbe2da29a0ac13d5bd3c4134637624bfcc12d4dc26d94e027601d0c02a7d1726",
+      "jdm_sha256": "dbe2da29a0ac13d5bd3c4134637624bfcc12d4dc26d94e027601d0c02a7d1726"
     },
     {
       "file": "blog-granulat-srebrny.html",
@@ -553,8 +589,12 @@
     },
     {
       "file": "blog-rodzaje-splotow-srebrnych-lancuszkow.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-rodzaje-splotow-srebrnych-lancuszkow.html'"
+      "status": "same",
+      "github_bytes": 11309,
+      "jdm_bytes": 11309,
+      "last_modified": null,
+      "github_sha256": "22514a4a9780704ffba1b3c7a6c1da6076e4f920116cf0e83ac5fee91cffcd0a",
+      "jdm_sha256": "22514a4a9780704ffba1b3c7a6c1da6076e4f920116cf0e83ac5fee91cffcd0a"
     },
     {
       "file": "blog-skup-bizuterii-pojedyncze-przedmioty.html",
@@ -576,8 +616,12 @@
     },
     {
       "file": "blog-srebrne-bransoletki-rodzaje-dlugosci-kamienie.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-srebrne-bransoletki-rodzaje-dlugosci-kamienie.html'"
+      "status": "same",
+      "github_bytes": 11147,
+      "jdm_bytes": 11147,
+      "last_modified": null,
+      "github_sha256": "1f0312df8fd0daf87289385f45dafd6449f5201a9006333107270d6d4ed2ccba",
+      "jdm_sha256": "1f0312df8fd0daf87289385f45dafd6449f5201a9006333107270d6d4ed2ccba"
     },
     {
       "file": "blog-srebrne-lancuszki-krolewski-pancerka.html",
@@ -608,8 +652,12 @@
     },
     {
       "file": "blog-srebro-metal-twardosc-ciagliwosc-wlasciwosci.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-srebro-metal-twardosc-ciagliwosc-wlasciwosci.html'"
+      "status": "same",
+      "github_bytes": 11205,
+      "jdm_bytes": 11205,
+      "last_modified": null,
+      "github_sha256": "e1bc007711cb93832d6b4529d59b33ba6f35b7d15289f4f84ea37ac68957a5f5",
+      "jdm_sha256": "e1bc007711cb93832d6b4529d59b33ba6f35b7d15289f4f84ea37ac68957a5f5"
     },
     {
       "file": "blog-sztabki-srebra-uncja-100g-certipack-odlewane.html",
@@ -676,13 +724,12 @@
     },
     {
       "file": "blog.html",
-      "status": "different",
+      "status": "same",
       "github_bytes": 31962,
-      "jdm_bytes": 27636,
+      "jdm_bytes": 31962,
       "last_modified": null,
       "github_sha256": "07d695cda5f5e0f7d726250c4cf511e4250cdc2a564be4ce835622217efd1700",
-      "jdm_sha256": "26f492cbb48f84c315c38c694be2a4e6d382f1817d5eb54bd9d2ef3f2ba7e99e",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "07d695cda5f5e0f7d726250c4cf511e4250cdc2a564be4ce835622217efd1700"
     },
     {
       "file": "cennik.html",
@@ -812,13 +859,12 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "different",
+      "status": "same",
       "github_bytes": 3953,
-      "jdm_bytes": 3399,
+      "jdm_bytes": 3953,
       "last_modified": null,
       "github_sha256": "364b30537e61898fcabf85d60e597c32d5eaf4dffdc8b2e4d0c9a0be96e5c69b",
-      "jdm_sha256": "ab5fafba37d93135f846b9efc24633517fe5c40c0aacf7ce6b657114140677a4",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "364b30537e61898fcabf85d60e597c32d5eaf4dffdc8b2e4d0c9a0be96e5c69b"
     },
     {
       "file": "studio-contact-20261004-status.js",
