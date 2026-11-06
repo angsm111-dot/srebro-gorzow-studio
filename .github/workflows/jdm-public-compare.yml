@@ -6,6 +6,7 @@ on:
       - deployment/jdm-public/**
       - scripts/compare-jdm-public.py
       - scripts/audit-indexing-access.py
+      - scripts/compare-site-seo.py
       - .github/workflows/jdm-public-compare.yml
   workflow_dispatch:
 permissions:
@@ -55,6 +56,8 @@ jobs:
           rsync --ignore-missing-args 'smxkojwd@web15.jdm.pl:/home/smxkojwd/public_html/robots.txt' /tmp/jdm-snapshot/
       - name: Check HTTP indexing access
         run: python3 scripts/audit-indexing-access.py
+      - name: Compare public SEO signals of both websites
+        run: python3 scripts/compare-site-seo.py
       - name: Compare downloaded files without changing JDM
         env:
           JDM_SNAPSHOT_DIR: /tmp/jdm-snapshot
@@ -73,7 +76,9 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           cp /tmp/jdm-access-audit.json access-audit.json
-          git add comparison.json comparison.diff access-audit.json
+          cp /tmp/site-seo-comparison.json site-seo-comparison.json
+          for file in /tmp/skupsrebra-home.html /tmp/srebro-home.html /tmp/srebro-www-home.html; do if test -f "$file"; then cp "$file" .; git add "$(basename "$file")"; fi; done
+          git add comparison.json comparison.diff access-audit.json site-seo-comparison.json
           if ! git diff --cached --quiet; then
             git commit -m 'Report public JDM comparison'
             git push origin HEAD:jdm-public-comparison
