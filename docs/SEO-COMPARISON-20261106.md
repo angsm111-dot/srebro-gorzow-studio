@@ -30,3 +30,7 @@ Przeglądarka Chromium/Playwright: 320, 390 i 1366 px; brak poziomego overflow, 
 W GSC dla każdej domeny: Skuteczność → zapytanie „skup srebra Gorzów”, rozbicie według stron, porównanie okresów oraz urządzeń; raport Strony z powodami wykluczeń i datami skanowania. Potrzebne są również dane wybranego przez Google canonical dla przykładowego URL. Ranking zależy także od lokalizacji, linków, historii domeny i profilu firmy; nie da się ich rzetelnie zastąpić dodawaniem kolejnych tekstów.
 
 Nie łączono domen, nie zmieniano cross-domain canonical ani DNS. Decyzja o jednej głównej domenie dla tej samej usługi wymaga osobnego planu migracji i oceny obu działających witryn. Nie obiecywać terminu indeksowania ani pozycji po tych poprawkach.
+
+## Korekta na polecenie użytkownika
+
+Usunięto widoczny blok home-local-details („Wycena srebra na miejscu…”), ponieważ nie odpowiadał oczekiwanemu prostemu układowi strony głównej. Usunięto również jego dedykowany CSS. Pozostałe poprawki zachowano, w tym nagłówek, dane strukturalne, ochronę indeksowania, robots/sitemap, poprawki cen i liczbę ponad 300 opinii. Nie przywracać długiej sekcji SEO na stronie głównej bez wyraźnego polecenia. Przyczyna różnicy pozycji między domenami nadal nie została potwierdzona; konkurencja domen była hipotezą, nie ustaleniem.
