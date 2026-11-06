@@ -10,9 +10,15 @@ class Page(HTMLParser):
         super().__init__()
         self.refs = []
         self.h1 = 0
+        self.canonical = []
+        self.indexing = []
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         self.h1 += tag == 'h1'
+        if tag == 'link' and 'canonical' in attrs.get('rel', '').lower().split():
+            self.canonical.append(attrs.get('href'))
+        if tag == 'meta' and attrs.get('name', '').lower() in ('robots', 'googlebot'):
+            self.indexing.append(attrs.get('content', '').lower())
         for key in ('href', 'src'):
             if attrs.get(key):
                 self.refs.append(attrs[key])
@@ -30,6 +36,8 @@ for loc in urls:
     assert path.is_relative_to(root) and path.is_file(), f'Missing page: {name}'
     page = Page()
     page.feed(path.read_text())
+    assert page.canonical == [loc.text], f'{name}: canonical must equal sitemap address'
+    assert not any('noindex' in item or 'none' in item.split(',') for item in page.indexing), f'{name}: indexing is blocked'
     assert page.h1 == 1, f'{name}: expected one H1, found {page.h1}'
     for ref in page.refs:
         parsed = urlsplit(ref)
