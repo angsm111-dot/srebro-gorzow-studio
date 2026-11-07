@@ -6,6 +6,7 @@ on:
       - deployment/jdm-public/**
       - scripts/compare-jdm-public.py
       - scripts/audit-indexing-access.py
+      - scripts/analyze-jdm-access.py
       - scripts/compare-site-seo.py
       - .github/workflows/jdm-public-compare.yml
   workflow_dispatch:
@@ -64,6 +65,12 @@ jobs:
           SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
         run: |
           sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 smxkojwd@web15.jdm.pl 'for directory in /home/smxkojwd/logs /home/smxkojwd/access-logs /home/smxkojwd/log; do if test -d "$directory"; then printf "AVAILABLE %s\n" "$directory"; ls -1 "$directory"; else printf "NOT_AVAILABLE %s\n" "$directory"; fi; done' > /tmp/jdm-log-availability.txt
+      - name: Aggregate crawler responses without storing raw access logs
+        env:
+          SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
+        run: |
+          set -o pipefail
+          sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 smxkojwd@web15.jdm.pl 'for file in /home/smxkojwd/logs/access.log /home/smxkojwd/logs/access.log.1 /home/smxkojwd/logs/access.log.2 /home/smxkojwd/logs/access.log.3 /home/smxkojwd/logs/access.log.4; do if test -r "$file"; then tail -n 20000 "$file"; fi; done' | python3 scripts/analyze-jdm-access.py
       - name: Check HTTP indexing access
         run: python3 scripts/audit-indexing-access.py
       - name: Compare public SEO signals of both websites
@@ -89,7 +96,8 @@ jobs:
           cp /tmp/site-seo-comparison.json site-seo-comparison.json
           for file in /tmp/skupsrebra-home.html /tmp/srebro-home.html /tmp/srebro-www-home.html; do if test -f "$file"; then cp "$file" .; git add "$(basename "$file")"; fi; done
           cp /tmp/jdm-log-availability.txt log-availability.txt
-          git add comparison.json comparison.diff access-audit.json site-seo-comparison.json log-availability.txt
+          cp /tmp/jdm-crawl-summary.json crawl-summary.json
+          git add comparison.json comparison.diff access-audit.json site-seo-comparison.json log-availability.txt crawl-summary.json
           if ! git diff --cached --quiet; then
             git commit -m 'Report public JDM comparison'
             git push origin HEAD:jdm-public-comparison
