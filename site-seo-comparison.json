@@ -4,7 +4,7 @@
       "url": "https://www.skupsrebragorzow.pl/",
       "final_url": "https://www.skupsrebragorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.206,
+      "elapsed_seconds": 0.24,
       "bytes": 13025,
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
@@ -82,13 +82,69 @@
     },
     {
       "url": "https://srebrogorzow.pl/",
-      "error": "Remote end closed connection without response"
+      "final_url": "https://www.srebrogorzow.pl/",
+      "status": 200,
+      "elapsed_seconds": 0.374,
+      "bytes": 8908,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Server": "Netlify"
+      },
+      "signals": {
+        "title": [
+          "Skup srebra Gorzów – sprawdź aktualny cennik"
+        ],
+        "h1": [
+          "Szlachetnawartość srebra."
+        ],
+        "h2": [
+          "Wszystko, czego potrzebujeszdo sprzedaży srebra",
+          "Każda postać srebra ma wartość",
+          "Sprawdzone miejsce w centrum Gorzowa",
+          "Aktualny kurs srebra",
+          "Bezpieczna obsługawiększych transakcji.",
+          "Profesjonalna obsługa od ponad 20 lat",
+          "Sprawdź, ile warte jest Twoje srebro"
+        ],
+        "canonical": [
+          "https://www.srebrogorzow.pl/"
+        ],
+        "robots": [],
+        "description": [
+          "Skup srebra w Gorzowie Wielkopolskim. Sprawdź aktualny cennik srebra, wyceń biżuterię, monety i sztabki oraz skontaktuj się z nami."
+        ],
+        "links": [
+          "/cennik",
+          "/kalkulator",
+          "/cennik",
+          "/cennik",
+          "/kalkulator",
+          "/kontakt",
+          "/kalkulator",
+          "/kalkulator",
+          "/kalkulator",
+          "/kalkulator",
+          "/kalkulator",
+          "/kalkulator",
+          "https://www.google.com/maps/search/?api=1&query=Lombard+SEZAM+Pocztowa+11+Gorz%C3%B3w+Wielkopolski",
+          "/cennik",
+          "/kontakt",
+          "/kalkulator",
+          "https://wa.me/48601775146",
+          "https://wa.me/48601775146"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"@id\":\"https://www.srebrogorzow.pl/#website\",\"url\":\"https://www.srebrogorzow.pl/\",\"name\":\"Skup Srebra Gorzów\",\"alternateName\":[\"Srebro Gorzów\",\"srebrogorzow.pl\"],\"inLanguage\":\"pl-PL\"},{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.srebrogorzow.pl/#business\",\"name\":\"Skup Srebra Gorzów\",\"url\":\"https://www.srebrogorzow.pl/\",\"telephone\":\"+48 601 775 146\",\"email\":\"kontakt@srebrogorzow.pl\",\"description\":\"Skup i wycena srebra, biżuterii srebrnej, monet, sztabek oraz srebra użytkowego w Gorzowie Wielkopolskim.\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"ul. Pocztowa 11\",\"postalCode\":\"66-400\",\"addressLocality\":\"Gorzów Wielkopolski\",\"addressCountry\":\"PL\"},\"areaServed\":{\"@type\":\"City\",\"name\":\"Gorzów Wielkopolski\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\"],\"opens\":\"10:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"10:00\",\"closes\":\"14:00\"}]}]}"
+        ],
+        "text": "Skup srebra Gorzów – sprawdź aktualny cennik PROFESJONALNY SKUP SREBRA Szlachetna wartość srebra. Biżuteria, monety, sztabki, granulat i srebro użytkowe. Bezpłatna wycena, transparentne ceny i natychmiastowa płatność. KURS SREBRA PLN / 1 G 4,31 zł PLN / 1 UNCJA — zł ↗ +1,24% NASTĘPNA AKTUALIZACJA 04:59 Dzisiejszy cennik ↗ Oblicz wartość srebra SKUP · PR. 999,9 4,18 zł/g SKUP · PR. 925 3,62 zł/g SKUP · PR. 800 3,05 zł/g AKTUALIZACJA CENNIKA 14:32 Pełny cennik srebra → PROSTO I BEZPIECZNIE Wszystko, czego potrzebujesz do sprzedaży srebra ◇ Aktualny cennik Osobne ceny kruszcu, monet bulionowych, sztabek i granulatu. Zobacz ceny → ⌁ Kalkulator wartości Wybierz rodzaj srebra, próbę lub produkt oraz wpisz wagę. Oblicz wartość → ✓ Bezpłatna wycena Skontaktuj się z doradcą i otrzymaj ofertę bez zobowiązań. Skontaktuj się → CO SKUPUJEMY Każda postać srebra ma wartość Wybierz kategorię, aby przejść bezpośrednio do kalkulatora. Biżuteria srebrna Łańcuszki, pierścionki, bransoletki, kolczyki, zawieszki itp. Monety bulionowe i historyczne Popularne monety inwestycyjne oraz monety historyczne różnego typu Sztabki srebra Certyfikowane i bez certyfikatu Sztućce i zastawy Także niekompletne i uszkodzone Złom srebra Elementy uszkodzone, ścinki i fragmenty Granulat srebrny Granulat jubilerski i przemysłowy G OPINIE GOOGLE · SEZAM GORZÓW 4,9 ★★★★★ Ponad 300 opinii klientów naszej firmy. ZAUFANIE KLIENTÓW Sprawdzone miejsce w centrum Gorzowa Zobacz opinie o obsłudze SEZAM przy ul. Pocztowej 11 i przejdź bezpośrednio do naszej wizytówki Google. Zobacz 300+ opinii Google → NOTOWANIA NA ŻYWO Aktualny kurs srebra Stawki skupu reagują na rynek. Dzięki temu zawsze widzisz, z czego wynika nasza cena. 4,18 zł / g Ag 999 ↗ +1,24% dzisiaj Przejdź do cennika 09:00 11:00 13:00 15:00 17:00 INDYWIDUALNA OBSŁUGA Bezpieczna obsługa większych transakcji. Przy większej ilości srebra ustalamy dogodny sposób przekazania, wyceny i płatności — dyskretnie oraz na jasnych zasadach. Porozmawiaj z doradcą → DLACZEGO WARTO Profesjonalna obsługa od ponad 20 lat 20+ lat doświadczenia Specjalizacja w metalach szlachetnych. 5 min aktualizacja cen Stawki reagują na rynek. 0 zł koszt wyceny Badanie i oferta są bezpłatne. 24 h szybka płatność Gotówka lub przelew po akceptacji. BEZ ZOBOWIĄZAŃ Sprawdź, ile warte jest Twoje srebro Skorzystaj z kalkulatora lub prześlij zdjęcia na WhatsApp. Oblicz wartość Napisz na WhatsApp ◔"
+      },
+      "text_words": 359
     },
     {
       "url": "https://www.srebrogorzow.pl/",
       "final_url": "https://www.srebrogorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.388,
+      "elapsed_seconds": 0.375,
       "bytes": 8908,
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
@@ -148,7 +204,7 @@
       "url": "https://srebrogorzow.pl/robots.txt",
       "final_url": "https://www.srebrogorzow.pl/robots.txt",
       "status": 200,
-      "elapsed_seconds": 0.183,
+      "elapsed_seconds": 0.338,
       "bytes": 73,
       "headers": {
         "Content-Type": "text/plain; charset=UTF-8",
@@ -160,7 +216,7 @@
       "url": "https://srebrogorzow.pl/sitemap.xml",
       "final_url": "https://www.srebrogorzow.pl/sitemap.xml",
       "status": 200,
-      "elapsed_seconds": 0.202,
+      "elapsed_seconds": 0.273,
       "bytes": 3913,
       "headers": {
         "Content-Type": "application/xml",
@@ -172,7 +228,7 @@
       "url": "https://www.skupsrebragorzow.pl/robots.txt",
       "final_url": "https://www.skupsrebragorzow.pl/robots.txt",
       "status": 200,
-      "elapsed_seconds": 0.033,
+      "elapsed_seconds": 0.061,
       "bytes": 77,
       "headers": {
         "Content-Type": "text/plain; charset=utf-8",
@@ -184,7 +240,7 @@
       "url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "final_url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "status": 200,
-      "elapsed_seconds": 0.137,
+      "elapsed_seconds": 0.19,
       "bytes": 4013,
       "headers": {
         "Content-Type": "text/xml; charset=utf-8",

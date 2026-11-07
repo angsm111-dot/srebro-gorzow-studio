@@ -1,0 +1,13 @@
+{
+  "scope": "Up to 20,000 latest lines from each of access.log and four rotations. Host attribution depends on hosting log format.",
+  "counts": {},
+  "all_statuses": {},
+  "first_event": null,
+  "last_event": null,
+  "google_ip_ranges_loaded": true,
+  "google_ip_verification_error": null,
+  "claimed_googlebot_paths": {},
+  "verified_googlebot_paths": {},
+  "inspection_tool_paths": {},
+  "privacy": "No raw lines, client addresses, user data or query strings are retained. Claimed user agents alone do not prove Google identity."
+}
