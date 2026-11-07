@@ -6,7 +6,13 @@ function ipv4number(value, octets, n, i, result) {
     for(i=1;i<=4;i++){if(octets[i]!~/^[0-9]+$/ || octets[i]>255)return -1;result=result*256+octets[i]}
     return result
 }
-BEGIN { total=0; parsed=0; bot=0; inspection=0; verifiedbot=0 }
+function eventday(line, stamp, fields, count) {
+    if (!match(line,/\[[0-9][0-9]\/[A-Za-z][A-Za-z][A-Za-z]\/[0-9][0-9][0-9][0-9]:/)) return ""
+    stamp=substr(line,RSTART+1,11); split(stamp,fields,"/")
+    if(!(fields[2] in month)) return ""
+    return fields[3] "-" month[fields[2]] "-" fields[1]
+}
+BEGIN { total=0; parsed=0; bot=0; inspection=0; verifiedbot=0; split("Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",months," ");for(m=1;m<=12;m++)month[months[m]]=sprintf("%02d",m) }
 {
     total++
     n=split($0, parts, "\"")
@@ -25,7 +31,14 @@ BEGIN { total=0; parsed=0; bot=0; inspection=0; verifiedbot=0 }
         for(i=1;i<=3;i++){candidate=ipv4number($i);if(candidate>=0){client=candidate;break}}
         isverified=0
         if(client>=0)for(i=1;i<=rangecount;i++)if(client>=rangefirst[i] && client<=rangelast[i]){isverified=1;break}
-        if(isverified){verifiedbot++;verifiedstatuses[code]++;verifiedpaths[path SUBSEP code]++}
+        if(isverified){
+            verifiedbot++;verifiedstatuses[code]++; key=path SUBSEP code;verifiedpaths[key]++
+            day=eventday($0)
+            if(day!=""){
+                if(!(key in firstday) || day<firstday[key])firstday[key]=day
+                if(!(key in lastday) || day>lastday[key])lastday[key]=day
+            }
+        }
     }
     if (parts[6] ~ /Google-InspectionTool/) { inspection++; inspectstatuses[code]++ }
 }
@@ -42,6 +55,6 @@ END {
     printf "],\"verified_googlebot_requests\":%d,\"google_ipv4_ranges_loaded\":%d,\"verified_googlebot_http_statuses\":{",verifiedbot,rangecount;separator=""
     for(code in verifiedstatuses){printf "%s\"%s\":%d",separator,code,verifiedstatuses[code];separator=","}
     printf "},\"verified_googlebot_public_urls\":[";separator=""
-    for(key in verifiedpaths){split(key,pair,SUBSEP);printf "%s{\"path\":\"%s\",\"status\":%s,\"count\":%d}",separator,pair[1],pair[2],verifiedpaths[key];separator=","}
+    for(key in verifiedpaths){split(key,pair,SUBSEP);printf "%s{\"path\":\"%s\",\"status\":%s,\"count\":%d,\"first_day\":\"%s\",\"last_day\":\"%s\"}",separator,pair[1],pair[2],verifiedpaths[key],firstday[key],lastday[key];separator=","}
     printf "],\"privacy\":\"Only counters and pre-approved public sitemap URLs leave hosting; no IPs, unknown paths, queries or user agents. IPv6 or proxied identities remain unverified.\"}\n"
 }
