@@ -1,13 +1,30 @@
 """Read public HTTP indexing signals; never send credentials or change the site."""
 import concurrent.futures
 import json
+from html.parser import HTMLParser
+import re
 from pathlib import Path
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 root = Path('deployment/jdm-public')
 urls = [loc.text for loc in ET.parse(root / 'sitemap.xml').findall('{*}url/{*}loc')]
-urls += ['https://www.skupsrebragorzow.pl/robots.txt', 'http://skupsrebragorzow.pl/', 'https://skupsrebragorzow.pl/']
+sitemap_urls = set(urls)
+urls += ['https://www.skupsrebragorzow.pl/sitemap.xml', 'https://www.skupsrebragorzow.pl/__index-audit-missing-20261107.html', 'https://www.skupsrebragorzow.pl/__index-audit-missing-20261107/', 'https://www.skupsrebragorzow.pl/robots.txt', 'http://skupsrebragorzow.pl/', 'https://skupsrebragorzow.pl/']
+
+class IndexingSignals(HTMLParser):
+    def __init__(self):
+        super().__init__(); self.canonical=[]; self.directives=[]; self.h1=0; self.title=False; self.title_text=[]
+    def handle_starttag(self,tag,attrs):
+        a=dict(attrs)
+        if tag=='link' and 'canonical' in a.get('rel','').lower().split():self.canonical.append(a.get('href'))
+        if tag=='meta' and a.get('name','').lower() in ('robots','googlebot'):self.directives.append(a.get('content',''))
+        if tag=='h1':self.h1+=1
+        if tag=='title':self.title=True
+    def handle_endtag(self,tag):
+        if tag=='title':self.title=False
+    def handle_data(self,data):
+        if self.title:self.title_text.append(data)
 
 def check(url):
     try:
@@ -19,8 +36,22 @@ def check(url):
     with response:
         result = {'url': url, 'status': response.code, 'final_url': response.url,
                   'headers': {k: response.headers[k] for k in ['Content-Type', 'X-Robots-Tag', 'Server', 'CF-Mitigated'] if k in response.headers}}
+        body=response.read(2_000_000).decode('utf-8',errors='replace')
         if url.endswith('/robots.txt') and response.code == 200:
-            result['robots'] = response.read(65536).decode('utf-8', errors='replace')
+            result['robots'] = body
+        if url.endswith('/sitemap.xml') and response.code == 200:
+            try:
+                tree=ET.fromstring(body)
+                locations=[node.text for node in tree.findall('{*}url/{*}loc')]
+                result['sitemap']={'root':tree.tag,'count':len(locations),'duplicates':len(locations)-len(set(locations)), 'missing':sorted(sitemap_urls-set(locations)), 'extra':sorted(set(locations)-sitemap_urls)}
+            except ET.ParseError as error: result['sitemap_error']=str(error)
+        if url in sitemap_urls:
+            parser=IndexingSignals(); parser.feed(body)
+            directives=','.join(parser.directives+[response.headers.get('X-Robots-Tag','')]).lower()
+            result['html_signals']={'title':''.join(parser.title_text).strip(),'h1_count':parser.h1,'canonical':parser.canonical,'noindex':bool(re.search(r'\b(noindex|none)\b',directives)), 'valid_canonical':parser.canonical==[url]}
+            if url=='https://www.skupsrebragorzow.pl/':
+                result['homepage_checks']={'over_300_reviews':'Ponad 300 opinii' in body, 'removed_long_block':'home-local-details' not in body}
+        if '__index-audit-missing-' in url:result['correct_not_found']=response.code==404
         return result
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
