@@ -7,6 +7,19 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Skup srebra Gorzów Wielkopolski — cennik i wycena | SEZAM",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/"
+        ],
+        "noindex": false,
+        "valid_canonical": true
+      },
+      "homepage_checks": {
+        "over_300_reviews": true,
+        "removed_long_block": true
       }
     },
     {
@@ -16,6 +29,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Co kupujemy — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/co-kupujemy.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -25,6 +47,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Wycena srebra — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/wycena.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -34,6 +65,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Cennik — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/cennik.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -43,6 +83,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Wykres srebra — Skup srebra GorzówHistoria kursu srebra",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/wykres.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -52,6 +101,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Pytania i odpowiedzi — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/faq.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -61,6 +119,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Blog — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -70,6 +137,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Kontakt — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/kontakt.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -79,6 +155,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Regulamin — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/regulamin.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -88,6 +173,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Jak przygotować srebro do wyceny w Gorzowie — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-przygotowanie-srebra-do-wyceny.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -97,6 +191,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Próba 925 — co oznacza na biżuterii srebrnej? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-proba-925-bizuteria.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -106,6 +209,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Monety srebrne: kiedy liczy się kruszec, a kiedy historia? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-monety-srebrne-wartosc.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -115,6 +227,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Sztabki srebra 100 g, 500 g i 1 kg — jak je wycenić? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-wycena-sztabek-srebra.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -124,6 +245,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Srebrne sztućce i zastawy — na co zwrócić uwagę? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-srebrne-sztucce-zastawy.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -133,6 +263,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Złom srebra i uszkodzona biżuteria też mają wartość — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-zlom-srebra-bizuteria.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -142,6 +281,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Granulat srebrny — czym różni się od złomu? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-granulat-srebrny.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -151,6 +299,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Dlaczego aktualny cennik skupu srebra jest ważny? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-aktualny-cennik-skupu-srebra.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -160,6 +317,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Skup srebra Gorzów: jak wycenić stare sztućce i zastawę? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-wycena-starych-sztuccow.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -169,6 +335,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Granulat srebrny — co warto wiedzieć przed sprzedażą? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-sprzedaz-granulatu-srebrnego.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -178,6 +353,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Srebrne talerze, patery i naczynia: srebro czy posrebrzanie? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-naczynia-srebro-czy-posrebrzanie.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -187,6 +371,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Skup srebra w Gorzowie — biżuteria, złom i pojedyncze przedmioty — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-skup-bizuterii-pojedyncze-przedmioty.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -196,6 +389,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Skup srebra — jak porównać wycenę biżuterii? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-porownanie-wyceny-bizuterii.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -205,6 +407,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Skup srebra Gorzów: co zrobić, gdy punca jest zatarta? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-zatarta-punca-srebra.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -214,6 +425,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Skup srebra w Gorzowie — jak przygotować świeczniki do wyceny? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-wycena-swiecznikow.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -223,6 +443,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Skup srebra: jak uporządkować kilka przedmiotów do wspólnej wyceny? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-wspolna-wycena-srebra.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -232,6 +461,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Polityka prywatności — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/polityka-prywatnosci.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -241,6 +479,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Jak pielęgnować srebrną biżuterię? Czyszczenie i przechowywanie — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -250,6 +497,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Srebrne łańcuszki: splot królewski czy pancerka? Jak wybrać i kupić — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-srebrne-lancuszki-krolewski-pancerka.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -259,6 +515,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Sztabki srebra: jedna uncja, 100 g, certipack i odlewy — czym się różnią? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -268,6 +533,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Popularne srebrne monety bulionowe: Filharmonik, Liść Klonowy, Britannia i inne — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-popularne-srebrne-monety-bulionowe.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -277,6 +551,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Srebrne monety PRL: jakie występują i jak odróżnić je od zwykłych obiegówek? — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-srebrne-monety-prl-rodzaje-wycena.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -286,6 +569,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Rodzaje splotów srebrnych łańcuszków — od ankiera po królewski — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-rodzaje-splotow-srebrnych-lancuszkow.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -295,6 +587,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Srebrne bransoletki: długości, fasony i kamienie dla kobiet i mężczyzn — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-srebrne-bransoletki-rodzaje-dlugosci-kamienie.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -304,6 +605,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Srebro jako metal: twardość, ciągliwość i właściwości stopów — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-srebro-metal-twardosc-ciagliwosc-wlasciwosci.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -313,7 +623,52 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Dlaczego srebrna biżuteria jest popularna? Styl, wybór i codzienna wygoda — Skup srebra Gorzów",
+        "h1_count": 1,
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-dlaczego-srebrna-bizuteria-jest-popularna.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/sitemap.xml",
+      "status": 200,
+      "final_url": "https://www.skupsrebragorzow.pl/sitemap.xml",
+      "headers": {
+        "Content-Type": "text/xml; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "sitemap": {
+        "root": "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset",
+        "count": 35,
+        "duplicates": 0,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/__index-audit-missing-20261107.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/__index-audit-missing-20261107.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "correct_not_found": true
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/__index-audit-missing-20261107/",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/__index-audit-missing-20261107/",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "correct_not_found": true
     },
     {
       "url": "https://www.skupsrebragorzow.pl/robots.txt",
