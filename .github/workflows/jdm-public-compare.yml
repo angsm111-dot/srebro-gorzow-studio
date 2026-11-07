@@ -7,6 +7,7 @@ on:
       - scripts/compare-jdm-public.py
       - scripts/audit-indexing-access.py
       - scripts/aggregate-jdm-crawlers.awk
+      - scripts/build-crawler-audit-program.py
       - scripts/compare-site-seo.py
       - .github/workflows/jdm-public-compare.yml
   workflow_dispatch:
@@ -69,7 +70,8 @@ jobs:
         env:
           SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
         run: |
-          sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 smxkojwd@web15.jdm.pl 'awk -f - /home/smxkojwd/logs/access.log /home/smxkojwd/logs/access.log.1 /home/smxkojwd/logs/access.log.2 /home/smxkojwd/logs/access.log.3 /home/smxkojwd/logs/access.log.4' < scripts/aggregate-jdm-crawlers.awk > /tmp/jdm-crawl-summary.json
+          python3 scripts/build-crawler-audit-program.py
+          sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 smxkojwd@web15.jdm.pl 'awk -f - /home/smxkojwd/logs/access.log /home/smxkojwd/logs/access.log.1 /home/smxkojwd/logs/access.log.2 /home/smxkojwd/logs/access.log.3 /home/smxkojwd/logs/access.log.4' < /tmp/aggregate-crawlers.awk > /tmp/jdm-crawl-summary.json
           python3 -c 'import json; json.load(open("/tmp/jdm-crawl-summary.json"))'
       - name: Check HTTP indexing access
         run: python3 scripts/audit-indexing-access.py
