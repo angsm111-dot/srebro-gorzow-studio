@@ -1,22 +1,39 @@
 AVAILABLE /home/smxkojwd/logs
-access.log
-access.log.1
-access.log.2
-access.log.3
-access.log.4
-error.log
-error.log.1
-error.log.2
-error.log.3
-error.log.4
-fastcgi.pid
-jdm-public
-php-error.log
-php-error.log.1
-php-error.log.2
-php-error.log.3
-php-error.log.4
-php-fpm.log
-php-slow.log
+total 628
+-rw-r--r-- 1   33    0  56028 Nov  7 09:02 access.log
+-rw-r--r-- 1   33    0 156424 Nov  6 21:20 access.log.1
+-rw-r--r-- 1   33    0 132965 Nov  5 22:34 access.log.2
+-rw-r--r-- 1   33    0  96449 Nov  4 22:43 access.log.3
+-rw-r--r-- 1   33    0  54567 Nov  3 22:26 access.log.4
+-rw-r--r-- 1   33    0    300 Nov  7 08:06 error.log
+-rw-r--r-- 1   33    0   1066 Nov  6 14:56 error.log.1
+-rw-r--r-- 1   33    0   8883 Nov  5 10:28 error.log.2
+-rw-r--r-- 1   33    0  22581 Nov  4 21:52 error.log.3
+-rw-r--r-- 1   33    0    680 Nov  3 10:43 error.log.4
+-rw-r--r-- 1 3232 3232      5 Oct 29 00:10 fastcgi.pid
+drwxr-xr-x 3 3232 3232   4096 Oct  3 21:30 jdm-public
+-rw-r--r-- 1 3232 3232      0 Oct 21 22:00 php-error.log
+-rw-r--r-- 1 3232 3232   2320 Oct 21 22:00 php-error.log.1
+-rw-r--r-- 1 3232 3232    213 Oct  8 22:00 php-error.log.2
+-rw-r--r-- 1 3232 3232   7420 Oct  7 22:00 php-error.log.3
+-rw-r--r-- 1 3232 3232  39148 Oct  4 22:00 php-error.log.4
+-rw------- 1 3232 3232      0 Oct  2 08:30 php-fpm.log
+-rw------- 1 3232 3232      0 Oct  2 08:30 php-slow.log
+total 156
+drwxr-xr-x 2 3232 3232  4096 Oct  3 21:30 assets
+-rw-r--r-- 1 3232 3232  1387 Oct  3 21:30 ceny-live.php
+-rw-r--r-- 1 3232 3232   436 Oct  3 21:30 index.html
+-rw-r--r-- 1 3232 3232 16265 Oct  3 21:30 site.css
+-rw-r--r-- 1 3232 3232  4075 Oct  3 21:30 studio-custom.css
+-rw-r--r-- 1 3232 3232 17037 Oct  3 21:30 studio-enhancements.css
+-rw-r--r-- 1 3232 3232 25251 Oct  3 21:30 studio-enhancements.js
+-rw-r--r-- 1 3232 3232  5908 Oct  3 21:30 studio-live-prices.js
+-rw-r--r-- 1 3232 3232  7573 Oct  3 21:30 studio-modern.css
+-rw-r--r-- 1 3232 3232  6218 Oct  3 21:30 studio-pages.js
+-rw-r--r-- 1 3232 3232  4230 Oct  3 21:30 studio-silver.css
+-rw-r--r-- 1 3232 3232 27577 Oct  3 21:30 studio-site.js
+-rw-r--r-- 1 3232 3232  6666 Oct  3 21:30 studio.css
+-rw-r--r-- 1 3232 3232  2576 Oct  3 21:30 studio.html
+-rw-r--r-- 1 3232 3232  3793 Oct  3 21:30 studio.js
 NOT_AVAILABLE /home/smxkojwd/access-logs
 NOT_AVAILABLE /home/smxkojwd/log
