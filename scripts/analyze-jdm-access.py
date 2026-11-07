@@ -41,7 +41,7 @@ for line in sys.stdin:
         except ValueError:pass
     if client and any(client.version==network.version and client in network for network in networks):
         verified[path][code]+=1;counts['googlebot_verified_ip']+=1
-report={'scope':'Up to 20,000 latest lines from each of access.log and four rotations. Host attribution depends on hosting log format.',
+report={'scope':'Current access.log and four rotations streamed directly; no raw log files retained. Host attribution depends on hosting log format.',
         'counts':dict(counts),'all_statuses':dict(status),'first_event':min(dates).isoformat() if dates else None,'last_event':max(dates).isoformat() if dates else None,
         'google_ip_ranges_loaded':bool(networks),'google_ip_verification_error':verification_error,
         'claimed_googlebot_paths':dict(google),'verified_googlebot_paths':dict(verified),'inspection_tool_paths':dict(inspection),

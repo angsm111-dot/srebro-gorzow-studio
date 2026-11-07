@@ -70,7 +70,7 @@ jobs:
           SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
         run: |
           set -o pipefail
-          sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 smxkojwd@web15.jdm.pl 'for file in /home/smxkojwd/logs/access.log /home/smxkojwd/logs/access.log.1 /home/smxkojwd/logs/access.log.2 /home/smxkojwd/logs/access.log.3 /home/smxkojwd/logs/access.log.4 /home/smxkojwd/logs/jdm-public/access.log /home/smxkojwd/logs/jdm-public/access.log.1 /home/smxkojwd/logs/jdm-public/access.log.2 /home/smxkojwd/logs/jdm-public/access.log.3 /home/smxkojwd/logs/jdm-public/access.log.4; do if test -r "$file"; then tail -n 20000 "$file"; fi; done' | python3 scripts/analyze-jdm-access.py
+          sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 smxkojwd@web15.jdm.pl 'cat /home/smxkojwd/logs/access.log /home/smxkojwd/logs/access.log.1 /home/smxkojwd/logs/access.log.2 /home/smxkojwd/logs/access.log.3 /home/smxkojwd/logs/access.log.4' | python3 scripts/analyze-jdm-access.py
       - name: Check HTTP indexing access
         run: python3 scripts/audit-indexing-access.py
       - name: Compare public SEO signals of both websites
