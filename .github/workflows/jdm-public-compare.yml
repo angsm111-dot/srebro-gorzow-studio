@@ -59,6 +59,11 @@ jobs:
         run: |
           export RSYNC_RSH='sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20'
           rsync --ignore-missing-args 'smxkojwd@web15.jdm.pl:/home/smxkojwd/public_html/robots.txt' /tmp/jdm-snapshot/
+      - name: Check own hosting access-log availability (metadata only)
+        env:
+          SSHPASS: ${{ secrets.JDM_SSH_PASSWORD }}
+        run: |
+          sshpass -e ssh -p 2233 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 smxkojwd@web15.jdm.pl 'for directory in /home/smxkojwd/logs /home/smxkojwd/access-logs /home/smxkojwd/log; do if test -d "$directory"; then printf "AVAILABLE %s\n" "$directory"; ls -1 "$directory"; else printf "NOT_AVAILABLE %s\n" "$directory"; fi; done' > /tmp/jdm-log-availability.txt
       - name: Check HTTP indexing access
         run: python3 scripts/audit-indexing-access.py
       - name: Compare public SEO signals of both websites
@@ -83,7 +88,8 @@ jobs:
           cp /tmp/jdm-access-audit.json access-audit.json
           cp /tmp/site-seo-comparison.json site-seo-comparison.json
           for file in /tmp/skupsrebra-home.html /tmp/srebro-home.html /tmp/srebro-www-home.html; do if test -f "$file"; then cp "$file" .; git add "$(basename "$file")"; fi; done
-          git add comparison.json comparison.diff access-audit.json site-seo-comparison.json
+          cp /tmp/jdm-log-availability.txt log-availability.txt
+          git add comparison.json comparison.diff access-audit.json site-seo-comparison.json log-availability.txt
           if ! git diff --cached --quiet; then
             git commit -m 'Report public JDM comparison'
             git push origin HEAD:jdm-public-comparison
