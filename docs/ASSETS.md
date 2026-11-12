@@ -21,3 +21,9 @@ Obrazy nie dokumentują stanu magazynowego. Ilustracje numizmatyczne nie odwzoro
 ## Cztery krótkie poradniki — 06.11.2026
 
 Nowe ilustracje AI: blog-weaves-20261106, blog-bracelets-20261106, blog-silver-metal-20261106 i blog-popular-jewellery-20261106. Każda występuje w assets/ jako WebP 480×320 i 960×640. Przedstawiają odpowiednio sploty łańcuszków, bransoletki z kolorowymi kamieniami, drut/blachę/sztabkę oraz zestaw biżuterii. Jasne tło, ostre detale i nasycone akcenty. Źródłowe PNG zachowano poza checkoutem w /workspace/generated_images. Podpisy wyjaśniają poglądowy charakter; obrazy nie dokumentują aktualnego asortymentu ani rodzaju rzeczywistego kamienia.
+
+## Rozmiary, zapięcia, wykończenia i prezent — 13.11.2026
+
+Cztery nowe ilustracje AI: `blog-ring-size-20261113`, `blog-clasps-20261113`, `blog-finishes-20261113` i `blog-gift-20261113`. W `deployment/jdm-public/assets/` zapisano osobne WebP 480×320 oraz 768×512, bez powiększania źródła. Przedstawiają pierścionki przy trzpieniu miarowym, zapięcia łańcuszków, kontrast jasnego i oksydowanego wykończenia oraz naszyjnik w pudełku. Jasny len, miękkie światło dzienne i miętowe akcenty. Źródłowy arkusz czterech kompozycji pozostaje poza repozytorium w `/workspace/generated_images/exec-22e70256-4114-4d50-9428-01ee6fe68de0.png`.
+
+Ilustracje są poglądowe, nie potwierdzają materiału, rodzaju powłoki ani dostępności konkretnego produktu. Każdy artykuł zawiera taki podpis. Nie zmieniano historycznych ilustracji ani zasobów strony głównej.
