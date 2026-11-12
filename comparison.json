@@ -1,5 +1,5 @@
 {
-  "baseline_commit": "7bda6bbb6bf13084f524d6826b07a2f1b97fbf9c",
+  "baseline_commit": "45f5dbb3a82bb3433a2323268707106900265295",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
@@ -84,6 +84,36 @@
       "jdm_sha256": "fe30c077cee9d83828bf064f1c21f74b4790d9bdd2bd5a26cb24fb56fc92fc89"
     },
     {
+      "file": "assets/blog-clasps-20261113-480.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-clasps-20261113-480.webp'"
+    },
+    {
+      "file": "assets/blog-clasps-20261113-768.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-clasps-20261113-768.webp'"
+    },
+    {
+      "file": "assets/blog-finishes-20261113-480.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-finishes-20261113-480.webp'"
+    },
+    {
+      "file": "assets/blog-finishes-20261113-768.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-finishes-20261113-768.webp'"
+    },
+    {
+      "file": "assets/blog-gift-20261113-480.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-gift-20261113-480.webp'"
+    },
+    {
+      "file": "assets/blog-gift-20261113-768.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-gift-20261113-768.webp'"
+    },
+    {
       "file": "assets/blog-popular-jewellery-20261106-480.webp",
       "status": "same",
       "github_bytes": 29652,
@@ -145,6 +175,16 @@
       "last_modified": null,
       "github_sha256": "dead7f9536478c68e3912ca4d01f58502d6c53523bbff790eeca2d0fd5a24c1a",
       "jdm_sha256": "dead7f9536478c68e3912ca4d01f58502d6c53523bbff790eeca2d0fd5a24c1a"
+    },
+    {
+      "file": "assets/blog-ring-size-20261113-480.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-ring-size-20261113-480.webp'"
+    },
+    {
+      "file": "assets/blog-ring-size-20261113-768.webp",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-ring-size-20261113-768.webp'"
     },
     {
       "file": "assets/blog-segregowanie-srebra-20261014-480.webp",
@@ -525,6 +565,11 @@
       "jdm_sha256": "220395009921821542048b5627c7c4b276b3f7c25259315ce98636724a468832"
     },
     {
+      "file": "blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html'"
+    },
+    {
       "file": "blog-jak-pielegnowac-srebrna-bizuterie.html",
       "status": "same",
       "github_bytes": 24708,
@@ -532,6 +577,11 @@
       "last_modified": null,
       "github_sha256": "158e5b461dcc3a3bf0780cd5ee16cef1a7c2733e6d6bd013e144838491c5de12",
       "jdm_sha256": "158e5b461dcc3a3bf0780cd5ee16cef1a7c2733e6d6bd013e144838491c5de12"
+    },
+    {
+      "file": "blog-jak-wybrac-srebrna-bizuterie-na-prezent.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html'"
     },
     {
       "file": "blog-monety-srebrne-wartosc.html",
@@ -597,6 +647,11 @@
       "jdm_sha256": "28fadf2bf4944463168fb3cb07a594281be911941a604cc172812ab7e794fcd7"
     },
     {
+      "file": "blog-rodzaje-zapiec-w-srebrnej-bizuterii.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html'"
+    },
+    {
       "file": "blog-skup-bizuterii-pojedyncze-przedmioty.html",
       "status": "same",
       "github_bytes": 11225,
@@ -658,6 +713,11 @@
       "last_modified": null,
       "github_sha256": "bcf526ab7f14e208adcaee4632674ccc0ffcdd69a4b36ede5555addad969fa16",
       "jdm_sha256": "bcf526ab7f14e208adcaee4632674ccc0ffcdd69a4b36ede5555addad969fa16"
+    },
+    {
+      "file": "blog-srebro-rodowane-a-oksydowane.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-srebro-rodowane-a-oksydowane.html'"
     },
     {
       "file": "blog-sztabki-srebra-uncja-100g-certipack-odlewane.html",
@@ -724,12 +784,13 @@
     },
     {
       "file": "blog.html",
-      "status": "same",
-      "github_bytes": 31955,
+      "status": "different",
+      "github_bytes": 35666,
       "jdm_bytes": 31955,
       "last_modified": null,
-      "github_sha256": "46d9aa69dd29ce51fcc1f72ffbf8b01c00ad609624d63cd422521f2516185e60",
-      "jdm_sha256": "46d9aa69dd29ce51fcc1f72ffbf8b01c00ad609624d63cd422521f2516185e60"
+      "github_sha256": "df2e8cf4490246d9f3b044da5b14ce7f3a370dcd5a984d573e2093a9de37c149",
+      "jdm_sha256": "46d9aa69dd29ce51fcc1f72ffbf8b01c00ad609624d63cd422521f2516185e60",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "cennik.html",
@@ -859,12 +920,13 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "same",
-      "github_bytes": 4013,
+      "status": "different",
+      "github_bytes": 4573,
       "jdm_bytes": 4013,
       "last_modified": null,
-      "github_sha256": "f967b5f7a1e3d9f31ee8e9d26887a108597190e69a2d42f8d7d2c9d3f7e54014",
-      "jdm_sha256": "f967b5f7a1e3d9f31ee8e9d26887a108597190e69a2d42f8d7d2c9d3f7e54014"
+      "github_sha256": "f170c2fd38cc591420174e995ef46826b158ddc11ad2eebacb00fe367b59b73a",
+      "jdm_sha256": "f967b5f7a1e3d9f31ee8e9d26887a108597190e69a2d42f8d7d2c9d3f7e54014",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-contact-20261004-status.js",

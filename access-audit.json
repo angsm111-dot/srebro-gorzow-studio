@@ -635,6 +635,70 @@
       }
     },
     {
+      "url": "https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Błąd 404 · Nie znaleziono strony",
+        "h1_count": 1,
+        "canonical": [],
+        "noindex": true,
+        "valid_canonical": false
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Błąd 404 · Nie znaleziono strony",
+        "h1_count": 1,
+        "canonical": [],
+        "noindex": true,
+        "valid_canonical": false
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Błąd 404 · Nie znaleziono strony",
+        "h1_count": 1,
+        "canonical": [],
+        "noindex": true,
+        "valid_canonical": false
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Błąd 404 · Nie znaleziono strony",
+        "h1_count": 1,
+        "canonical": [],
+        "noindex": true,
+        "valid_canonical": false
+      }
+    },
+    {
       "url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "status": 200,
       "final_url": "https://www.skupsrebragorzow.pl/sitemap.xml",
@@ -646,7 +710,12 @@
         "root": "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset",
         "count": 35,
         "duplicates": 0,
-        "missing": [],
+        "missing": [
+          "https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html",
+          "https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html",
+          "https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html",
+          "https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html"
+        ],
         "extra": []
       }
     },

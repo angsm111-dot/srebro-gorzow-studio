@@ -1,15 +1,15 @@
 AVAILABLE /home/smxkojwd/logs
-total 668
--rw-r--r-- 1   33    0  97315 Nov  7 09:09 access.log
--rw-r--r-- 1   33    0 156424 Nov  6 21:20 access.log.1
--rw-r--r-- 1   33    0 132965 Nov  5 22:34 access.log.2
--rw-r--r-- 1   33    0  96449 Nov  4 22:43 access.log.3
--rw-r--r-- 1   33    0  54567 Nov  3 22:26 access.log.4
--rw-r--r-- 1   33    0    300 Nov  7 08:06 error.log
--rw-r--r-- 1   33    0   1066 Nov  6 14:56 error.log.1
--rw-r--r-- 1   33    0   8883 Nov  5 10:28 error.log.2
--rw-r--r-- 1   33    0  22581 Nov  4 21:52 error.log.3
--rw-r--r-- 1   33    0    680 Nov  3 10:43 error.log.4
+total 532
+-rw-r--r-- 1   33    0   1400 Nov 12 23:16 access.log
+-rw-r--r-- 1   33    0 156421 Nov 12 22:56 access.log.1
+-rw-r--r-- 1   33    0  52006 Nov 11 20:02 access.log.2
+-rw-r--r-- 1   33    0  78967 Nov 10 22:39 access.log.3
+-rw-r--r-- 1   33    0  52104 Nov  9 22:32 access.log.4
+-rw-r--r-- 1   33    0      0 Nov 12 23:00 error.log
+-rw-r--r-- 1   33    0  30899 Nov 12 22:04 error.log.1
+-rw-r--r-- 1   33    0  18105 Nov 11 15:47 error.log.2
+-rw-r--r-- 1   33    0  33020 Nov 10 22:39 error.log.3
+-rw-r--r-- 1   33    0  20098 Nov  9 11:33 error.log.4
 -rw-r--r-- 1 3232 3232      5 Oct 29 00:10 fastcgi.pid
 drwxr-xr-x 3 3232 3232   4096 Oct  3 21:30 jdm-public
 -rw-r--r-- 1 3232 3232      0 Oct 21 22:00 php-error.log
