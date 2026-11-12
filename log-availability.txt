@@ -1,6 +1,6 @@
 AVAILABLE /home/smxkojwd/logs
-total 532
--rw-r--r-- 1   33    0   1400 Nov 12 23:16 access.log
+total 548
+-rw-r--r-- 1   33    0  16824 Nov 12 23:16 access.log
 -rw-r--r-- 1   33    0 156421 Nov 12 22:56 access.log.1
 -rw-r--r-- 1   33    0  52006 Nov 11 20:02 access.log.2
 -rw-r--r-- 1   33    0  78967 Nov 10 22:39 access.log.3

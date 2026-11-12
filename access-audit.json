@@ -636,66 +636,74 @@
     },
     {
       "url": "https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html",
-      "status": 404,
+      "status": 200,
       "final_url": "https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html",
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
       },
       "html_signals": {
-        "title": "Błąd 404 · Nie znaleziono strony",
+        "title": "Jak dobrać rozmiar srebrnego pierścionka? — Skup srebra Gorzów",
         "h1_count": 1,
-        "canonical": [],
-        "noindex": true,
-        "valid_canonical": false
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
       "url": "https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html",
-      "status": 404,
+      "status": 200,
       "final_url": "https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html",
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
       },
       "html_signals": {
-        "title": "Błąd 404 · Nie znaleziono strony",
+        "title": "Rodzaje zapięć w srebrnej biżuterii — Skup srebra Gorzów",
         "h1_count": 1,
-        "canonical": [],
-        "noindex": true,
-        "valid_canonical": false
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
       "url": "https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html",
-      "status": 404,
+      "status": 200,
       "final_url": "https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html",
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
       },
       "html_signals": {
-        "title": "Błąd 404 · Nie znaleziono strony",
+        "title": "Srebro rodowane a oksydowane — różnice i pielęgnacja — Skup srebra Gorzów",
         "h1_count": 1,
-        "canonical": [],
-        "noindex": true,
-        "valid_canonical": false
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
       "url": "https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html",
-      "status": 404,
+      "status": 200,
       "final_url": "https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html",
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Server": "cloudflare"
       },
       "html_signals": {
-        "title": "Błąd 404 · Nie znaleziono strony",
+        "title": "Jak wybrać srebrną biżuterię na prezent? — Skup srebra Gorzów",
         "h1_count": 1,
-        "canonical": [],
-        "noindex": true,
-        "valid_canonical": false
+        "canonical": [
+          "https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html"
+        ],
+        "noindex": false,
+        "valid_canonical": true
       }
     },
     {
@@ -708,14 +716,9 @@
       },
       "sitemap": {
         "root": "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset",
-        "count": 35,
+        "count": 39,
         "duplicates": 0,
-        "missing": [
-          "https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html",
-          "https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html",
-          "https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html",
-          "https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html"
-        ],
+        "missing": [],
         "extra": []
       }
     },

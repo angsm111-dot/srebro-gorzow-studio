@@ -85,33 +85,57 @@
     },
     {
       "file": "assets/blog-clasps-20261113-480.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-clasps-20261113-480.webp'"
+      "status": "same",
+      "github_bytes": 63362,
+      "jdm_bytes": 63362,
+      "last_modified": null,
+      "github_sha256": "9db0e72d3ee7fe220b62080ed168fb141e899fa448638ac6d9cc4fb358b9c132",
+      "jdm_sha256": "9db0e72d3ee7fe220b62080ed168fb141e899fa448638ac6d9cc4fb358b9c132"
     },
     {
       "file": "assets/blog-clasps-20261113-768.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-clasps-20261113-768.webp'"
+      "status": "same",
+      "github_bytes": 135754,
+      "jdm_bytes": 135754,
+      "last_modified": null,
+      "github_sha256": "1e4f7c63fc17907ff8ed1f11d10a2d011839fab02b3f49589840de6df0a63246",
+      "jdm_sha256": "1e4f7c63fc17907ff8ed1f11d10a2d011839fab02b3f49589840de6df0a63246"
     },
     {
       "file": "assets/blog-finishes-20261113-480.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-finishes-20261113-480.webp'"
+      "status": "same",
+      "github_bytes": 36324,
+      "jdm_bytes": 36324,
+      "last_modified": null,
+      "github_sha256": "54bc8df72dcdd8c22a3ba338e569be78b1eb447c5b1011bc27613c9cc6765c35",
+      "jdm_sha256": "54bc8df72dcdd8c22a3ba338e569be78b1eb447c5b1011bc27613c9cc6765c35"
     },
     {
       "file": "assets/blog-finishes-20261113-768.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-finishes-20261113-768.webp'"
+      "status": "same",
+      "github_bytes": 71618,
+      "jdm_bytes": 71618,
+      "last_modified": null,
+      "github_sha256": "e59870b480142fec5b2c20d11ca16f4f23ff244973f2cf9d4796d232de27bed7",
+      "jdm_sha256": "e59870b480142fec5b2c20d11ca16f4f23ff244973f2cf9d4796d232de27bed7"
     },
     {
       "file": "assets/blog-gift-20261113-480.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-gift-20261113-480.webp'"
+      "status": "same",
+      "github_bytes": 43842,
+      "jdm_bytes": 43842,
+      "last_modified": null,
+      "github_sha256": "a45e047bbdc6a74468f18aa1f77ee578cde2a57493742e9121cdd5c5da8a0842",
+      "jdm_sha256": "a45e047bbdc6a74468f18aa1f77ee578cde2a57493742e9121cdd5c5da8a0842"
     },
     {
       "file": "assets/blog-gift-20261113-768.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-gift-20261113-768.webp'"
+      "status": "same",
+      "github_bytes": 107622,
+      "jdm_bytes": 107622,
+      "last_modified": null,
+      "github_sha256": "b8900f394f3c81e08c9ccc2e1e301d41dfd19503ac24ba6b3e7859203c97339f",
+      "jdm_sha256": "b8900f394f3c81e08c9ccc2e1e301d41dfd19503ac24ba6b3e7859203c97339f"
     },
     {
       "file": "assets/blog-popular-jewellery-20261106-480.webp",
@@ -178,13 +202,21 @@
     },
     {
       "file": "assets/blog-ring-size-20261113-480.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-ring-size-20261113-480.webp'"
+      "status": "same",
+      "github_bytes": 47712,
+      "jdm_bytes": 47712,
+      "last_modified": null,
+      "github_sha256": "7978a0da1b2b6252e2c9a67043745fd2b50fe83076c51e5734f4a727bdb02b5a",
+      "jdm_sha256": "7978a0da1b2b6252e2c9a67043745fd2b50fe83076c51e5734f4a727bdb02b5a"
     },
     {
       "file": "assets/blog-ring-size-20261113-768.webp",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/assets/blog-ring-size-20261113-768.webp'"
+      "status": "same",
+      "github_bytes": 106882,
+      "jdm_bytes": 106882,
+      "last_modified": null,
+      "github_sha256": "d8d75cb981c2ccff76008410cd63c301951df0a57b24dc64dd6d8df5a2b882dc",
+      "jdm_sha256": "d8d75cb981c2ccff76008410cd63c301951df0a57b24dc64dd6d8df5a2b882dc"
     },
     {
       "file": "assets/blog-segregowanie-srebra-20261014-480.webp",
@@ -566,8 +598,12 @@
     },
     {
       "file": "blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html'"
+      "status": "same",
+      "github_bytes": 11092,
+      "jdm_bytes": 11092,
+      "last_modified": null,
+      "github_sha256": "11289c9d4b90225899b55e81d110d02e05a7f9f82c727a18ba29d3fb6dad2927",
+      "jdm_sha256": "11289c9d4b90225899b55e81d110d02e05a7f9f82c727a18ba29d3fb6dad2927"
     },
     {
       "file": "blog-jak-pielegnowac-srebrna-bizuterie.html",
@@ -580,8 +616,12 @@
     },
     {
       "file": "blog-jak-wybrac-srebrna-bizuterie-na-prezent.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html'"
+      "status": "same",
+      "github_bytes": 11102,
+      "jdm_bytes": 11102,
+      "last_modified": null,
+      "github_sha256": "4e7d5a13d8aea4c07b35efa638defae9aa61c93d59379ce894c6c51dfb91c3cb",
+      "jdm_sha256": "4e7d5a13d8aea4c07b35efa638defae9aa61c93d59379ce894c6c51dfb91c3cb"
     },
     {
       "file": "blog-monety-srebrne-wartosc.html",
@@ -648,8 +688,12 @@
     },
     {
       "file": "blog-rodzaje-zapiec-w-srebrnej-bizuterii.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html'"
+      "status": "same",
+      "github_bytes": 11001,
+      "jdm_bytes": 11001,
+      "last_modified": null,
+      "github_sha256": "15bd1ccd05c5cf8d9ed0029f38d3a818460a8f09bcbe7c735e2478c515a0a4eb",
+      "jdm_sha256": "15bd1ccd05c5cf8d9ed0029f38d3a818460a8f09bcbe7c735e2478c515a0a4eb"
     },
     {
       "file": "blog-skup-bizuterii-pojedyncze-przedmioty.html",
@@ -716,8 +760,12 @@
     },
     {
       "file": "blog-srebro-rodowane-a-oksydowane.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-srebro-rodowane-a-oksydowane.html'"
+      "status": "same",
+      "github_bytes": 10989,
+      "jdm_bytes": 10989,
+      "last_modified": null,
+      "github_sha256": "5ba483ee38747fa81fb7237421b6a01dbe97e1f25e4a968baab7f8c8408445a2",
+      "jdm_sha256": "5ba483ee38747fa81fb7237421b6a01dbe97e1f25e4a968baab7f8c8408445a2"
     },
     {
       "file": "blog-sztabki-srebra-uncja-100g-certipack-odlewane.html",
@@ -784,13 +832,12 @@
     },
     {
       "file": "blog.html",
-      "status": "different",
+      "status": "same",
       "github_bytes": 35666,
-      "jdm_bytes": 31955,
+      "jdm_bytes": 35666,
       "last_modified": null,
       "github_sha256": "df2e8cf4490246d9f3b044da5b14ce7f3a370dcd5a984d573e2093a9de37c149",
-      "jdm_sha256": "46d9aa69dd29ce51fcc1f72ffbf8b01c00ad609624d63cd422521f2516185e60",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "df2e8cf4490246d9f3b044da5b14ce7f3a370dcd5a984d573e2093a9de37c149"
     },
     {
       "file": "cennik.html",
@@ -920,13 +967,12 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "different",
+      "status": "same",
       "github_bytes": 4573,
-      "jdm_bytes": 4013,
+      "jdm_bytes": 4573,
       "last_modified": null,
       "github_sha256": "f170c2fd38cc591420174e995ef46826b158ddc11ad2eebacb00fe367b59b73a",
-      "jdm_sha256": "f967b5f7a1e3d9f31ee8e9d26887a108597190e69a2d42f8d7d2c9d3f7e54014",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "f170c2fd38cc591420174e995ef46826b158ddc11ad2eebacb00fe367b59b73a"
     },
     {
       "file": "studio-contact-20261004-status.js",
