@@ -6,12 +6,12 @@ Rewrite probe: {'status': 200, 'location': None, 'server': 'cloudflare', 'conten
 Traceback (most recent call last):
   File "<stdin>", line 9, in <module>
 AssertionError: Per-directory rewrite is not supported or cannot be verified
-Canonical variant: {'url': 'http://skupsrebragorzow.pl/', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/?canonical-diagnostic=1794525403417276013', 'server': 'cloudflare', 'cf_mitigated': None}
-Canonical variant: {'url': 'http://skupsrebragorzow.pl/blog.html', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/blog.html?canonical-diagnostic=1794525403508571716', 'server': 'cloudflare', 'cf_mitigated': None}
-Canonical variant: {'url': 'https://skupsrebragorzow.pl/', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/?canonical-diagnostic=1794525403541900706', 'server': 'cloudflare', 'cf_mitigated': None}
-Canonical variant: {'url': 'https://skupsrebragorzow.pl/blog.html', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/blog.html?canonical-diagnostic=1794525403604257395', 'server': 'cloudflare', 'cf_mitigated': None}
-Canonical variant: {'url': 'http://www.skupsrebragorzow.pl/', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/?canonical-diagnostic=1794525403658486201', 'server': 'cloudflare', 'cf_mitigated': None}
-Canonical variant: {'url': 'http://www.skupsrebragorzow.pl/blog.html', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/blog.html?canonical-diagnostic=1794525403690518118', 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'http://skupsrebragorzow.pl/', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/?canonical-diagnostic=1794742379225361850', 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'http://skupsrebragorzow.pl/blog.html', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/blog.html?canonical-diagnostic=1794742379290332418', 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'https://skupsrebragorzow.pl/', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/?canonical-diagnostic=1794742379326647260', 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'https://skupsrebragorzow.pl/blog.html', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/blog.html?canonical-diagnostic=1794742379374865943', 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'http://www.skupsrebragorzow.pl/', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/?canonical-diagnostic=1794742379422513915', 'server': 'cloudflare', 'cf_mitigated': None}
+Canonical variant: {'url': 'http://www.skupsrebragorzow.pl/blog.html', 'status': 308, 'location': 'https://www.skupsrebragorzow.pl/blog.html?canonical-diagnostic=1794742379452316801', 'server': 'cloudflare', 'cf_mitigated': None}
 Canonical variant: {'url': 'https://www.skupsrebragorzow.pl/', 'status': 200, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
 Canonical variant: {'url': 'https://www.skupsrebragorzow.pl/blog.html', 'status': 200, 'location': None, 'server': 'cloudflare', 'cf_mitigated': None}
 Canonical redirects not installed: hosting did not pass .htaccess capability test. Existing configuration unchanged.
