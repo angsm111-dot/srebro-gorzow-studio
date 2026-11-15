@@ -679,13 +679,21 @@
     },
     {
       "file": "blog-rodowanie-srebra-do-czego-sluzy.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-rodowanie-srebra-do-czego-sluzy.html'"
+      "status": "same",
+      "github_bytes": 14104,
+      "jdm_bytes": 14104,
+      "last_modified": null,
+      "github_sha256": "ec31c83eab4a687d63e5ea18ff26d46ec9d70ee79fa103ab89273f35b451f3bc",
+      "jdm_sha256": "ec31c83eab4a687d63e5ea18ff26d46ec9d70ee79fa103ab89273f35b451f3bc"
     },
     {
       "file": "blog-rodzaje-bizuterii-srebrnej.html",
-      "status": "error",
-      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-rodzaje-bizuterii-srebrnej.html'"
+      "status": "same",
+      "github_bytes": 13937,
+      "jdm_bytes": 13937,
+      "last_modified": null,
+      "github_sha256": "f8134bdd04fb8d655491e905179a308264ac2dd74c498d51fbd70a46a5e3cce1",
+      "jdm_sha256": "f8134bdd04fb8d655491e905179a308264ac2dd74c498d51fbd70a46a5e3cce1"
     },
     {
       "file": "blog-rodzaje-splotow-srebrnych-lancuszkow.html",
@@ -842,13 +850,12 @@
     },
     {
       "file": "blog.html",
-      "status": "different",
+      "status": "same",
       "github_bytes": 37548,
-      "jdm_bytes": 35666,
+      "jdm_bytes": 37548,
       "last_modified": null,
       "github_sha256": "4dd8bf73e6c19501a24b28a8fe224357e7e2f90d0d51af67d2c683830f75c40e",
-      "jdm_sha256": "df2e8cf4490246d9f3b044da5b14ce7f3a370dcd5a984d573e2093a9de37c149",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "4dd8bf73e6c19501a24b28a8fe224357e7e2f90d0d51af67d2c683830f75c40e"
     },
     {
       "file": "cennik.html",
@@ -978,13 +985,12 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "different",
+      "status": "same",
       "github_bytes": 4824,
-      "jdm_bytes": 4573,
+      "jdm_bytes": 4824,
       "last_modified": null,
       "github_sha256": "41dbeb648672da62358197d9f2b7bebd127732ea7f2689aa5f00851133eb4584",
-      "jdm_sha256": "f170c2fd38cc591420174e995ef46826b158ddc11ad2eebacb00fe367b59b73a",
-      "same_ignoring_line_endings": false
+      "jdm_sha256": "41dbeb648672da62358197d9f2b7bebd127732ea7f2689aa5f00851133eb4584"
     },
     {
       "file": "studio-contact-20261004-status.js",

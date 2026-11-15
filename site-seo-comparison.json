@@ -4,7 +4,7 @@
       "url": "https://www.skupsrebragorzow.pl/",
       "final_url": "https://www.skupsrebragorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.184,
+      "elapsed_seconds": 0.212,
       "bytes": 13025,
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
@@ -84,7 +84,7 @@
       "url": "https://srebrogorzow.pl/",
       "final_url": "https://www.srebrogorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.439,
+      "elapsed_seconds": 0.262,
       "bytes": 8920,
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
@@ -144,7 +144,7 @@
       "url": "https://www.srebrogorzow.pl/",
       "final_url": "https://www.srebrogorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.432,
+      "elapsed_seconds": 0.246,
       "bytes": 8920,
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
@@ -204,7 +204,7 @@
       "url": "https://srebrogorzow.pl/robots.txt",
       "final_url": "https://www.srebrogorzow.pl/robots.txt",
       "status": 200,
-      "elapsed_seconds": 0.23,
+      "elapsed_seconds": 0.084,
       "bytes": 73,
       "headers": {
         "Content-Type": "text/plain; charset=UTF-8",
@@ -216,7 +216,7 @@
       "url": "https://srebrogorzow.pl/sitemap.xml",
       "final_url": "https://www.srebrogorzow.pl/sitemap.xml",
       "status": 200,
-      "elapsed_seconds": 0.445,
+      "elapsed_seconds": 0.239,
       "bytes": 4503,
       "headers": {
         "Content-Type": "application/xml",
@@ -228,7 +228,7 @@
       "url": "https://www.skupsrebragorzow.pl/robots.txt",
       "final_url": "https://www.skupsrebragorzow.pl/robots.txt",
       "status": 200,
-      "elapsed_seconds": 0.036,
+      "elapsed_seconds": 0.049,
       "bytes": 77,
       "headers": {
         "Content-Type": "text/plain; charset=utf-8",
@@ -240,13 +240,13 @@
       "url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "final_url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "status": 200,
-      "elapsed_seconds": 0.139,
-      "bytes": 4573,
+      "elapsed_seconds": 0.151,
+      "bytes": 4824,
       "headers": {
         "Content-Type": "text/xml; charset=utf-8",
         "Server": "cloudflare"
       },
-      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://www.skupsrebragorzow.pl/</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/co-kupujemy.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/wycena.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/cennik.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/wykres.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/faq.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/kontakt.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/regulamin.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-przygotowanie-srebra-do-wyceny.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-proba-925-bizuteria.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-monety-srebrne-wartosc.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-wycena-sztabek-srebra.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebrne-sztucce-zastawy.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-zlom-srebra-bizuteria.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-granulat-srebrny.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-aktualny-cennik-skupu-srebra.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-wycena-starych-sztuccow.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-sprzedaz-granulatu-srebrnego.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-naczynia-srebro-czy-posrebrzanie.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-skup-bizuterii-pojedyncze-przedmioty.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-porownanie-wyceny-bizuterii.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-zatarta-punca-srebra.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-wycena-swiecznikow.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-wspolna-wycena-srebra.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/polityka-prywatnosci.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebrne-lancuszki-krolewski-pancerka.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-popularne-srebrne-monety-bulionowe.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebrne-monety-prl-rodzaje-wycena.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-rodzaje-splotow-srebrnych-lancuszkow.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebrne-bransoletki-rodzaje-dlugosci-kamienie.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebro-metal-twardosc-ciagliwosc-wlasciwosci.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-dlaczego-srebrna-bizuteria-jest-popularna.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n</urlset>\n"
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://www.skupsrebragorzow.pl/</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/co-kupujemy.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/wycena.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/cennik.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/wykres.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/faq.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog.html</loc>\n<lastmod>2026-11-15</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/kontakt.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/regulamin.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-przygotowanie-srebra-do-wyceny.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-proba-925-bizuteria.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-monety-srebrne-wartosc.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-wycena-sztabek-srebra.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebrne-sztucce-zastawy.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-zlom-srebra-bizuteria.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-granulat-srebrny.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-aktualny-cennik-skupu-srebra.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-wycena-starych-sztuccow.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-sprzedaz-granulatu-srebrnego.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-naczynia-srebro-czy-posrebrzanie.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-skup-bizuterii-pojedyncze-przedmioty.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-porownanie-wyceny-bizuterii.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-zatarta-punca-srebra.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-wycena-swiecznikow.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-wspolna-wycena-srebra.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/polityka-prywatnosci.html</loc>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-jak-pielegnowac-srebrna-bizuterie.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebrne-lancuszki-krolewski-pancerka.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-sztabki-srebra-uncja-100g-certipack-odlewane.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-popularne-srebrne-monety-bulionowe.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebrne-monety-prl-rodzaje-wycena.html</loc>\n<lastmod>2026-10-28</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-rodzaje-splotow-srebrnych-lancuszkow.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebrne-bransoletki-rodzaje-dlugosci-kamienie.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebro-metal-twardosc-ciagliwosc-wlasciwosci.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-dlaczego-srebrna-bizuteria-jest-popularna.html</loc>\n<lastmod>2026-11-06</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-jak-dobrac-rozmiar-srebrnego-pierscionka.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-rodzaje-zapiec-w-srebrnej-bizuterii.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-srebro-rodowane-a-oksydowane.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-jak-wybrac-srebrna-bizuterie-na-prezent.html</loc>\n<lastmod>2026-11-13</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-rodzaje-bizuterii-srebrnej.html</loc>\n<lastmod>2026-11-15</lastmod>\n</url>\n<url>\n<loc>https://www.skupsrebragorzow.pl/blog-rodowanie-srebra-do-czego-sluzy.html</loc>\n<lastmod>2026-11-15</lastmod>\n</url>\n</urlset>\n"
     }
   ]
 }
