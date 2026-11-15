@@ -1,5 +1,5 @@
 {
-  "baseline_commit": "45f5dbb3a82bb3433a2323268707106900265295",
+  "baseline_commit": "9d71abb74c822ddc6aa4ad314edfcbd1f6fadd29",
   "base_url": "https://www.skupsrebragorzow.pl/",
   "files": [
     {
@@ -678,6 +678,16 @@
       "jdm_sha256": "8bfd4584579af451f5235f172fb78ee044d7829049bd722eec330b2d01a54eb4"
     },
     {
+      "file": "blog-rodowanie-srebra-do-czego-sluzy.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-rodowanie-srebra-do-czego-sluzy.html'"
+    },
+    {
+      "file": "blog-rodzaje-bizuterii-srebrnej.html",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/tmp/jdm-snapshot/blog-rodzaje-bizuterii-srebrnej.html'"
+    },
+    {
       "file": "blog-rodzaje-splotow-srebrnych-lancuszkow.html",
       "status": "same",
       "github_bytes": 11302,
@@ -832,12 +842,13 @@
     },
     {
       "file": "blog.html",
-      "status": "same",
-      "github_bytes": 35666,
+      "status": "different",
+      "github_bytes": 37548,
       "jdm_bytes": 35666,
       "last_modified": null,
-      "github_sha256": "df2e8cf4490246d9f3b044da5b14ce7f3a370dcd5a984d573e2093a9de37c149",
-      "jdm_sha256": "df2e8cf4490246d9f3b044da5b14ce7f3a370dcd5a984d573e2093a9de37c149"
+      "github_sha256": "4dd8bf73e6c19501a24b28a8fe224357e7e2f90d0d51af67d2c683830f75c40e",
+      "jdm_sha256": "df2e8cf4490246d9f3b044da5b14ce7f3a370dcd5a984d573e2093a9de37c149",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "cennik.html",
@@ -967,12 +978,13 @@
     },
     {
       "file": "sitemap.xml",
-      "status": "same",
-      "github_bytes": 4573,
+      "status": "different",
+      "github_bytes": 4824,
       "jdm_bytes": 4573,
       "last_modified": null,
-      "github_sha256": "f170c2fd38cc591420174e995ef46826b158ddc11ad2eebacb00fe367b59b73a",
-      "jdm_sha256": "f170c2fd38cc591420174e995ef46826b158ddc11ad2eebacb00fe367b59b73a"
+      "github_sha256": "41dbeb648672da62358197d9f2b7bebd127732ea7f2689aa5f00851133eb4584",
+      "jdm_sha256": "f170c2fd38cc591420174e995ef46826b158ddc11ad2eebacb00fe367b59b73a",
+      "same_ignoring_line_endings": false
     },
     {
       "file": "studio-contact-20261004-status.js",

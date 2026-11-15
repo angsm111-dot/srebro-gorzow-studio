@@ -4,7 +4,7 @@
       "url": "https://www.skupsrebragorzow.pl/",
       "final_url": "https://www.skupsrebragorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.264,
+      "elapsed_seconds": 0.184,
       "bytes": 13025,
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
@@ -84,7 +84,7 @@
       "url": "https://srebrogorzow.pl/",
       "final_url": "https://www.srebrogorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.409,
+      "elapsed_seconds": 0.439,
       "bytes": 8920,
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
@@ -144,7 +144,7 @@
       "url": "https://www.srebrogorzow.pl/",
       "final_url": "https://www.srebrogorzow.pl/",
       "status": 200,
-      "elapsed_seconds": 0.378,
+      "elapsed_seconds": 0.432,
       "bytes": 8920,
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
@@ -202,13 +202,21 @@
     },
     {
       "url": "https://srebrogorzow.pl/robots.txt",
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "final_url": "https://www.srebrogorzow.pl/robots.txt",
+      "status": 200,
+      "elapsed_seconds": 0.23,
+      "bytes": 73,
+      "headers": {
+        "Content-Type": "text/plain; charset=UTF-8",
+        "Server": "Netlify"
+      },
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://www.srebrogorzow.pl/sitemap.xml\n"
     },
     {
       "url": "https://srebrogorzow.pl/sitemap.xml",
       "final_url": "https://www.srebrogorzow.pl/sitemap.xml",
       "status": 200,
-      "elapsed_seconds": 0.278,
+      "elapsed_seconds": 0.445,
       "bytes": 4503,
       "headers": {
         "Content-Type": "application/xml",
@@ -220,7 +228,7 @@
       "url": "https://www.skupsrebragorzow.pl/robots.txt",
       "final_url": "https://www.skupsrebragorzow.pl/robots.txt",
       "status": 200,
-      "elapsed_seconds": 0.077,
+      "elapsed_seconds": 0.036,
       "bytes": 77,
       "headers": {
         "Content-Type": "text/plain; charset=utf-8",
@@ -232,7 +240,7 @@
       "url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "final_url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "status": 200,
-      "elapsed_seconds": 0.195,
+      "elapsed_seconds": 0.139,
       "bytes": 4573,
       "headers": {
         "Content-Type": "text/xml; charset=utf-8",

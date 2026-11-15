@@ -707,6 +707,38 @@
       }
     },
     {
+      "url": "https://www.skupsrebragorzow.pl/blog-rodzaje-bizuterii-srebrnej.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-rodzaje-bizuterii-srebrnej.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Błąd 404 · Nie znaleziono strony",
+        "h1_count": 1,
+        "canonical": [],
+        "noindex": true,
+        "valid_canonical": false
+      }
+    },
+    {
+      "url": "https://www.skupsrebragorzow.pl/blog-rodowanie-srebra-do-czego-sluzy.html",
+      "status": 404,
+      "final_url": "https://www.skupsrebragorzow.pl/blog-rodowanie-srebra-do-czego-sluzy.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "html_signals": {
+        "title": "Błąd 404 · Nie znaleziono strony",
+        "h1_count": 1,
+        "canonical": [],
+        "noindex": true,
+        "valid_canonical": false
+      }
+    },
+    {
       "url": "https://www.skupsrebragorzow.pl/sitemap.xml",
       "status": 200,
       "final_url": "https://www.skupsrebragorzow.pl/sitemap.xml",
@@ -718,7 +750,10 @@
         "root": "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset",
         "count": 39,
         "duplicates": 0,
-        "missing": [],
+        "missing": [
+          "https://www.skupsrebragorzow.pl/blog-rodowanie-srebra-do-czego-sluzy.html",
+          "https://www.skupsrebragorzow.pl/blog-rodzaje-bizuterii-srebrnej.html"
+        ],
         "extra": []
       }
     },
